@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will open the adjustable rate policy page.</description>
+   <name>TC_4_Create_Adjustable_Rate_Policy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9f6b0d3d-8a36-4980-8efb-29107393fce6</testCaseGuid>
+   <variable>
+      <defaultValue>'TEST_BANNER_216'</defaultValue>
+      <description></description>
+      <id>bd7596c6-a411-4e2c-92e1-7c09d08fdd75</id>
+      <masked>false</masked>
+      <name>Inpt_Banner_Name</name>
+   </variable>
+</TestCaseEntity>

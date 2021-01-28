@@ -1,0 +1,1490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1_Regression_Test" time="265" tests="12" failures="1" errors="0">
+   <testsuite name="1_Regression_Test" tests="12" failures="1" errors="0" time="265" timestamp="2019-01-24 12:53:57" hostname="Junaid.Tariq - Junaid.instepinc.com" id="Test Suites/1_Regression_Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\Projects\\Trade_Funds\\TF_Regression\\Reports\\1_Regression_Test\\20190124_125356"/>
+         <property name="logFiles" value="D:\\Katalon\\Projects\\Trade_Funds\\TF_Regression\\Reports\\1_Regression_Test\\20190124_125356\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon\\Projects\\Trade_Funds\\TF_Regression\\Reports\\1_Regression_Test\\20190124_125356\\1548316549724.png"/>
+         <property name="hostName" value="Junaid.Tariq - Junaid.instepinc.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="200.199.80.62"/>
+         <property name="sessionId" value="f20075d1300097600fa0f0c6c5f925b6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/General_Login_Logout/Login" classname="Test Cases/General_Login_Logout/Login" status="PASSED">
+         <system-out><![CDATA[2019-01-24 12:53:57 - [TEST_CASE][PASSED] - Test Cases/General_Login_Logout/Login: Test Cases/General_Login_Logout/Login
+
+2019-01-24 12:53:57 - [TEST_STEP][PASSED] - com.oracledb.regressiontest.LoginTFCustomer(User, Password): com.oracledb.regressiontest.LoginTFCustomer is PASSED
+
+2019-01-24 12:53:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-24 12:53:57 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-24 12:54:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-24 12:54:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:54:01 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-24 12:54:09 - [MESSAGE][PASSED] - Navigate to 'https://52.6.78.242:7008/e360/com.informatica.tools.mdm.web.auth/login' successfully
+
+2019-01-24 12:54:09 - [MESSAGE][PASSED] - Text 'junaid_sm' is set on object 'Object Repository/Page_ Login/Txt_Username'
+
+2019-01-24 12:54:10 - [MESSAGE][PASSED] - Text 'str0ng_2' is set on object 'Object Repository/Page_ Login/Txt_Password'
+
+2019-01-24 12:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Login/Btn_Login' is clicked on
+
+2019-01-24 12:54:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:54:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Login/Project_Selection/div_Trade Funds Customer' is clicked on
+
+2019-01-24 12:54:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 12:54:20 - [MESSAGE][PASSED] - com.oracledb.regressiontest.LoginTFCustomer is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/Create_Record/TC_1_Create_Banner" classname="Test Cases/Regression_TF_Customer/Create_Record/TC_1_Create_Banner" status="PASSED">
+         <system-out><![CDATA[2019-01-24 12:54:20 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Customer/Create_Record/TC_1_Create_Banner: Test Cases/Regression_TF_Customer/Create_Record/TC_1_Create_Banner
+
+2019-01-24 12:54:20 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-01-24 12:54:26 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-01-24 12:54:26 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:54:29 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:54:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:54:29 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:54:29 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:54:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:54:29 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/1_Menu_Banner")): Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/1_Menu_Banner' is clicked on
+
+2019-01-24 12:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/1_Menu_Banner' is clicked on
+
+2019-01-24 12:54:29 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:54:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:54:29 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-01-24 12:54:33 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-24 12:54:33 - [TEST_STEP][PASSED] - bName = com.oracledb.regressiontest.genName(10): com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:54:33 - [MESSAGE][PASSED] - com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:54:33 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/1_Create_Banner/Input_Banner_Name/input_Banner_Nm"), bName): Text 'QBUYUF8WS2' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/1_Create_Banner/Input_Banner_Name/input_Banner_Nm'
+
+2019-01-24 12:54:33 - [MESSAGE][PASSED] - Text 'QBUYUF8WS2' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/1_Create_Banner/Input_Banner_Name/input_Banner_Nm'
+
+2019-01-24 12:54:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-24 12:54:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-24 12:54:36 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:54:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:54:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:54:39 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:54:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:54:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:54:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:54:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message' are matched.
+
+2019-01-24 12:54:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message' are matched.
+
+2019-01-24 12:54:41 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-24 12:54:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-24 12:54:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 12:54:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 12:54:42 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close' is clicked on
+
+2019-01-24 12:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close' is clicked on
+
+2019-01-24 12:54:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 12:54:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 12:54:44 - [TEST_STEP][PASSED] - vrfy_BNR = com.oracledb.regressiontest.verifyBanner(ora_connt, ora_usr, ora_psswrd, ora_schema, bName): com.oracledb.regressiontest.verifyBanner is PASSED
+
+2019-01-24 12:54:47 - [MESSAGE][PASSED] - com.oracledb.regressiontest.verifyBanner is PASSED
+
+2019-01-24 12:54:47 - [TEST_STEP][PASSED] - println("BANNER_NAME"): null
+
+2019-01-24 12:54:47 - [TEST_STEP][PASSED] - verifyEqual(BANNER_NAME, bName): Actual object 'QBUYUF8WS2' and expected object 'QBUYUF8WS2' are equal
+
+2019-01-24 12:54:47 - [MESSAGE][PASSED] - Actual object 'QBUYUF8WS2' and expected object 'QBUYUF8WS2' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/Create_Record/TC_2_Create_RGM_Designated_Baseline" classname="Test Cases/Regression_TF_Customer/Create_Record/TC_2_Create_RGM_Designated_Baseline" status="PASSED">
+         <system-out><![CDATA[2019-01-24 12:54:47 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Customer/Create_Record/TC_2_Create_RGM_Designated_Baseline: Test Cases/Regression_TF_Customer/Create_Record/TC_2_Create_RGM_Designated_Baseline
+
+2019-01-24 12:54:47 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:54:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:54:47 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:54:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:54:47 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:54:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:54:47 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:54:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:54:47 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:54:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:54:47 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/2_Menu_RGM Designated Baseline")): Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/2_Menu_RGM Designated Baseline' is clicked on
+
+2019-01-24 12:54:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/2_Menu_RGM Designated Baseline' is clicked on
+
+2019-01-24 12:54:48 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:54:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:54:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-24 12:54:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-24 12:54:51 - [TEST_STEP][PASSED] - rgmName = com.oracledb.regressiontest.genName(10): com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:54:51 - [MESSAGE][PASSED] - com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:54:51 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/2_Create_RGM_Designated_Baseline/Input_RGM_Name/input_RGM_Nm"), rgmName): Text 'RE8RNFACLL' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/2_Create_RGM_Designated_Baseline/Input_RGM_Name/input_RGM_Nm'
+
+2019-01-24 12:54:51 - [MESSAGE][PASSED] - Text 'RE8RNFACLL' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/2_Create_RGM_Designated_Baseline/Input_RGM_Name/input_RGM_Nm'
+
+2019-01-24 12:54:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:54:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:54:53 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:54:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:54:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:54:55 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:54:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:54:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:54:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:54:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message' are matched.
+
+2019-01-24 12:54:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message' are matched.
+
+2019-01-24 12:54:58 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-24 12:54:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-24 12:54:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 12:54:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 12:54:59 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close' is clicked on
+
+2019-01-24 12:54:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close' is clicked on
+
+2019-01-24 12:54:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 12:55:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 12:55:00 - [TEST_STEP][PASSED] - vrfy_RGM = com.oracledb.regressiontest.verifyRGM(ora_connt, ora_usr, ora_psswrd, ora_schema, rgmName): com.oracledb.regressiontest.verifyRGM is PASSED
+
+2019-01-24 12:55:02 - [MESSAGE][PASSED] - com.oracledb.regressiontest.verifyRGM is PASSED
+
+2019-01-24 12:55:02 - [TEST_STEP][PASSED] - println("RGM_DESG_BASELINE_NAME"): null
+
+2019-01-24 12:55:02 - [TEST_STEP][PASSED] - verifyEqual(RGM_DESG_BASELINE_NAME, rgmName): Actual object 'RE8RNFACLL' and expected object 'RE8RNFACLL' are equal
+
+2019-01-24 12:55:02 - [MESSAGE][PASSED] - Actual object 'RE8RNFACLL' and expected object 'RE8RNFACLL' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/Create_Record/TC_3_Create_JMS_Sales_Org" classname="Test Cases/Regression_TF_Customer/Create_Record/TC_3_Create_JMS_Sales_Org" status="PASSED">
+         <system-out><![CDATA[2019-01-24 12:55:02 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Customer/Create_Record/TC_3_Create_JMS_Sales_Org: Test Cases/Regression_TF_Customer/Create_Record/TC_3_Create_JMS_Sales_Org
+
+2019-01-24 12:55:02 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:55:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:55:02 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:55:02 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:55:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:55:02 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:55:02 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:55:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:55:02 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/3_Menu_JMS Sales Organizations")): Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/3_Menu_JMS Sales Organizations' is clicked on
+
+2019-01-24 12:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/3_Menu_JMS Sales Organizations' is clicked on
+
+2019-01-24 12:55:03 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:55:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:55:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-24 12:55:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-24 12:55:06 - [TEST_STEP][PASSED] - salesOrgName = com.oracledb.regressiontest.genName(10): com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:55:06 - [MESSAGE][PASSED] - com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:55:06 - [TEST_STEP][PASSED] - salesOrgCode = com.oracledb.regressiontest.genCode(4): com.oracledb.regressiontest.genCode is PASSED
+
+2019-01-24 12:55:06 - [MESSAGE][PASSED] - com.oracledb.regressiontest.genCode is PASSED
+
+2019-01-24 12:55:06 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/3_Create_Sales_Org/Input_RGM_Code/input_Sales_Org_Code"), salesOrgCode): Text '0131' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/3_Create_Sales_Org/Input_RGM_Code/input_Sales_Org_Code'
+
+2019-01-24 12:55:06 - [MESSAGE][PASSED] - Text '0131' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/3_Create_Sales_Org/Input_RGM_Code/input_Sales_Org_Code'
+
+2019-01-24 12:55:06 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/3_Create_Sales_Org/Input_RGM_Name/input_Sales_Org_Name"), salesOrgName): Text '45ILSN1CLS' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/3_Create_Sales_Org/Input_RGM_Name/input_Sales_Org_Name'
+
+2019-01-24 12:55:06 - [MESSAGE][PASSED] - Text '45ILSN1CLS' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/3_Create_Sales_Org/Input_RGM_Name/input_Sales_Org_Name'
+
+2019-01-24 12:55:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:55:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:55:08 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:55:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:55:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:55:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:55:10 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:55:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:55:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:55:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:55:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message' are matched.
+
+2019-01-24 12:55:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message' are matched.
+
+2019-01-24 12:55:13 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-24 12:55:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-24 12:55:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 12:55:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 12:55:14 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close' is clicked on
+
+2019-01-24 12:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close' is clicked on
+
+2019-01-24 12:55:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 12:55:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 12:55:15 - [TEST_STEP][PASSED] - vrfy_JMSORG = com.oracledb.regressiontest.verifySalesOrg(ora_connt, ora_usr, ora_psswrd, ora_schema, salesOrgCode): com.oracledb.regressiontest.verifySalesOrg is PASSED
+
+2019-01-24 12:55:18 - [MESSAGE][PASSED] - com.oracledb.regressiontest.verifySalesOrg is PASSED
+
+2019-01-24 12:55:18 - [TEST_STEP][PASSED] - println("JMS SALES ORG CODE"): null
+
+2019-01-24 12:55:18 - [TEST_STEP][PASSED] - verifyEqual(JMS_SALES_ORG_CODE, salesOrgCode): Actual object '0131' and expected object '0131' are equal
+
+2019-01-24 12:55:18 - [MESSAGE][PASSED] - Actual object '0131' and expected object '0131' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/Create_Record/TC_4_Create_Consumption_Baseline_Source" classname="Test Cases/Regression_TF_Customer/Create_Record/TC_4_Create_Consumption_Baseline_Source" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Regression_TF_Customer/Create_Record/TC_4_Create_Consumption_Baseline_Source FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source' located by 'By.xpath: //td[(text() = 'Consumption Baseline Source' or . = 'Consumption Baseline Source')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_4_Create_Consumption_Baseline_Source.run(TC_4_Create_Consumption_Baseline_Source:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548316436031.run(TempTestSuite1548316436031.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-24 12:55:18 - [TEST_CASE][FAILED] - Test Cases/Regression_TF_Customer/Create_Record/TC_4_Create_Consumption_Baseline_Source: Test Cases/Regression_TF_Customer/Create_Record/TC_4_Create_Consumption_Baseline_Source FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source' located by 'By.xpath: //td[(text() = 'Consumption Baseline Source' or . = 'Consumption Baseline Source')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_4_Create_Consumption_Baseline_Source.run(TC_4_Create_Consumption_Baseline_Source:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548316436031.run(TempTestSuite1548316436031.groovy:36)
+
+
+2019-01-24 12:55:18 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:55:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:55:18 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:55:18 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:55:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:55:18 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:55:18 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:55:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:55:18 - [TEST_STEP][FAILED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source")): click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source' located by 'By.xpath: //td[(text() = 'Consumption Baseline Source' or . = 'Consumption Baseline Source')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_4_Create_Consumption_Baseline_Source.run(TC_4_Create_Consumption_Baseline_Source:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548316436031.run(TempTestSuite1548316436031.groovy:36)
+
+
+2019-01-24 12:55:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //td[(text() = 'Consumption Baseline Source' or . = 'Consumption Baseline Source')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-24 12:55:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source' located by 'By.xpath: //td[(text() = 'Consumption Baseline Source' or . = 'Consumption Baseline Source')]' not found)
+[[ATTACHMENT|D:\\Katalon\\Projects\\Trade_Funds\\TF_Regression\\Reports\\1_Regression_Test\\20190124_125356\\1548316549724.png]]
+
+2019-01-24 12:55:50 - [MESSAGE][FAILED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source' located by 'By.xpath: //td[(text() = 'Consumption Baseline Source' or . = 'Consumption Baseline Source')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_4_Create_Consumption_Baseline_Source.run(TC_4_Create_Consumption_Baseline_Source:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548316436031.run(TempTestSuite1548316436031.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-24 12:55:18 - [TEST_CASE][FAILED] - Test Cases/Regression_TF_Customer/Create_Record/TC_4_Create_Consumption_Baseline_Source: Test Cases/Regression_TF_Customer/Create_Record/TC_4_Create_Consumption_Baseline_Source FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source' located by 'By.xpath: //td[(text() = 'Consumption Baseline Source' or . = 'Consumption Baseline Source')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_4_Create_Consumption_Baseline_Source.run(TC_4_Create_Consumption_Baseline_Source:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548316436031.run(TempTestSuite1548316436031.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/Create_Record/TC_5_Create_Consolidated_Customer" classname="Test Cases/Regression_TF_Customer/Create_Record/TC_5_Create_Consolidated_Customer" status="PASSED">
+         <system-out><![CDATA[2019-01-24 12:55:50 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Customer/Create_Record/TC_5_Create_Consolidated_Customer: Test Cases/Regression_TF_Customer/Create_Record/TC_5_Create_Consolidated_Customer
+
+2019-01-24 12:55:50 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:55:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:55:50 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:55:50 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:55:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:55:50 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:55:50 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:55:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:55:50 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/5_Menu_Consolidated Customer")): Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/5_Menu_Consolidated Customer' is clicked on
+
+2019-01-24 12:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/5_Menu_Consolidated Customer' is clicked on
+
+2019-01-24 12:55:50 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:55:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:55:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-24 12:55:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-24 12:55:53 - [TEST_STEP][PASSED] - conIndName = com.oracledb.regressiontest.genName(10): com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:55:53 - [MESSAGE][PASSED] - com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:55:53 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/5_Create_Corporate_Customer/Input_Corp_Cust_Name/input_Corp_Cust_Nm"), conIndName): Text '4GDBADCNWY' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/5_Create_Corporate_Customer/Input_Corp_Cust_Name/input_Corp_Cust_Nm'
+
+2019-01-24 12:55:54 - [MESSAGE][PASSED] - Text '4GDBADCNWY' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/5_Create_Corporate_Customer/Input_Corp_Cust_Name/input_Corp_Cust_Nm'
+
+2019-01-24 12:55:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:55:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:55:56 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:55:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:55:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:55:58 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:55:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:55:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:56:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:56:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message' are matched.
+
+2019-01-24 12:56:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message' are matched.
+
+2019-01-24 12:56:01 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-24 12:56:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-24 12:56:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 12:56:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 12:56:02 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close' is clicked on
+
+2019-01-24 12:56:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close' is clicked on
+
+2019-01-24 12:56:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 12:56:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 12:56:03 - [TEST_STEP][PASSED] - vrfy_CCUST = com.oracledb.regressiontest.verifyCORPCUST(ora_connt, ora_usr, ora_psswrd, ora_schema, conIndName): com.oracledb.regressiontest.verifyCORPCUST is PASSED
+
+2019-01-24 12:56:06 - [MESSAGE][PASSED] - com.oracledb.regressiontest.verifyCORPCUST is PASSED
+
+2019-01-24 12:56:06 - [TEST_STEP][PASSED] - println("Corporate Customer Name"): null
+
+2019-01-24 12:56:06 - [TEST_STEP][PASSED] - verifyEqual(CORPORATE_CUSTOMER_NAME, conIndName): Actual object '4GDBADCNWY' and expected object '4GDBADCNWY' are equal
+
+2019-01-24 12:56:06 - [MESSAGE][PASSED] - Actual object '4GDBADCNWY' and expected object '4GDBADCNWY' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/Create_Record/TC_6_Create_SHL1_SBU" classname="Test Cases/Regression_TF_Customer/Create_Record/TC_6_Create_SHL1_SBU" status="PASSED">
+         <system-out><![CDATA[2019-01-24 12:56:06 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Customer/Create_Record/TC_6_Create_SHL1_SBU: Test Cases/Regression_TF_Customer/Create_Record/TC_6_Create_SHL1_SBU
+
+2019-01-24 12:56:07 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:56:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:56:07 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:56:07 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:56:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:56:07 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:56:07 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:56:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:56:07 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2019-01-24 12:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2019-01-24 12:56:07 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:56:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:56:07 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/1_Menu_SBU (Sales Business Unit)")): Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/1_Menu_SBU (Sales Business Unit)' is clicked on
+
+2019-01-24 12:56:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/1_Menu_SBU (Sales Business Unit)' is clicked on
+
+2019-01-24 12:56:08 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:56:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:56:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-24 12:56:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-24 12:56:11 - [TEST_STEP][PASSED] - sbuName = com.oracledb.regressiontest.genName(10): com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:56:11 - [MESSAGE][PASSED] - com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:56:11 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/6_Create_SHL1_SBU/Input_SBU_Name/input_SBU_Nm"), sbuName): Text '7KCDWPOY28' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/6_Create_SHL1_SBU/Input_SBU_Name/input_SBU_Nm'
+
+2019-01-24 12:56:11 - [MESSAGE][PASSED] - Text '7KCDWPOY28' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/6_Create_SHL1_SBU/Input_SBU_Name/input_SBU_Nm'
+
+2019-01-24 12:56:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:56:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:56:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/6_Create_SHL1_SBU/Input_SBU_Name/input_SBU_Nm"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/6_Create_SHL1_SBU/Input_SBU_Name/input_SBU_Nm'
+
+2019-01-24 12:56:13 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/6_Create_SHL1_SBU/Input_SBU_Name/input_SBU_Nm'
+
+2019-01-24 12:56:13 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-24 12:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-24 12:56:13 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD"), STOP_ON_FAILURE): Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD' is clicked on
+
+2019-01-24 12:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD' is clicked on
+
+2019-01-24 12:56:13 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object")): Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object' is clicked on
+
+2019-01-24 12:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object' is clicked on
+
+2019-01-24 12:56:13 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-01-24 12:56:17 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-24 12:56:17 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:56:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:56:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:56:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:56:19 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:56:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:56:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:56:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message' are matched.
+
+2019-01-24 12:56:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message' are matched.
+
+2019-01-24 12:56:23 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-24 12:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-24 12:56:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 12:56:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 12:56:24 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close' is clicked on
+
+2019-01-24 12:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close' is clicked on
+
+2019-01-24 12:56:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:56:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:56:26 - [TEST_STEP][PASSED] - vrfy_SBU = com.oracledb.regressiontest.verifySBU(ora_connt, ora_usr, ora_psswrd, ora_schema, sbuName): com.oracledb.regressiontest.verifySBU is PASSED
+
+2019-01-24 12:56:30 - [MESSAGE][PASSED] - com.oracledb.regressiontest.verifySBU is PASSED
+
+2019-01-24 12:56:30 - [TEST_STEP][PASSED] - println("SBU Name"): null
+
+2019-01-24 12:56:30 - [TEST_STEP][PASSED] - verifyEqual(HIERARCHY_NODE_NAME, sbuName): Actual object '7KCDWPOY28' and expected object '7KCDWPOY28' are equal
+
+2019-01-24 12:56:30 - [MESSAGE][PASSED] - Actual object '7KCDWPOY28' and expected object '7KCDWPOY28' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/Create_Record/TC_7_Create_SHL2_Sales_Segment" classname="Test Cases/Regression_TF_Customer/Create_Record/TC_7_Create_SHL2_Sales_Segment" status="PASSED">
+         <system-out><![CDATA[2019-01-24 12:56:30 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Customer/Create_Record/TC_7_Create_SHL2_Sales_Segment: Test Cases/Regression_TF_Customer/Create_Record/TC_7_Create_SHL2_Sales_Segment
+
+2019-01-24 12:56:30 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:56:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:56:30 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:56:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:56:30 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:56:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:56:30 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:56:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:56:30 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:56:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:56:30 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2019-01-24 12:56:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2019-01-24 12:56:31 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:56:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:56:31 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/2_Menu_Sales Segment")): Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/2_Menu_Sales Segment' is clicked on
+
+2019-01-24 12:56:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/2_Menu_Sales Segment' is clicked on
+
+2019-01-24 12:56:31 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:56:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:56:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-24 12:56:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-24 12:56:34 - [TEST_STEP][PASSED] - salesSegName = com.oracledb.regressiontest.genName(10): com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:56:34 - [MESSAGE][PASSED] - com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:56:34 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/7_Create_SHL2_Sales_Segment/Input_Sales_Segment_Name/input_Sales_Segment_Nm"), salesSegName): Text 'G38HKPI707' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/7_Create_SHL2_Sales_Segment/Input_Sales_Segment_Name/input_Sales_Segment_Nm'
+
+2019-01-24 12:56:35 - [MESSAGE][PASSED] - Text 'G38HKPI707' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/7_Create_SHL2_Sales_Segment/Input_Sales_Segment_Name/input_Sales_Segment_Nm'
+
+2019-01-24 12:56:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:56:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:56:37 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD"), CONTINUE_ON_FAILURE): Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD' is clicked on
+
+2019-01-24 12:56:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD' is clicked on
+
+2019-01-24 12:56:37 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object"), CONTINUE_ON_FAILURE): Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object' is clicked on
+
+2019-01-24 12:56:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object' is clicked on
+
+2019-01-24 12:56:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-24 12:56:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-24 12:56:40 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:56:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:56:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:56:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:56:42 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:56:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:56:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:56:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:56:44 - [TEST_STEP][NOT_RUN] - verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE): NOT_RUN: verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE)
+
+2019-01-24 12:56:44 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE)
+
+2019-01-24 12:56:44 - [TEST_STEP][NOT_RUN] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab")): NOT_RUN: click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab"))
+
+2019-01-24 12:56:44 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab"))
+
+2019-01-24 12:56:44 - [TEST_STEP][NOT_RUN] - delay(1): NOT_RUN: delay(1)
+
+2019-01-24 12:56:44 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(1)
+
+2019-01-24 12:56:44 - [TEST_STEP][NOT_RUN] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close")): NOT_RUN: click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close"))
+
+2019-01-24 12:56:44 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close"))
+
+2019-01-24 12:56:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:56:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:56:46 - [TEST_STEP][PASSED] - vrfy_SSEGMENT = com.oracledb.regressiontest.verifySSEGMENT(ora_connt, ora_usr, ora_psswrd, ora_schema, salesSegName): com.oracledb.regressiontest.verifySSEGMENT is PASSED
+
+2019-01-24 12:56:48 - [MESSAGE][PASSED] - com.oracledb.regressiontest.verifySSEGMENT is PASSED
+
+2019-01-24 12:56:48 - [TEST_STEP][PASSED] - println("Sales Segment Name"): null
+
+2019-01-24 12:56:49 - [TEST_STEP][PASSED] - verifyEqual(HIERARCHY_NODE_NAME, salesSegName): Actual object 'G38HKPI707' and expected object 'G38HKPI707' are equal
+
+2019-01-24 12:56:49 - [MESSAGE][PASSED] - Actual object 'G38HKPI707' and expected object 'G38HKPI707' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/Create_Record/TC_8_Create_SHL3_Sales_Division" classname="Test Cases/Regression_TF_Customer/Create_Record/TC_8_Create_SHL3_Sales_Division" status="PASSED">
+         <system-out><![CDATA[2019-01-24 12:56:49 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Customer/Create_Record/TC_8_Create_SHL3_Sales_Division: Test Cases/Regression_TF_Customer/Create_Record/TC_8_Create_SHL3_Sales_Division
+
+2019-01-24 12:56:49 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:56:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:56:49 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:56:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:56:49 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:56:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:56:49 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:56:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:56:49 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:56:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:56:49 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2019-01-24 12:56:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2019-01-24 12:56:49 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:56:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:56:49 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/3_Menu_Sales Division")): Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/3_Menu_Sales Division' is clicked on
+
+2019-01-24 12:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/3_Menu_Sales Division' is clicked on
+
+2019-01-24 12:56:50 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:56:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:56:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-24 12:56:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-24 12:56:53 - [TEST_STEP][PASSED] - salesDivName = com.oracledb.regressiontest.genName(10): com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:56:53 - [MESSAGE][PASSED] - com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:56:53 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/8_Create_SHL3_Sales_Division/Input_Sales_Division_Name/input_Sales_Division_Nm"), salesDivName): Text 'YT3DXE3NII' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/8_Create_SHL3_Sales_Division/Input_Sales_Division_Name/input_Sales_Division_Nm'
+
+2019-01-24 12:56:53 - [MESSAGE][PASSED] - Text 'YT3DXE3NII' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/8_Create_SHL3_Sales_Division/Input_Sales_Division_Name/input_Sales_Division_Nm'
+
+2019-01-24 12:56:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-24 12:56:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-24 12:56:56 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD"), CONTINUE_ON_FAILURE): Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD' is clicked on
+
+2019-01-24 12:56:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD' is clicked on
+
+2019-01-24 12:56:56 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object"), CONTINUE_ON_FAILURE): Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object' is clicked on
+
+2019-01-24 12:56:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object' is clicked on
+
+2019-01-24 12:56:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-24 12:56:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-24 12:56:59 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:56:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:57:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:57:01 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:57:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:57:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:57:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:57:04 - [TEST_STEP][NOT_RUN] - verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE): NOT_RUN: verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE)
+
+2019-01-24 12:57:04 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE)
+
+2019-01-24 12:57:04 - [TEST_STEP][NOT_RUN] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab")): NOT_RUN: click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab"))
+
+2019-01-24 12:57:04 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab"))
+
+2019-01-24 12:57:04 - [TEST_STEP][NOT_RUN] - delay(1): NOT_RUN: delay(1)
+
+2019-01-24 12:57:04 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(1)
+
+2019-01-24 12:57:04 - [TEST_STEP][NOT_RUN] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close")): NOT_RUN: click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close"))
+
+2019-01-24 12:57:04 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close"))
+
+2019-01-24 12:57:04 - [TEST_STEP][NOT_RUN] - delay(1): NOT_RUN: delay(1)
+
+2019-01-24 12:57:04 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(1)
+
+2019-01-24 12:57:04 - [TEST_STEP][PASSED] - vrfy_SDIV = com.oracledb.regressiontest.verifySDIV(ora_connt, ora_usr, ora_psswrd, ora_schema, salesDivName): com.oracledb.regressiontest.verifySDIV is PASSED
+
+2019-01-24 12:57:06 - [MESSAGE][PASSED] - com.oracledb.regressiontest.verifySDIV is PASSED
+
+2019-01-24 12:57:06 - [TEST_STEP][PASSED] - println("Sales Division Name"): null
+
+2019-01-24 12:57:06 - [TEST_STEP][PASSED] - verifyEqual(HIERARCHY_NODE_NAME, salesDivName): Actual object 'YT3DXE3NII' and expected object 'YT3DXE3NII' are equal
+
+2019-01-24 12:57:06 - [MESSAGE][PASSED] - Actual object 'YT3DXE3NII' and expected object 'YT3DXE3NII' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/Create_Record/TC_9_Create_SHL4_Sales_Region" classname="Test Cases/Regression_TF_Customer/Create_Record/TC_9_Create_SHL4_Sales_Region" status="PASSED">
+         <system-out><![CDATA[2019-01-24 12:57:06 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Customer/Create_Record/TC_9_Create_SHL4_Sales_Region: Test Cases/Regression_TF_Customer/Create_Record/TC_9_Create_SHL4_Sales_Region
+
+2019-01-24 12:57:06 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:57:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:57:06 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:57:06 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:57:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:57:06 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:57:06 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:57:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:57:06 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2019-01-24 12:57:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2019-01-24 12:57:07 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:57:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:57:07 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/4_Menu_Sales Region")): Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/4_Menu_Sales Region' is clicked on
+
+2019-01-24 12:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/4_Menu_Sales Region' is clicked on
+
+2019-01-24 12:57:08 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:57:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:57:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-24 12:57:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-24 12:57:11 - [TEST_STEP][PASSED] - salesRegName = com.oracledb.regressiontest.genName(10): com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:57:11 - [MESSAGE][PASSED] - com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:57:11 - [TEST_STEP][PASSED] - salesRegCode = com.oracledb.regressiontest.genName(10): com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:57:11 - [MESSAGE][PASSED] - com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:57:11 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/9_Create_SHL4_Sales_Region/Input_Sales_Region_Code/input_Sales_Region_Cd"), salesRegCode): Text 'H6MIVKVY13' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/9_Create_SHL4_Sales_Region/Input_Sales_Region_Code/input_Sales_Region_Cd'
+
+2019-01-24 12:57:11 - [MESSAGE][PASSED] - Text 'H6MIVKVY13' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/9_Create_SHL4_Sales_Region/Input_Sales_Region_Code/input_Sales_Region_Cd'
+
+2019-01-24 12:57:11 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/9_Create_SHL4_Sales_Region/Input_Sales_Region_Name/input_Sales_Region_Nm"), salesRegName): Text '81OHPFTMJ9' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/9_Create_SHL4_Sales_Region/Input_Sales_Region_Name/input_Sales_Region_Nm'
+
+2019-01-24 12:57:11 - [MESSAGE][PASSED] - Text '81OHPFTMJ9' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/9_Create_SHL4_Sales_Region/Input_Sales_Region_Name/input_Sales_Region_Nm'
+
+2019-01-24 12:57:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:57:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:57:13 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD"), CONTINUE_ON_FAILURE): Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD' is clicked on
+
+2019-01-24 12:57:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD' is clicked on
+
+2019-01-24 12:57:13 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object"), CONTINUE_ON_FAILURE): Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object' is clicked on
+
+2019-01-24 12:57:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object' is clicked on
+
+2019-01-24 12:57:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-24 12:57:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-24 12:57:16 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:57:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:57:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:57:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:57:18 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:57:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:57:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:57:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:57:20 - [TEST_STEP][NOT_RUN] - verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE): NOT_RUN: verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE)
+
+2019-01-24 12:57:20 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE)
+
+2019-01-24 12:57:20 - [TEST_STEP][NOT_RUN] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab")): NOT_RUN: click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab"))
+
+2019-01-24 12:57:20 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab"))
+
+2019-01-24 12:57:20 - [TEST_STEP][NOT_RUN] - delay(1): NOT_RUN: delay(1)
+
+2019-01-24 12:57:20 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(1)
+
+2019-01-24 12:57:20 - [TEST_STEP][NOT_RUN] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close")): NOT_RUN: click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close"))
+
+2019-01-24 12:57:20 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close"))
+
+2019-01-24 12:57:20 - [TEST_STEP][NOT_RUN] - delay(1): NOT_RUN: delay(1)
+
+2019-01-24 12:57:20 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(1)
+
+2019-01-24 12:57:20 - [TEST_STEP][PASSED] - vrfy_SREG = com.oracledb.regressiontest.verifySREG(ora_connt, ora_usr, ora_psswrd, ora_schema, salesRegCode): com.oracledb.regressiontest.verifySREG is PASSED
+
+2019-01-24 12:57:23 - [MESSAGE][PASSED] - com.oracledb.regressiontest.verifySREG is PASSED
+
+2019-01-24 12:57:23 - [TEST_STEP][PASSED] - println("Sales Region Code"): null
+
+2019-01-24 12:57:23 - [TEST_STEP][PASSED] - verifyEqual(HIERARCHY_NODE_CODE, salesRegCode): Actual object 'H6MIVKVY13' and expected object 'H6MIVKVY13' are equal
+
+2019-01-24 12:57:23 - [MESSAGE][PASSED] - Actual object 'H6MIVKVY13' and expected object 'H6MIVKVY13' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/Create_Record/TC_10_Create_SHL5_Sales_Market" classname="Test Cases/Regression_TF_Customer/Create_Record/TC_10_Create_SHL5_Sales_Market" status="PASSED">
+         <system-out><![CDATA[2019-01-24 12:57:23 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Customer/Create_Record/TC_10_Create_SHL5_Sales_Market: Test Cases/Regression_TF_Customer/Create_Record/TC_10_Create_SHL5_Sales_Market
+
+2019-01-24 12:57:23 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:57:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:57:23 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:57:23 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:57:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:57:23 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:57:23 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:57:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:57:23 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2019-01-24 12:57:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2019-01-24 12:57:24 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:57:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:57:24 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/5_Menu_Sales Market")): Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/5_Menu_Sales Market' is clicked on
+
+2019-01-24 12:57:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/5_Menu_Sales Market' is clicked on
+
+2019-01-24 12:57:24 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:57:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:57:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-24 12:57:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-24 12:57:27 - [TEST_STEP][PASSED] - salesMarkName = com.oracledb.regressiontest.genName(10): com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:57:27 - [MESSAGE][PASSED] - com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:57:27 - [TEST_STEP][PASSED] - salesMarkCode = com.oracledb.regressiontest.genName(10): com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:57:27 - [MESSAGE][PASSED] - com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:57:27 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/10_Create_SHL5_Sales_Market/Input_Sales_Market_Code/input_Sales_Market_Cd"), salesMarkCode): Text '02U4HJQMKJ' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/10_Create_SHL5_Sales_Market/Input_Sales_Market_Code/input_Sales_Market_Cd'
+
+2019-01-24 12:57:27 - [MESSAGE][PASSED] - Text '02U4HJQMKJ' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/10_Create_SHL5_Sales_Market/Input_Sales_Market_Code/input_Sales_Market_Cd'
+
+2019-01-24 12:57:27 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/10_Create_SHL5_Sales_Market/Input_Sales_Market_Name/input_Sales_Market_Nm"), salesMarkName): Text 'GRSLJM98OO' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/10_Create_SHL5_Sales_Market/Input_Sales_Market_Name/input_Sales_Market_Nm'
+
+2019-01-24 12:57:28 - [MESSAGE][PASSED] - Text 'GRSLJM98OO' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/10_Create_SHL5_Sales_Market/Input_Sales_Market_Name/input_Sales_Market_Nm'
+
+2019-01-24 12:57:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:57:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:57:30 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD"), CONTINUE_ON_FAILURE): Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD' is clicked on
+
+2019-01-24 12:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD' is clicked on
+
+2019-01-24 12:57:30 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object"), CONTINUE_ON_FAILURE): Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object' is clicked on
+
+2019-01-24 12:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object' is clicked on
+
+2019-01-24 12:57:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-24 12:57:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-24 12:57:33 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:57:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:57:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:57:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:57:35 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:57:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:57:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:57:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:57:37 - [TEST_STEP][NOT_RUN] - verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE): NOT_RUN: verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE)
+
+2019-01-24 12:57:37 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE)
+
+2019-01-24 12:57:37 - [TEST_STEP][NOT_RUN] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab")): NOT_RUN: click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab"))
+
+2019-01-24 12:57:37 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab"))
+
+2019-01-24 12:57:37 - [TEST_STEP][NOT_RUN] - delay(1): NOT_RUN: delay(1)
+
+2019-01-24 12:57:37 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(1)
+
+2019-01-24 12:57:37 - [TEST_STEP][NOT_RUN] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close")): NOT_RUN: click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close"))
+
+2019-01-24 12:57:37 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close"))
+
+2019-01-24 12:57:37 - [TEST_STEP][NOT_RUN] - delay(1): NOT_RUN: delay(1)
+
+2019-01-24 12:57:37 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(1)
+
+2019-01-24 12:57:37 - [TEST_STEP][PASSED] - vrfy_SMKT = com.oracledb.regressiontest.verifySMKT(ora_connt, ora_usr, ora_psswrd, ora_schema, salesMarkCode): com.oracledb.regressiontest.verifySMKT is PASSED
+
+2019-01-24 12:57:40 - [MESSAGE][PASSED] - com.oracledb.regressiontest.verifySMKT is PASSED
+
+2019-01-24 12:57:40 - [TEST_STEP][PASSED] - println("Sales Market Code"): null
+
+2019-01-24 12:57:40 - [TEST_STEP][PASSED] - verifyEqual(HIERARCHY_NODE_CODE, salesMarkCode): Actual object '02U4HJQMKJ' and expected object '02U4HJQMKJ' are equal
+
+2019-01-24 12:57:40 - [MESSAGE][PASSED] - Actual object '02U4HJQMKJ' and expected object '02U4HJQMKJ' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/Create_Record/TC_11_Open_PA_Planning_Account" classname="Test Cases/Regression_TF_Customer/Create_Record/TC_11_Open_PA_Planning_Account" status="PASSED">
+         <system-out><![CDATA[2019-01-24 12:57:40 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Customer/Create_Record/TC_11_Open_PA_Planning_Account: Test Cases/Regression_TF_Customer/Create_Record/TC_11_Open_PA_Planning_Account
+
+2019-01-24 12:57:40 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:57:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:57:40 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:57:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:57:40 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:57:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:57:40 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:57:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:57:40 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:57:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:57:40 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option' is hovered
+
+2019-01-24 12:57:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option' is hovered
+
+2019-01-24 12:57:40 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:57:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:57:40 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/Planning_Account/td_Planning Account_pad")): Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Planning_Account/td_Planning Account_pad' is clicked on
+
+2019-01-24 12:57:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Planning_Account/td_Planning Account_pad' is clicked on
+
+2019-01-24 12:57:41 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:57:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:57:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-24 12:57:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-24 12:57:44 - [TEST_STEP][PASSED] - plaAcctName = com.oracledb.regressiontest.genName(10): com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:57:44 - [MESSAGE][PASSED] - com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:57:44 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/11_Create_Planning_Account/Input_Planning_Account_Name/input_Planning_Account_Nm"), plaAcctName): Text 'C6OT0HZT0L' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/11_Create_Planning_Account/Input_Planning_Account_Name/input_Planning_Account_Nm'
+
+2019-01-24 12:57:44 - [MESSAGE][PASSED] - Text 'C6OT0HZT0L' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/11_Create_Planning_Account/Input_Planning_Account_Name/input_Planning_Account_Nm'
+
+2019-01-24 12:57:44 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Set_Effective_Dates/input_Effective_Start_Date"), input_Eff_Start_Dt): Text '19/Dec/2018' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Set_Effective_Dates/input_Effective_Start_Date'
+
+2019-01-24 12:57:44 - [MESSAGE][PASSED] - Text '19/Dec/2018' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Set_Effective_Dates/input_Effective_Start_Date'
+
+2019-01-24 12:57:44 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Set_Effective_Dates/input_Effective_End_Date"), input_Eff_End_Dt): Text '31/Dec/9999' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Set_Effective_Dates/input_Effective_End_Date'
+
+2019-01-24 12:57:44 - [MESSAGE][PASSED] - Text '31/Dec/9999' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Set_Effective_Dates/input_Effective_End_Date'
+
+2019-01-24 12:57:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:57:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:57:46 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-24 12:57:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-24 12:57:47 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD"), CONTINUE_ON_FAILURE): Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD' is clicked on
+
+2019-01-24 12:57:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD' is clicked on
+
+2019-01-24 12:57:47 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object"), CONTINUE_ON_FAILURE): Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object' is clicked on
+
+2019-01-24 12:57:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object' is clicked on
+
+2019-01-24 12:57:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-24 12:57:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-24 12:57:50 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:57:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:57:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:57:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:57:52 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:57:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:57:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:57:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:57:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message' are matched.
+
+2019-01-24 12:57:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message' are matched.
+
+2019-01-24 12:57:55 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-24 12:57:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-24 12:57:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 12:57:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 12:57:56 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close' is clicked on
+
+2019-01-24 12:57:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close' is clicked on
+
+2019-01-24 12:57:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:57:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:57:58 - [TEST_STEP][PASSED] - vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName): com.oracledb.regressiontest.verifyPLA is PASSED
+
+2019-01-24 12:58:00 - [MESSAGE][PASSED] - com.oracledb.regressiontest.verifyPLA is PASSED
+
+2019-01-24 12:58:00 - [TEST_STEP][PASSED] - println("Planning Account Name"): null
+
+2019-01-24 12:58:00 - [TEST_STEP][PASSED] - verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName): Actual object 'C6OT0HZT0L' and expected object 'C6OT0HZT0L' are equal
+
+2019-01-24 12:58:00 - [MESSAGE][PASSED] - Actual object 'C6OT0HZT0L' and expected object 'C6OT0HZT0L' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/Create_Record/TC_12_Open_PA_Sub_Planning_Account" classname="Test Cases/Regression_TF_Customer/Create_Record/TC_12_Open_PA_Sub_Planning_Account" status="PASSED">
+         <system-out><![CDATA[2019-01-24 12:58:00 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Customer/Create_Record/TC_12_Open_PA_Sub_Planning_Account: Test Cases/Regression_TF_Customer/Create_Record/TC_12_Open_PA_Sub_Planning_Account
+
+2019-01-24 12:58:00 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:58:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:58:00 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:58:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-24 12:58:00 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:58:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:58:00 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-24 12:58:01 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:58:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:58:01 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option' is hovered
+
+2019-01-24 12:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option' is hovered
+
+2019-01-24 12:58:01 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:58:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:58:01 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/Planning_Account/2_Menu_Sub Planning Account")): Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Planning_Account/2_Menu_Sub Planning Account' is clicked on
+
+2019-01-24 12:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Planning_Account/2_Menu_Sub Planning Account' is clicked on
+
+2019-01-24 12:58:02 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-24 12:58:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 12:58:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-24 12:58:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-24 12:58:05 - [TEST_STEP][PASSED] - subPlaAcctName = com.oracledb.regressiontest.genName(10): com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:58:05 - [MESSAGE][PASSED] - com.oracledb.regressiontest.genName is PASSED
+
+2019-01-24 12:58:05 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/12_Create_Sub_Planning_Account/Input_Sub_Planning_Account_Name/input_Sub_Planning_Account_Nm"), subPlaAcctName): Text 'XYYG14PQMF' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/12_Create_Sub_Planning_Account/Input_Sub_Planning_Account_Name/input_Sub_Planning_Account_Nm'
+
+2019-01-24 12:58:05 - [MESSAGE][PASSED] - Text 'XYYG14PQMF' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/12_Create_Sub_Planning_Account/Input_Sub_Planning_Account_Name/input_Sub_Planning_Account_Nm'
+
+2019-01-24 12:58:05 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Set_Effective_Dates/input_Effective_Start_Date"), input_Eff_Start_Dt): Text '19/Dec/2018' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Set_Effective_Dates/input_Effective_Start_Date'
+
+2019-01-24 12:58:05 - [MESSAGE][PASSED] - Text '19/Dec/2018' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Set_Effective_Dates/input_Effective_Start_Date'
+
+2019-01-24 12:58:05 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Set_Effective_Dates/input_Effective_End_Date"), input_Eff_End_Dt): Text '31/Dec/9999' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Set_Effective_Dates/input_Effective_End_Date'
+
+2019-01-24 12:58:05 - [MESSAGE][PASSED] - Text '31/Dec/9999' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Set_Effective_Dates/input_Effective_End_Date'
+
+2019-01-24 12:58:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-24 12:58:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-24 12:58:08 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-24 12:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-24 12:58:08 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD"), STOP_ON_FAILURE): Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD' is clicked on
+
+2019-01-24 12:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD' is clicked on
+
+2019-01-24 12:58:08 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object")): Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object' is clicked on
+
+2019-01-24 12:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object' is clicked on
+
+2019-01-24 12:58:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-24 12:58:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-24 12:58:11 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:58:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-24 12:58:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:58:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:58:14 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:58:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-24 12:58:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:58:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:58:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message' are matched.
+
+2019-01-24 12:58:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message' are matched.
+
+2019-01-24 12:58:16 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-24 12:58:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-24 12:58:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 12:58:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 12:58:17 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close' is clicked on
+
+2019-01-24 12:58:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close' is clicked on
+
+2019-01-24 12:58:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-24 12:58:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 12:58:20 - [TEST_STEP][PASSED] - vrfy_SPLA = com.oracledb.regressiontest.verifySPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, subPlaAcctName): com.oracledb.regressiontest.verifySPLA is PASSED
+
+2019-01-24 12:58:22 - [MESSAGE][PASSED] - com.oracledb.regressiontest.verifySPLA is PASSED
+
+2019-01-24 12:58:22 - [TEST_STEP][PASSED] - println("Sub Planning Account Name"): null
+
+2019-01-24 12:58:22 - [TEST_STEP][PASSED] - verifyEqual(PLANNING_ACCOUNT_NAME, subPlaAcctName): Actual object 'XYYG14PQMF' and expected object 'XYYG14PQMF' are equal
+
+2019-01-24 12:58:22 - [MESSAGE][PASSED] - Actual object 'XYYG14PQMF' and expected object 'XYYG14PQMF' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-24 12:53:57 - [TEST_SUITE][FAILED] - 1_Regression_Test: Test Cases/Regression_TF_Customer/Create_Record/TC_4_Create_Consumption_Baseline_Source FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source' located by 'By.xpath: //td[(text() = 'Consumption Baseline Source' or . = 'Consumption Baseline Source')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_4_Create_Consumption_Baseline_Source.run(TC_4_Create_Consumption_Baseline_Source:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548316436031.run(TempTestSuite1548316436031.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-24 12:53:57 - [TEST_SUITE][FAILED] - 1_Regression_Test: Test Cases/Regression_TF_Customer/Create_Record/TC_4_Create_Consumption_Baseline_Source FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source' located by 'By.xpath: //td[(text() = 'Consumption Baseline Source' or . = 'Consumption Baseline Source')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_4_Create_Consumption_Baseline_Source.run(TC_4_Create_Consumption_Baseline_Source:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548316436031.run(TempTestSuite1548316436031.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

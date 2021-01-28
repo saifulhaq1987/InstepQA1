@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will open page product summary.</description>
+   <name>TC_2-2_Product_Summary</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>941eb23c-bbbc-4080-84b8-ea1296ef530b</testCaseGuid>
+</TestCaseEntity>

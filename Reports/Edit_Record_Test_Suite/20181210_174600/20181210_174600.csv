@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Edit_Record_Test_Suite,Chrome 70.0.3538.110,,2018-12-10 17:46:01,2018-12-10 17:46:28,26.763s,FAILED
+,,,,,,
+Test Cases/General_Login_Logout/Login,Chrome 70.0.3538.110,,2018-12-10 17:46:01,2018-12-10 17:46:21,19.873s,PASSED
+"com.oracledb.regressiontest.LoginTFCustomer(User, Password)",Chrome 70.0.3538.110,,2018-12-10 17:46:01,2018-12-10 17:46:21,19.612s,PASSED
+,,,,,,
+Test Cases/Regression_TF_Customer/Edit_Record/TC_1_Edit_Banner,Chrome 70.0.3538.110,,2018-12-10 17:46:21,2018-12-10 17:46:28,6.743s,FAILED
+delay(1),Chrome 70.0.3538.110,,2018-12-10 17:46:21,2018-12-10 17:46:22,1.002s,PASSED
+"click(findTestObject(""Edit_Record_Queries/Common_Action_Buttons/btn_Queries""))",Chrome 70.0.3538.110,,2018-12-10 17:46:22,2018-12-10 17:46:28,5.579s,FAILED

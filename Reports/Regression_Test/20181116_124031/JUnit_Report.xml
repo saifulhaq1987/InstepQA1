@@ -1,0 +1,2057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression_Test" time="242" tests="6" failures="4" errors="1">
+   <testsuite name="Regression_Test" tests="6" failures="4" errors="1" time="242" timestamp="2018-11-16 12:40:33" hostname="Junaid.Tariq - Junaid.instepinc.com" id="Test Suites/Regression_Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\Projects\\Trade_Funds\\TF_Regression\\Reports\\Regression_Test\\20181116_124031"/>
+         <property name="logFiles" value="D:\\Katalon\\Projects\\Trade_Funds\\TF_Regression\\Reports\\Regression_Test\\20181116_124031\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon\\Projects\\Trade_Funds\\TF_Regression\\Reports\\Regression_Test\\20181116_124031\\1542354135620.png, D:\\Katalon\\Projects\\Trade_Funds\\TF_Regression\\Reports\\Regression_Test\\20181116_124031\\1542354187134.png, D:\\Katalon\\Projects\\Trade_Funds\\TF_Regression\\Reports\\Regression_Test\\20181116_124031\\1542354205404.png, D:\\Katalon\\Projects\\Trade_Funds\\TF_Regression\\Reports\\Regression_Test\\20181116_124031\\1542354265074.png"/>
+         <property name="hostName" value="Junaid.Tariq - Junaid.instepinc.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="200.199.80.62"/>
+         <property name="sessionId" value="b746d7756b0ba55ea5c5cde377c70e9a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/General_Login_Logout/Login" classname="Test Cases/General_Login_Logout/Login" status="PASSED">
+         <system-out><![CDATA[2018-11-16 12:40:33 - [TEST_CASE][PASSED] - Test Cases/General_Login_Logout/Login: Test Cases/General_Login_Logout/Login
+
+2018-11-16 12:40:33 - [TEST_STEP][PASSED] - tradeFunds.TF_Regression.LoginTFCustomer: tradeFunds.TF_Regression.LoginTFCustomer is PASSED
+
+2018-11-16 12:40:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-16 12:40:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:40:39 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-16 12:40:46 - [MESSAGE][PASSED] - Navigate to 'https://52.6.78.242:7008/e360/com.informatica.tools.mdm.web.auth/login' successfully
+
+2018-11-16 12:40:46 - [MESSAGE][PASSED] - Text 'junaid_sm' is set on object 'Object Repository/Page_ Login/Txt_Username'
+
+2018-11-16 12:40:46 - [MESSAGE][PASSED] - Text 'str0ng_2' is set on object 'Object Repository/Page_ Login/Txt_Password'
+
+2018-11-16 12:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Login/Btn_Login' is clicked on
+
+2018-11-16 12:40:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Login/Project_Selection/div_Trade Funds Customer' is clicked on
+
+2018-11-16 12:41:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-16 12:41:01 - [MESSAGE][PASSED] - tradeFunds.TF_Regression.LoginTFCustomer is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/TC_1_Create_Banner" classname="Test Cases/Regression_TF_Customer/TC_1_Create_Banner" status="ERROR">
+         <error type="ERROR" message="Test Cases/Regression_TF_Customer/TC_1_Create_Banner FAILED because (of) (Stack trace: org.codehaus.groovy.runtime.InvokerInvocationException: java.sql.SQLException: The url cannot be null
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:100)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at tradeFunds.TF_Regression.invokeMethod(TF_Regression.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at Script1540912045214.run(Script1540912045214.groovy:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+Caused by: java.sql.SQLException: The url cannot be null
+	at java.sql.DriverManager.getConnection(DriverManager.java:649)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at tradeFunds.TF_Regression.verifyBanner(TF_Regression.groovy:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	... 42 more
+ (caused by: (Stack trace: java.sql.SQLException: The url cannot be null
+	at java.sql.DriverManager.getConnection(DriverManager.java:649)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at tradeFunds.TF_Regression.verifyBanner(TF_Regression.groovy:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at tradeFunds.TF_Regression.invokeMethod(TF_Regression.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at Script1540912045214.run(Script1540912045214.groovy:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)))"/>
+         <system-out><![CDATA[2018-11-16 12:41:01 - [TEST_CASE][ERROR] - Test Cases/Regression_TF_Customer/TC_1_Create_Banner: Test Cases/Regression_TF_Customer/TC_1_Create_Banner FAILED because (of) (Stack trace: org.codehaus.groovy.runtime.InvokerInvocationException: java.sql.SQLException: The url cannot be null
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:100)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at tradeFunds.TF_Regression.invokeMethod(TF_Regression.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at Script1540912045214.run(Script1540912045214.groovy:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+Caused by: java.sql.SQLException: The url cannot be null
+	at java.sql.DriverManager.getConnection(DriverManager.java:649)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at tradeFunds.TF_Regression.verifyBanner(TF_Regression.groovy:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	... 42 more
+ (caused by: (Stack trace: java.sql.SQLException: The url cannot be null
+	at java.sql.DriverManager.getConnection(DriverManager.java:649)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at tradeFunds.TF_Regression.verifyBanner(TF_Regression.groovy:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at tradeFunds.TF_Regression.invokeMethod(TF_Regression.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at Script1540912045214.run(Script1540912045214.groovy:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)))
+
+2018-11-16 12:41:02 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:41:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:41:02 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-16 12:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-16 12:41:02 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:41:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:41:02 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-16 12:41:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-16 12:41:13 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:41:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:41:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/1_Menu_Banner' is clicked on
+
+2018-11-16 12:41:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/1_Menu_Banner' is clicked on
+
+2018-11-16 12:41:13 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:41:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:41:13 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 12:41:13 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-16 12:41:13 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-11-16 12:41:13 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-11-16 12:41:13 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 12:41:13 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-16 12:41:13 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-11-16 12:41:13 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-11-16 12:41:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:41:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:41:15 - [TEST_STEP][PASSED] - setText: Text 'Test_Banner_114' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/1_Create_Banner/Input_Banner_Name/input_Banner_Nm'
+
+2018-11-16 12:41:27 - [MESSAGE][PASSED] - Text 'Test_Banner_114' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/1_Create_Banner/Input_Banner_Name/input_Banner_Nm'
+
+2018-11-16 12:41:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:41:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:41:29 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 12:41:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-16 12:41:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2018-11-16 12:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2018-11-16 12:41:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:41:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:41:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2018-11-16 12:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2018-11-16 12:41:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:41:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:41:33 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-11-16 12:41:33 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent
+
+2018-11-16 12:41:33 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message' are matched.
+
+2018-11-16 12:41:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message' are matched.
+
+2018-11-16 12:41:34 - [TEST_STEP][NOT_RUN] - verifyTextPresent: NOT_RUN: verifyTextPresent
+
+2018-11-16 12:41:34 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyTextPresent
+
+2018-11-16 12:41:34 - [TEST_STEP][NOT_RUN] - Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message)): NOT_RUN: Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message))
+
+2018-11-16 12:41:34 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message))
+
+2018-11-16 12:41:34 - [TEST_STEP][NOT_RUN] - Statement - If (text.contains("Record has been saved successfully.", CONTINUE_ON_FAILURE)): NOT_RUN: Statement - If (text.contains("Record has been saved successfully.", CONTINUE_ON_FAILURE))
+
+2018-11-16 12:41:34 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - If (text.contains("Record has been saved successfully.", CONTINUE_ON_FAILURE))
+
+2018-11-16 12:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2018-11-16 12:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2018-11-16 12:41:34 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-16 12:41:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-16 12:41:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close' is clicked on
+
+2018-11-16 12:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close' is clicked on
+
+2018-11-16 12:41:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-16 12:41:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-16 12:41:36 - [TEST_STEP][ERROR] - Statement - row_MTCH = CustomKeywords.tradeFunds.TF_Regression.verifyBanner(ora_connt, ora_usr, ora_psswrd, ora_schema): java.sql.SQLException: The url cannot be null
+
+2018-11-16 12:41:36 - [MESSAGE][ERROR] - java.sql.SQLException: The url cannot be null]]></system-out>
+         <system-err><![CDATA[2018-11-16 12:41:01 - [TEST_CASE][ERROR] - Test Cases/Regression_TF_Customer/TC_1_Create_Banner: Test Cases/Regression_TF_Customer/TC_1_Create_Banner FAILED because (of) (Stack trace: org.codehaus.groovy.runtime.InvokerInvocationException: java.sql.SQLException: The url cannot be null
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:100)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at tradeFunds.TF_Regression.invokeMethod(TF_Regression.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at Script1540912045214.run(Script1540912045214.groovy:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+Caused by: java.sql.SQLException: The url cannot be null
+	at java.sql.DriverManager.getConnection(DriverManager.java:649)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at tradeFunds.TF_Regression.verifyBanner(TF_Regression.groovy:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	... 42 more
+ (caused by: (Stack trace: java.sql.SQLException: The url cannot be null
+	at java.sql.DriverManager.getConnection(DriverManager.java:649)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at tradeFunds.TF_Regression.verifyBanner(TF_Regression.groovy:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at tradeFunds.TF_Regression.invokeMethod(TF_Regression.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at Script1540912045214.run(Script1540912045214.groovy:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)))]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/TC_2_Create_RGM_Designated_Baseline" classname="Test Cases/Regression_TF_Customer/TC_2_Create_RGM_Designated_Baseline" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' located by 'By.xpath: //div[starts-with(@id,'aF:DVTC')]//td[@class = 'middle' and contains (text(),'Save')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542006830121.run(Script1542006830121.groovy:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-16 12:41:36 - [TEST_CASE][FAILED] - Test Cases/Regression_TF_Customer/TC_2_Create_RGM_Designated_Baseline: Test Cases/Regression_TF_Customer/TC_2_Create_RGM_Designated_Baseline FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' located by 'By.xpath: //div[starts-with(@id,'aF:DVTC')]//td[@class = 'middle' and contains (text(),'Save')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542006830121.run(Script1542006830121.groovy:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-16 12:41:36 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:41:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:41:36 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-16 12:41:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-16 12:41:37 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:41:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:41:37 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-16 12:41:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-16 12:41:37 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:41:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:41:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/2_Menu_RGM Designated Baseline' is clicked on
+
+2018-11-16 12:41:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/2_Menu_RGM Designated Baseline' is clicked on
+
+2018-11-16 12:41:37 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:41:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:41:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:41:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:41:39 - [TEST_STEP][PASSED] - setText: Text 'Test_RGM_07' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/2_Create_RGM_Designated_Baseline/Input_RGM_Name/input_RGM_Nm'
+
+2018-11-16 12:41:39 - [MESSAGE][PASSED] - Text 'Test_RGM_07' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/2_Create_RGM_Designated_Baseline/Input_RGM_Name/input_RGM_Nm'
+
+2018-11-16 12:41:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:41:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:41:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2018-11-16 12:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2018-11-16 12:41:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:41:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:41:44 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' located by 'By.xpath: //div[starts-with(@id,'aF:DVTC')]//td[@class = 'middle' and contains (text(),'Save')]' not found)
+
+2018-11-16 12:42:15 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' located by 'By.xpath: //div[starts-with(@id,'aF:DVTC')]//td[@class = 'middle' and contains (text(),'Save')]' not found)
+[[ATTACHMENT|D:\\Katalon\\Projects\\Trade_Funds\\TF_Regression\\Reports\\Regression_Test\\20181116_124031\\1542354135620.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-16 12:41:36 - [TEST_CASE][FAILED] - Test Cases/Regression_TF_Customer/TC_2_Create_RGM_Designated_Baseline: Test Cases/Regression_TF_Customer/TC_2_Create_RGM_Designated_Baseline FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' located by 'By.xpath: //div[starts-with(@id,'aF:DVTC')]//td[@class = 'middle' and contains (text(),'Save')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542006830121.run(Script1542006830121.groovy:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/TC_3_Create_JMS_Sales_Org" classname="Test Cases/Regression_TF_Customer/TC_3_Create_JMS_Sales_Org" status="PASSED">
+         <system-out><![CDATA[2018-11-16 12:42:15 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Customer/TC_3_Create_JMS_Sales_Org: Test Cases/Regression_TF_Customer/TC_3_Create_JMS_Sales_Org
+
+2018-11-16 12:42:16 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:42:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:42:16 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-16 12:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-16 12:42:16 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:42:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:42:16 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-16 12:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-16 12:42:16 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:42:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:42:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/3_Menu_JMS Sales Organizations' is clicked on
+
+2018-11-16 12:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/3_Menu_JMS Sales Organizations' is clicked on
+
+2018-11-16 12:42:16 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:42:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:42:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:42:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:42:18 - [TEST_STEP][PASSED] - setText: Text '0310' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/3_Create_Sales_Org/Input_RGM_Code/input_Sales_Org_Code'
+
+2018-11-16 12:42:18 - [MESSAGE][PASSED] - Text '0310' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/3_Create_Sales_Org/Input_RGM_Code/input_Sales_Org_Code'
+
+2018-11-16 12:42:18 - [TEST_STEP][PASSED] - setText: Text 'Test_Sales_Org_010' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/3_Create_Sales_Org/Input_RGM_Name/input_Sales_Org_Name'
+
+2018-11-16 12:42:19 - [MESSAGE][PASSED] - Text 'Test_Sales_Org_010' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/3_Create_Sales_Org/Input_RGM_Name/input_Sales_Org_Name'
+
+2018-11-16 12:42:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:42:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:42:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2018-11-16 12:42:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2018-11-16 12:42:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:42:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:42:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2018-11-16 12:42:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2018-11-16 12:42:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:42:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:42:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message' are matched.
+
+2018-11-16 12:42:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message' are matched.
+
+2018-11-16 12:42:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2018-11-16 12:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2018-11-16 12:42:26 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-16 12:42:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-16 12:42:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close' is clicked on
+
+2018-11-16 12:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close' is clicked on
+
+2018-11-16 12:42:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-16 12:42:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-16 12:42:28 - [TEST_STEP][NOT_RUN] - Statement - row_MTCH = CustomKeywords.tradeFunds.TF_Regression.verifyBanner(ora_connt, ora_usr, ora_psswrd, ora_schema): NOT_RUN: Statement - row_MTCH = CustomKeywords.tradeFunds.TF_Regression.verifyBanner(ora_connt, ora_usr, ora_psswrd, ora_schema)
+
+2018-11-16 12:42:28 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - row_MTCH = CustomKeywords.tradeFunds.TF_Regression.verifyBanner(ora_connt, ora_usr, ora_psswrd, ora_schema)
+
+2018-11-16 12:42:28 - [TEST_STEP][NOT_RUN] - Statement - println("MTCH_Banner_Name"): NOT_RUN: Statement - println("MTCH_Banner_Name")
+
+2018-11-16 12:42:28 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println("MTCH_Banner_Name")
+
+2018-11-16 12:42:28 - [TEST_STEP][NOT_RUN] - verifyEqual: NOT_RUN: verifyEqual
+
+2018-11-16 12:42:28 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/TC_4_Create_Consumption_Baseline_Source" classname="Test Cases/Regression_TF_Customer/TC_4_Create_Consumption_Baseline_Source" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' located by 'By.xpath: //div[starts-with(@id,'aF:DVTC')]//td[@class = 'middle' and contains (text(),'Save')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542015701556.run(Script1542015701556.groovy:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-16 12:42:28 - [TEST_CASE][FAILED] - Test Cases/Regression_TF_Customer/TC_4_Create_Consumption_Baseline_Source: Test Cases/Regression_TF_Customer/TC_4_Create_Consumption_Baseline_Source FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' located by 'By.xpath: //div[starts-with(@id,'aF:DVTC')]//td[@class = 'middle' and contains (text(),'Save')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542015701556.run(Script1542015701556.groovy:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-16 12:42:28 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:42:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:42:28 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-16 12:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-16 12:42:28 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:42:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:42:28 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-16 12:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-16 12:42:28 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:42:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:42:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source' is clicked on
+
+2018-11-16 12:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Consumption Baseline Source' is clicked on
+
+2018-11-16 12:42:29 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:42:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:42:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:42:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:42:31 - [TEST_STEP][PASSED] - setText: Text 'Test_CBS_006' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/4_Create_Consumption_Baseline_Source/Input_CBS_Name/input_CBS_Nm'
+
+2018-11-16 12:42:31 - [MESSAGE][PASSED] - Text 'Test_CBS_006' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/4_Create_Consumption_Baseline_Source/Input_CBS_Name/input_CBS_Nm'
+
+2018-11-16 12:42:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:42:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:42:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2018-11-16 12:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2018-11-16 12:42:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:42:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:42:35 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' located by 'By.xpath: //div[starts-with(@id,'aF:DVTC')]//td[@class = 'middle' and contains (text(),'Save')]' not found)
+
+2018-11-16 12:43:07 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' located by 'By.xpath: //div[starts-with(@id,'aF:DVTC')]//td[@class = 'middle' and contains (text(),'Save')]' not found)
+[[ATTACHMENT|D:\\Katalon\\Projects\\Trade_Funds\\TF_Regression\\Reports\\Regression_Test\\20181116_124031\\1542354187134.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-16 12:42:28 - [TEST_CASE][FAILED] - Test Cases/Regression_TF_Customer/TC_4_Create_Consumption_Baseline_Source: Test Cases/Regression_TF_Customer/TC_4_Create_Consumption_Baseline_Source FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' located by 'By.xpath: //div[starts-with(@id,'aF:DVTC')]//td[@class = 'middle' and contains (text(),'Save')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542015701556.run(Script1542015701556.groovy:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/TC_5_Create_Corporate_Customer" classname="Test Cases/Regression_TF_Customer/TC_5_Create_Corporate_Customer" status="PASSED">
+         <system-out><![CDATA[2018-11-16 12:43:07 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Customer/TC_5_Create_Corporate_Customer: Test Cases/Regression_TF_Customer/TC_5_Create_Corporate_Customer
+
+2018-11-16 12:43:07 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:07 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-16 12:43:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-16 12:43:07 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:07 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-16 12:43:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-16 12:43:07 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/5_Menu_Corporate Customer' is clicked on
+
+2018-11-16 12:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/5_Menu_Corporate Customer' is clicked on
+
+2018-11-16 12:43:08 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:43:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:43:10 - [TEST_STEP][PASSED] - setText: Text 'Test_C_Cust_006' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/5_Create_Corporate_Customer/Input_Corp_Cust_Name/input_Corp_Cust_Nm'
+
+2018-11-16 12:43:10 - [MESSAGE][PASSED] - Text 'Test_C_Cust_006' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/5_Create_Corporate_Customer/Input_Corp_Cust_Name/input_Corp_Cust_Nm'
+
+2018-11-16 12:43:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:43:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:43:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2018-11-16 12:43:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2018-11-16 12:43:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:43:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:43:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2018-11-16 12:43:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2018-11-16 12:43:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:43:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:43:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message' are matched.
+
+2018-11-16 12:43:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message' are matched.
+
+2018-11-16 12:43:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2018-11-16 12:43:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2018-11-16 12:43:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-16 12:43:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-16 12:43:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close' is clicked on
+
+2018-11-16 12:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close' is clicked on
+
+2018-11-16 12:43:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-16 12:43:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-16 12:43:19 - [TEST_STEP][NOT_RUN] - Statement - row_MTCH = CustomKeywords.tradeFunds.TF_Regression.verifyBanner(ora_connt, ora_usr, ora_psswrd, ora_schema): NOT_RUN: Statement - row_MTCH = CustomKeywords.tradeFunds.TF_Regression.verifyBanner(ora_connt, ora_usr, ora_psswrd, ora_schema)
+
+2018-11-16 12:43:19 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - row_MTCH = CustomKeywords.tradeFunds.TF_Regression.verifyBanner(ora_connt, ora_usr, ora_psswrd, ora_schema)
+
+2018-11-16 12:43:19 - [TEST_STEP][NOT_RUN] - Statement - println("MTCH_Banner_Name"): NOT_RUN: Statement - println("MTCH_Banner_Name")
+
+2018-11-16 12:43:19 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println("MTCH_Banner_Name")
+
+2018-11-16 12:43:19 - [TEST_STEP][NOT_RUN] - sendRequestAndVerify: NOT_RUN: sendRequestAndVerify
+
+2018-11-16 12:43:19 - [MESSAGE][NOT_RUN] - NOT_RUN: sendRequestAndVerify]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/TC_6_Create_SHL1_SBU" classname="Test Cases/Regression_TF_Customer/TC_6_Create_SHL1_SBU" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'CA' of object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/6_Create_SHL1_SBU/Choose_Sales_Org/Extra/Drop_down'  (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1542017063277.run(Script1542017063277.groovy:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-16 12:43:19 - [TEST_CASE][FAILED] - Test Cases/Regression_TF_Customer/TC_6_Create_SHL1_SBU: Test Cases/Regression_TF_Customer/TC_6_Create_SHL1_SBU FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'CA' of object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/6_Create_SHL1_SBU/Choose_Sales_Org/Extra/Drop_down'  (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1542017063277.run(Script1542017063277.groovy:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-16 12:43:19 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:19 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-16 12:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-16 12:43:19 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:19 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-16 12:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-16 12:43:19 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:19 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2018-11-16 12:43:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2018-11-16 12:43:20 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/1_Menu_SBU (Sales Business Unit)' is clicked on
+
+2018-11-16 12:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/1_Menu_SBU (Sales Business Unit)' is clicked on
+
+2018-11-16 12:43:21 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:43:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:43:23 - [TEST_STEP][PASSED] - setText: Text 'Test_SBU_007' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/6_Create_SHL1_SBU/Input_SBU_Name/input_SBU_Nm'
+
+2018-11-16 12:43:23 - [MESSAGE][PASSED] - Text 'Test_SBU_007' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/6_Create_SHL1_SBU/Input_SBU_Name/input_SBU_Nm'
+
+2018-11-16 12:43:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:43:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:43:25 - [TEST_STEP][PASSED] - sendKeys: Keys 'TAB + ' sent to object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/6_Create_SHL1_SBU/Input_SBU_Name/input_SBU_Nm'
+
+2018-11-16 12:43:25 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/6_Create_SHL1_SBU/Input_SBU_Name/input_SBU_Nm'
+
+2018-11-16 12:43:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2018-11-16 12:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2018-11-16 12:43:25 - [TEST_STEP][NOT_RUN] - mouseOver: NOT_RUN: mouseOver
+
+2018-11-16 12:43:25 - [MESSAGE][NOT_RUN] - NOT_RUN: mouseOver
+
+2018-11-16 12:43:25 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 12:43:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-16 12:43:25 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 12:43:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-16 12:43:25 - [TEST_STEP][NOT_RUN] - mouseOver: NOT_RUN: mouseOver
+
+2018-11-16 12:43:25 - [MESSAGE][NOT_RUN] - NOT_RUN: mouseOver
+
+2018-11-16 12:43:25 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 12:43:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-16 12:43:25 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 12:43:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-16 12:43:25 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 12:43:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-16 12:43:25 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-11-16 12:43:25 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-11-16 12:43:25 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-11-16 12:43:25 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-11-16 12:43:25 - [TEST_STEP][NOT_RUN] - selectOptionByIndex: NOT_RUN: selectOptionByIndex
+
+2018-11-16 12:43:25 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByIndex
+
+2018-11-16 12:43:25 - [TEST_STEP][FAILED] - selectOptionByLabel: Unable to select option by label 'CA' of object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/6_Create_SHL1_SBU/Choose_Sales_Org/Extra/Drop_down'  (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+
+2018-11-16 12:43:25 - [MESSAGE][FAILED] - Unable to select option by label 'CA' of object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/6_Create_SHL1_SBU/Choose_Sales_Org/Extra/Drop_down'  (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+[[ATTACHMENT|D:\\Katalon\\Projects\\Trade_Funds\\TF_Regression\\Reports\\Regression_Test\\20181116_124031\\1542354205404.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-16 12:43:19 - [TEST_CASE][FAILED] - Test Cases/Regression_TF_Customer/TC_6_Create_SHL1_SBU: Test Cases/Regression_TF_Customer/TC_6_Create_SHL1_SBU FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'CA' of object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/6_Create_SHL1_SBU/Choose_Sales_Org/Extra/Drop_down'  (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1542017063277.run(Script1542017063277.groovy:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/TC_7_Create_SHL2_Sales_Segment" classname="Test Cases/Regression_TF_Customer/TC_7_Create_SHL2_Sales_Segment" status="PASSED">
+         <system-out><![CDATA[2018-11-16 12:43:25 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Customer/TC_7_Create_SHL2_Sales_Segment: Test Cases/Regression_TF_Customer/TC_7_Create_SHL2_Sales_Segment
+
+2018-11-16 12:43:25 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:25 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-16 12:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-16 12:43:25 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:25 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-16 12:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-16 12:43:25 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:25 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2018-11-16 12:43:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2018-11-16 12:43:26 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/2_Menu_Sales Segment' is clicked on
+
+2018-11-16 12:43:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/2_Menu_Sales Segment' is clicked on
+
+2018-11-16 12:43:27 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:43:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:43:29 - [TEST_STEP][PASSED] - setText: Text 'Test_Sales_Segment_007' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/7_Create_SHL2_Sales_Segment/Input_Sales_Segment_Name/input_Sales_Segment_Nm'
+
+2018-11-16 12:43:29 - [MESSAGE][PASSED] - Text 'Test_Sales_Segment_007' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/7_Create_SHL2_Sales_Segment/Input_Sales_Segment_Name/input_Sales_Segment_Nm'
+
+2018-11-16 12:43:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:43:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:43:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2018-11-16 12:43:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2018-11-16 12:43:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:43:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:43:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2018-11-16 12:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2018-11-16 12:43:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:43:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:43:35 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-11-16 12:43:35 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-11-16 12:43:35 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 12:43:35 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-16 12:43:35 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-11-16 12:43:35 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-11-16 12:43:35 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 12:43:35 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-16 12:43:35 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-11-16 12:43:35 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-11-16 12:43:35 - [TEST_STEP][NOT_RUN] - Statement - row_MTCH = CustomKeywords.tradeFunds.TF_Regression.verifyBanner(ora_connt, ora_usr, ora_psswrd, ora_schema): NOT_RUN: Statement - row_MTCH = CustomKeywords.tradeFunds.TF_Regression.verifyBanner(ora_connt, ora_usr, ora_psswrd, ora_schema)
+
+2018-11-16 12:43:35 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - row_MTCH = CustomKeywords.tradeFunds.TF_Regression.verifyBanner(ora_connt, ora_usr, ora_psswrd, ora_schema)
+
+2018-11-16 12:43:35 - [TEST_STEP][NOT_RUN] - Statement - println("MTCH_Banner_Name"): NOT_RUN: Statement - println("MTCH_Banner_Name")
+
+2018-11-16 12:43:35 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println("MTCH_Banner_Name")
+
+2018-11-16 12:43:35 - [TEST_STEP][NOT_RUN] - verifyEqual: NOT_RUN: verifyEqual
+
+2018-11-16 12:43:35 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/TC_8_Create_SHL3_Sales_Division" classname="Test Cases/Regression_TF_Customer/TC_8_Create_SHL3_Sales_Division" status="PASSED">
+         <system-out><![CDATA[2018-11-16 12:43:35 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Customer/TC_8_Create_SHL3_Sales_Division: Test Cases/Regression_TF_Customer/TC_8_Create_SHL3_Sales_Division
+
+2018-11-16 12:43:35 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:35 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-16 12:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-16 12:43:35 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:35 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-16 12:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-16 12:43:35 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:35 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2018-11-16 12:43:36 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2018-11-16 12:43:36 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/3_Menu_Sales Division' is clicked on
+
+2018-11-16 12:43:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/3_Menu_Sales Division' is clicked on
+
+2018-11-16 12:43:37 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:43:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:43:39 - [TEST_STEP][PASSED] - setText: Text 'Test_Sales_Div_005' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/8_Create_SHL3_Sales_Division/Input_Sales_Division_Name/input_Sales_Division_Nm'
+
+2018-11-16 12:43:39 - [MESSAGE][PASSED] - Text 'Test_Sales_Div_005' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/8_Create_SHL3_Sales_Division/Input_Sales_Division_Name/input_Sales_Division_Nm'
+
+2018-11-16 12:43:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:43:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:43:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2018-11-16 12:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2018-11-16 12:43:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:43:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:43:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2018-11-16 12:43:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2018-11-16 12:43:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:43:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:43:45 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-11-16 12:43:45 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-11-16 12:43:45 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 12:43:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-16 12:43:45 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-11-16 12:43:45 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-11-16 12:43:45 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 12:43:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-16 12:43:45 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-11-16 12:43:45 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-11-16 12:43:45 - [TEST_STEP][NOT_RUN] - Statement - row_MTCH = CustomKeywords.tradeFunds.TF_Regression.verifyBanner(ora_connt, ora_usr, ora_psswrd, ora_schema): NOT_RUN: Statement - row_MTCH = CustomKeywords.tradeFunds.TF_Regression.verifyBanner(ora_connt, ora_usr, ora_psswrd, ora_schema)
+
+2018-11-16 12:43:45 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - row_MTCH = CustomKeywords.tradeFunds.TF_Regression.verifyBanner(ora_connt, ora_usr, ora_psswrd, ora_schema)
+
+2018-11-16 12:43:45 - [TEST_STEP][NOT_RUN] - Statement - println("MTCH_Banner_Name"): NOT_RUN: Statement - println("MTCH_Banner_Name")
+
+2018-11-16 12:43:45 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println("MTCH_Banner_Name")
+
+2018-11-16 12:43:45 - [TEST_STEP][NOT_RUN] - verifyEqual: NOT_RUN: verifyEqual
+
+2018-11-16 12:43:45 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/TC_9_Create_SHL4_Sales_Region" classname="Test Cases/Regression_TF_Customer/TC_9_Create_SHL4_Sales_Region" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' located by 'By.xpath: //div[starts-with(@id,'aF:DVTC')]//td[@class = 'middle' and contains (text(),'Save')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542199427498.run(Script1542199427498.groovy:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-16 12:43:45 - [TEST_CASE][FAILED] - Test Cases/Regression_TF_Customer/TC_9_Create_SHL4_Sales_Region: Test Cases/Regression_TF_Customer/TC_9_Create_SHL4_Sales_Region FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' located by 'By.xpath: //div[starts-with(@id,'aF:DVTC')]//td[@class = 'middle' and contains (text(),'Save')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542199427498.run(Script1542199427498.groovy:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-16 12:43:45 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:45 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-16 12:43:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-16 12:43:45 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:45 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-16 12:43:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-16 12:43:45 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:45 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2018-11-16 12:43:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2018-11-16 12:43:46 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/4_Menu_Sales Region' is clicked on
+
+2018-11-16 12:43:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/4_Menu_Sales Region' is clicked on
+
+2018-11-16 12:43:46 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:43:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:43:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:43:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:43:48 - [TEST_STEP][PASSED] - setText: Text '1006' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/9_Create_SHL4_Sales_Region/Input_Sales_Region_Code/input_Sales_Region_Cd'
+
+2018-11-16 12:43:49 - [MESSAGE][PASSED] - Text '1006' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/9_Create_SHL4_Sales_Region/Input_Sales_Region_Code/input_Sales_Region_Cd'
+
+2018-11-16 12:43:49 - [TEST_STEP][PASSED] - setText: Text 'Test_Sales_Reg_0006' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/9_Create_SHL4_Sales_Region/Input_Sales_Region_Name/input_Sales_Region_Nm'
+
+2018-11-16 12:43:49 - [MESSAGE][PASSED] - Text 'Test_Sales_Reg_0006' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/9_Create_SHL4_Sales_Region/Input_Sales_Region_Name/input_Sales_Region_Nm'
+
+2018-11-16 12:43:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:43:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:43:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2018-11-16 12:43:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2018-11-16 12:43:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:43:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:43:53 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' located by 'By.xpath: //div[starts-with(@id,'aF:DVTC')]//td[@class = 'middle' and contains (text(),'Save')]' not found)
+
+2018-11-16 12:44:25 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' located by 'By.xpath: //div[starts-with(@id,'aF:DVTC')]//td[@class = 'middle' and contains (text(),'Save')]' not found)
+[[ATTACHMENT|D:\\Katalon\\Projects\\Trade_Funds\\TF_Regression\\Reports\\Regression_Test\\20181116_124031\\1542354265074.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-16 12:43:45 - [TEST_CASE][FAILED] - Test Cases/Regression_TF_Customer/TC_9_Create_SHL4_Sales_Region: Test Cases/Regression_TF_Customer/TC_9_Create_SHL4_Sales_Region FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' located by 'By.xpath: //div[starts-with(@id,'aF:DVTC')]//td[@class = 'middle' and contains (text(),'Save')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542199427498.run(Script1542199427498.groovy:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/TC_10_Create_SHL5_Sales_Market" classname="Test Cases/Regression_TF_Customer/TC_10_Create_SHL5_Sales_Market" status="PASSED">
+         <system-out><![CDATA[2018-11-16 12:44:25 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Customer/TC_10_Create_SHL5_Sales_Market: Test Cases/Regression_TF_Customer/TC_10_Create_SHL5_Sales_Market
+
+2018-11-16 12:44:25 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:44:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:44:25 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-16 12:44:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-16 12:44:25 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:44:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:44:25 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-16 12:44:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-16 12:44:25 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:44:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:44:25 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2018-11-16 12:44:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2018-11-16 12:44:26 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:44:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:44:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/5_Menu_Sales Market' is clicked on
+
+2018-11-16 12:44:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Sales_Hierarchy_Level/5_Menu_Sales Market' is clicked on
+
+2018-11-16 12:44:26 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 12:44:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 12:44:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:44:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:44:28 - [TEST_STEP][PASSED] - setText: Text '2007' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/10_Create_SHL5_Sales_Market/Input_Sales_Market_Code/input_Sales_Market_Cd'
+
+2018-11-16 12:44:28 - [MESSAGE][PASSED] - Text '2007' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/10_Create_SHL5_Sales_Market/Input_Sales_Market_Code/input_Sales_Market_Cd'
+
+2018-11-16 12:44:28 - [TEST_STEP][PASSED] - setText: Text 'Test_Sales_Mkt_007' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/10_Create_SHL5_Sales_Market/Input_Sales_Market_Name/input_Sales_Market_Nm'
+
+2018-11-16 12:44:29 - [MESSAGE][PASSED] - Text 'Test_Sales_Mkt_007' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/10_Create_SHL5_Sales_Market/Input_Sales_Market_Name/input_Sales_Market_Nm'
+
+2018-11-16 12:44:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:44:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:44:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2018-11-16 12:44:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2018-11-16 12:44:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:44:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:44:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2018-11-16 12:44:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2018-11-16 12:44:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 12:44:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 12:44:35 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-11-16 12:44:35 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-11-16 12:44:35 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 12:44:35 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-16 12:44:35 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-11-16 12:44:35 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-11-16 12:44:35 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 12:44:35 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-16 12:44:35 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-11-16 12:44:35 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-11-16 12:44:35 - [TEST_STEP][NOT_RUN] - Statement - row_MTCH = CustomKeywords.tradeFunds.TF_Regression.verifyBanner(ora_connt, ora_usr, ora_psswrd, ora_schema): NOT_RUN: Statement - row_MTCH = CustomKeywords.tradeFunds.TF_Regression.verifyBanner(ora_connt, ora_usr, ora_psswrd, ora_schema)
+
+2018-11-16 12:44:35 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - row_MTCH = CustomKeywords.tradeFunds.TF_Regression.verifyBanner(ora_connt, ora_usr, ora_psswrd, ora_schema)
+
+2018-11-16 12:44:35 - [TEST_STEP][NOT_RUN] - Statement - println("MTCH_Banner_Name"): NOT_RUN: Statement - println("MTCH_Banner_Name")
+
+2018-11-16 12:44:35 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println("MTCH_Banner_Name")
+
+2018-11-16 12:44:35 - [TEST_STEP][NOT_RUN] - verifyEqual: NOT_RUN: verifyEqual
+
+2018-11-16 12:44:35 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-16 12:40:33 - [TEST_SUITE][ERROR] - Regression_Test: Test Cases/Regression_TF_Customer/TC_1_Create_Banner FAILED because (of) (Stack trace: org.codehaus.groovy.runtime.InvokerInvocationException: java.sql.SQLException: The url cannot be null
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:100)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at tradeFunds.TF_Regression.invokeMethod(TF_Regression.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at Script1540912045214.run(Script1540912045214.groovy:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+Caused by: java.sql.SQLException: The url cannot be null
+	at java.sql.DriverManager.getConnection(DriverManager.java:649)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at tradeFunds.TF_Regression.verifyBanner(TF_Regression.groovy:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	... 42 more
+ (caused by: (Stack trace: java.sql.SQLException: The url cannot be null
+	at java.sql.DriverManager.getConnection(DriverManager.java:649)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at tradeFunds.TF_Regression.verifyBanner(TF_Regression.groovy:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at tradeFunds.TF_Regression.invokeMethod(TF_Regression.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at Script1540912045214.run(Script1540912045214.groovy:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)))]]></system-out>
+      <system-err><![CDATA[2018-11-16 12:40:33 - [TEST_SUITE][ERROR] - Regression_Test: Test Cases/Regression_TF_Customer/TC_1_Create_Banner FAILED because (of) (Stack trace: org.codehaus.groovy.runtime.InvokerInvocationException: java.sql.SQLException: The url cannot be null
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:100)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at tradeFunds.TF_Regression.invokeMethod(TF_Regression.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at Script1540912045214.run(Script1540912045214.groovy:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+Caused by: java.sql.SQLException: The url cannot be null
+	at java.sql.DriverManager.getConnection(DriverManager.java:649)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at tradeFunds.TF_Regression.verifyBanner(TF_Regression.groovy:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	... 42 more
+ (caused by: (Stack trace: java.sql.SQLException: The url cannot be null
+	at java.sql.DriverManager.getConnection(DriverManager.java:649)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at tradeFunds.TF_Regression.verifyBanner(TF_Regression.groovy:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at tradeFunds.TF_Regression.invokeMethod(TF_Regression.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at Script1540912045214.run(Script1540912045214.groovy:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542354031874.run(TempTestSuite1542354031874.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)))]]></system-err>
+   </testsuite>
+</testsuites>

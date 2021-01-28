@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Edit_Record_Test_Suite,,,2019-01-18 20:09:03,2019-01-18 20:09:03,0.844s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,,,2019-01-18 20:09:03,2019-01-18 20:09:03,0.678s,FAILED
+waitForPageLoad(G_Timeout),,,2019-01-18 20:09:03,2019-01-18 20:09:03,0.220s,FAILED

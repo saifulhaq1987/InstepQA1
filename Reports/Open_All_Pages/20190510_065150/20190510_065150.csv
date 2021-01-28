@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Open_All_Pages,Chrome 74.0.3729.131,,,2019-05-10 06:51:51,2019-05-10 06:53:15,1m - 23.897s,FAILED
+,,,,,,,
+Test Cases/Regression_TF_Product/Open_Pages/TC_1_Open_JMS_Sales_Organisation,Chrome 74.0.3729.131,This test case will open JMS Sales organistion page.,,2019-05-10 06:51:51,2019-05-10 06:52:04,12.737s,PASSED
+delay(6),Chrome 74.0.3729.131,,,2019-05-10 06:51:52,2019-05-10 06:51:58,6.085s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 74.0.3729.131,,,2019-05-10 06:51:58,2019-05-10 06:51:58,0.659s,PASSED
+waitForPageLoad(G_Timeout),Chrome 74.0.3729.131,,,2019-05-10 06:51:58,2019-05-10 06:51:59,0.061s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 74.0.3729.131,,,2019-05-10 06:51:59,2019-05-10 06:51:59,0.036s,PASSED
+waitForPageLoad(G_Timeout),Chrome 74.0.3729.131,,,2019-05-10 06:51:59,2019-05-10 06:51:59,0.010s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/1_Menu_JMS_Sales_Organisation""))",Chrome 74.0.3729.131,,,2019-05-10 06:51:59,2019-05-10 06:51:59,0.634s,PASSED
+waitForPageLoad(G_Timeout),Chrome 74.0.3729.131,,,2019-05-10 06:51:59,2019-05-10 06:51:59,0.012s,PASSED
+delay(5),Chrome 74.0.3729.131,,,2019-05-10 06:51:59,2019-05-10 06:52:04,5.004s,PASSED
+,,,,,,,
+Test Cases/Regression_TF_Product/Open_Pages/TC_2-1_Total_Company,Chrome 74.0.3729.131,This test case will open total company page by going into the Product Hierarchy level.,,2019-05-10 06:52:04,2019-05-10 06:52:39,34.624s,FAILED
+waitForPageLoad(G_Timeout),Chrome 74.0.3729.131,,,2019-05-10 06:52:04,2019-05-10 06:52:06,1.985s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 74.0.3729.131,,,2019-05-10 06:52:06,2019-05-10 06:52:39,32.514s,FAILED
+,,,,,,,
+Test Cases/Regression_TF_Product/Open_Pages/TC_3_Open_Product_Visibility_list,Chrome 74.0.3729.131,This test case will open the product visibiltiy list page.,,2019-05-10 06:52:39,2019-05-10 06:52:57,18.196s,FAILED
+delay(6),Chrome 74.0.3729.131,,,2019-05-10 06:52:39,2019-05-10 06:52:45,6.001s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 74.0.3729.131,,,2019-05-10 06:52:45,2019-05-10 06:52:57,12.073s,FAILED
+,,,,,,,
+Test Cases/Regression_TF_Product/Open_Pages/TC_4_Open_Adjustable_Rate_Policy,Chrome 74.0.3729.131,This test case will open the adjustable rate policy page.,,2019-05-10 06:52:57,2019-05-10 06:53:15,18.168s,FAILED
+delay(6),Chrome 74.0.3729.131,,,2019-05-10 06:52:57,2019-05-10 06:53:03,6.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 74.0.3729.131,,,2019-05-10 06:53:03,2019-05-10 06:53:15,12.052s,FAILED

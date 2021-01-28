@@ -1,0 +1,86 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Open_All_Pages,Firefox 63.0,,,2019-05-13 07:34:55,2019-05-13 07:37:23,2m - 27.942s,PASSED
+,,,,,,,
+Test Cases/General_Login_Logout/Login,Firefox 63.0,,,2019-05-13 07:34:55,2019-05-13 07:35:28,32.821s,PASSED
+"com.oracledb.regressiontest.LoginTFProduct(User, Password)",Firefox 63.0,,,2019-05-13 07:34:56,2019-05-13 07:35:28,32.434s,PASSED
+,,,,,,,
+Test Cases/Regression_TF_Product/Open_Pages/TC_1_Open_JMS_Sales_Organisation,Firefox 63.0,This test case will open JMS Sales organistion page.,,2019-05-13 07:35:28,2019-05-13 07:35:44,15.750s,PASSED
+delay(6),Firefox 63.0,,,2019-05-13 07:35:28,2019-05-13 07:35:34,6.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Firefox 63.0,,,2019-05-13 07:35:34,2019-05-13 07:35:35,0.187s,PASSED
+delay(3),Firefox 63.0,,,2019-05-13 07:35:35,2019-05-13 07:35:38,3.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Firefox 63.0,,,2019-05-13 07:35:38,2019-05-13 07:35:38,0.134s,PASSED
+delay(3),Firefox 63.0,,,2019-05-13 07:35:38,2019-05-13 07:35:41,3.003s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/1_Menu_JMS_Sales_Organisation""))",Firefox 63.0,,,2019-05-13 07:35:41,2019-05-13 07:35:41,0.261s,PASSED
+waitForPageLoad(G_Timeout),Firefox 63.0,,,2019-05-13 07:35:41,2019-05-13 07:35:41,0.007s,PASSED
+delay(3),Firefox 63.0,,,2019-05-13 07:35:41,2019-05-13 07:35:44,3.002s,PASSED
+,,,,,,,
+Test Cases/Regression_TF_Product/Open_Pages/TC_2-1_Total_Company,Firefox 63.0,This test case will open total company page by going into the Product Hierarchy level.,,2019-05-13 07:35:44,2019-05-13 07:35:56,11.827s,PASSED
+waitForPageLoad(G_Timeout),Firefox 63.0,,,2019-05-13 07:35:44,2019-05-13 07:35:44,0.009s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Firefox 63.0,,,2019-05-13 07:35:44,2019-05-13 07:35:44,0.137s,PASSED
+delay(3),Firefox 63.0,,,2019-05-13 07:35:44,2019-05-13 07:35:47,3.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Firefox 63.0,,,2019-05-13 07:35:47,2019-05-13 07:35:47,0.157s,PASSED
+delay(3),Firefox 63.0,,,2019-05-13 07:35:47,2019-05-13 07:35:50,3.005s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level,_Hoverover_Option""))",Firefox 63.0,,,2019-05-13 07:35:50,2019-05-13 07:35:51,0.149s,PASSED
+delay(2),Firefox 63.0,,,2019-05-13 07:35:51,2019-05-13 07:35:53,2.005s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_total_company""))",Firefox 63.0,,,2019-05-13 07:35:53,2019-05-13 07:35:53,0.263s,PASSED
+waitForPageLoad(G_Timeout),Firefox 63.0,,,2019-05-13 07:35:53,2019-05-13 07:35:53,0.007s,PASSED
+delay(3),Firefox 63.0,,,2019-05-13 07:35:53,2019-05-13 07:35:56,3.002s,PASSED
+,,,,,,,
+Test Cases/Regression_TF_Product/Open_Pages/TC_2-2_Product_Summary,Firefox 63.0,This test case will open page product summary.,,2019-05-13 07:35:56,2019-05-13 07:36:08,11.883s,PASSED
+waitForPageLoad(G_Timeout),Firefox 63.0,,,2019-05-13 07:35:56,2019-05-13 07:35:56,0.008s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Firefox 63.0,,,2019-05-13 07:35:56,2019-05-13 07:35:56,0.142s,PASSED
+delay(3),Firefox 63.0,,,2019-05-13 07:35:56,2019-05-13 07:35:59,3.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Firefox 63.0,,,2019-05-13 07:35:59,2019-05-13 07:35:59,0.154s,PASSED
+delay(3),Firefox 63.0,,,2019-05-13 07:35:59,2019-05-13 07:36:02,3.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level,_Hoverover_Option""))",Firefox 63.0,,,2019-05-13 07:36:02,2019-05-13 07:36:02,0.147s,PASSED
+delay(2),Firefox 63.0,,,2019-05-13 07:36:02,2019-05-13 07:36:04,2.003s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_Product_summary""))",Firefox 63.0,,,2019-05-13 07:36:04,2019-05-13 07:36:05,0.260s,PASSED
+waitForPageLoad(G_Timeout),Firefox 63.0,,,2019-05-13 07:36:05,2019-05-13 07:36:05,0.028s,PASSED
+delay(3),Firefox 63.0,,,2019-05-13 07:36:05,2019-05-13 07:36:08,3.006s,PASSED
+,,,,,,,
+Test Cases/Regression_TF_Product/Open_Pages/TC_2-3_Planning_Product,Firefox 63.0,This test case will open page product summary.,,2019-05-13 07:36:08,2019-05-13 07:36:20,11.869s,PASSED
+waitForPageLoad(G_Timeout),Firefox 63.0,,,2019-05-13 07:36:08,2019-05-13 07:36:08,0.009s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Firefox 63.0,,,2019-05-13 07:36:08,2019-05-13 07:36:08,0.129s,PASSED
+delay(3),Firefox 63.0,,,2019-05-13 07:36:08,2019-05-13 07:36:11,3.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Firefox 63.0,,,2019-05-13 07:36:11,2019-05-13 07:36:11,0.156s,PASSED
+delay(3),Firefox 63.0,,,2019-05-13 07:36:11,2019-05-13 07:36:14,3.006s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level,_Hoverover_Option""))",Firefox 63.0,,,2019-05-13 07:36:14,2019-05-13 07:36:14,0.129s,PASSED
+delay(2),Firefox 63.0,,,2019-05-13 07:36:14,2019-05-13 07:36:16,2.005s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_Planning_product""))",Firefox 63.0,,,2019-05-13 07:36:16,2019-05-13 07:36:17,0.312s,PASSED
+waitForPageLoad(G_Timeout),Firefox 63.0,,,2019-05-13 07:36:17,2019-05-13 07:36:17,0.014s,PASSED
+delay(3),Firefox 63.0,,,2019-05-13 07:36:17,2019-05-13 07:36:20,3.002s,PASSED
+,,,,,,,
+Test Cases/Regression_TF_Product/Open_Pages/TC_2-4_Sub_Planning_Product,Firefox 63.0,This test case will open page product summary.,,2019-05-13 07:36:20,2019-05-13 07:36:33,12.910s,PASSED
+waitForPageLoad(G_Timeout),Firefox 63.0,,,2019-05-13 07:36:20,2019-05-13 07:36:20,0.010s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Firefox 63.0,,,2019-05-13 07:36:20,2019-05-13 07:36:20,0.139s,PASSED
+delay(4),Firefox 63.0,,,2019-05-13 07:36:20,2019-05-13 07:36:24,4.002s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Firefox 63.0,,,2019-05-13 07:36:24,2019-05-13 07:36:24,0.154s,PASSED
+delay(3),Firefox 63.0,,,2019-05-13 07:36:24,2019-05-13 07:36:27,3.005s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level,_Hoverover_Option""))",Firefox 63.0,,,2019-05-13 07:36:27,2019-05-13 07:36:27,0.158s,PASSED
+delay(2),Firefox 63.0,,,2019-05-13 07:36:27,2019-05-13 07:36:29,2.005s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_Sub_Planning_Product""))",Firefox 63.0,,,2019-05-13 07:36:29,2019-05-13 07:36:30,0.299s,PASSED
+waitForPageLoad(G_Timeout),Firefox 63.0,,,2019-05-13 07:36:30,2019-05-13 07:36:30,0.014s,PASSED
+delay(3),Firefox 63.0,,,2019-05-13 07:36:30,2019-05-13 07:36:33,3.001s,PASSED
+,,,,,,,
+Test Cases/Regression_TF_Product/Open_Pages/TC_3_Open_Product_Visibility_list,Firefox 63.0,This test case will open the product visibiltiy list page.,,2019-05-13 07:36:33,2019-05-13 07:36:50,17.749s,PASSED
+delay(6),Firefox 63.0,,,2019-05-13 07:36:33,2019-05-13 07:36:39,6.002s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Firefox 63.0,,,2019-05-13 07:36:39,2019-05-13 07:36:39,0.160s,PASSED
+delay(3),Firefox 63.0,,,2019-05-13 07:36:39,2019-05-13 07:36:42,3.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Firefox 63.0,,,2019-05-13 07:36:42,2019-05-13 07:36:42,0.163s,PASSED
+delay(3),Firefox 63.0,,,2019-05-13 07:36:42,2019-05-13 07:36:45,3.005s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/3_Menu_Product_Visibility_list""))",Firefox 63.0,,,2019-05-13 07:36:45,2019-05-13 07:36:45,0.270s,PASSED
+waitForPageLoad(G_Timeout),Firefox 63.0,,,2019-05-13 07:36:45,2019-05-13 07:36:45,0.029s,PASSED
+delay(5),Firefox 63.0,,,2019-05-13 07:36:45,2019-05-13 07:36:50,5.003s,PASSED
+,,,,,,,
+Test Cases/Regression_TF_Product/Open_Pages/TC_4_Open_Adjustable_Rate_Policy,Firefox 63.0,This test case will open the adjustable rate policy page.,,2019-05-13 07:36:50,2019-05-13 07:37:03,12.263s,PASSED
+delay(6),Firefox 63.0,,,2019-05-13 07:36:50,2019-05-13 07:36:56,6.002s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Firefox 63.0,,,2019-05-13 07:36:56,2019-05-13 07:36:57,0.154s,PASSED
+waitForPageLoad(G_Timeout),Firefox 63.0,,,2019-05-13 07:36:57,2019-05-13 07:36:57,0.006s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Firefox 63.0,,,2019-05-13 07:36:57,2019-05-13 07:36:57,0.135s,PASSED
+waitForPageLoad(G_Timeout),Firefox 63.0,,,2019-05-13 07:36:57,2019-05-13 07:36:57,0.011s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Adjustable_rate_policy""))",Firefox 63.0,,,2019-05-13 07:36:57,2019-05-13 07:36:58,0.782s,PASSED
+waitForPageLoad(G_Timeout),Firefox 63.0,,,2019-05-13 07:36:58,2019-05-13 07:36:58,0.026s,PASSED
+delay(5),Firefox 63.0,,,2019-05-13 07:36:58,2019-05-13 07:37:03,5.002s,PASSED
+,,,,,,,
+Test Cases/General_Login_Logout/Logout,Firefox 63.0,,,2019-05-13 07:37:03,2019-05-13 07:37:23,20.664s,PASSED
+com.oracledb.regressiontest.logoutTFProduct(),Firefox 63.0,,,2019-05-13 07:37:03,2019-05-13 07:37:23,20.528s,PASSED

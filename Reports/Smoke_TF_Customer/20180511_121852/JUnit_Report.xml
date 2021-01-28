@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke_TF_Customer" time="94" tests="2" failures="1" errors="0">
+   <testsuite name="Smoke_TF_Customer" tests="2" failures="1" errors="0" time="94" timestamp="2018-05-11 12:18:53" hostname="Junaid.Tariq - Junaid.instepinc.com" id="Test Suites/Smoke_TF_Customer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_121852"/>
+         <property name="logFiles" value="D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_121852\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_121852\\1526023227186.png"/>
+         <property name="hostName" value="Junaid.Tariq - Junaid.instepinc.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="200.199.80.62"/>
+         <property name="sessionId" value="f9a27c425c8f496b9db17bc9e6261b91"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_1_Login" classname="Test Cases/Smoke_TF_Customer/TC_1_Login" status="PASSED">
+         <system-out><![CDATA[2018-05-11 12:18:54 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_1_Login: Test Cases/Smoke_TF_Customer/TC_1_Login
+
+2018-05-11 12:18:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://52.6.78.242:7008/e360/com.informatica.tools.mdm.web.auth/login'
+
+2018-05-11 12:19:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://52.6.78.242:7008/e360/com.informatica.tools.mdm.web.auth/login'
+
+2018-05-11 12:19:21 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 12:19:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 12:19:21 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-11 12:19:22 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-11 12:19:22 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_ Login/Btn_Login' is clickable
+
+2018-05-11 12:19:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ Login/Btn_Login' is clickable
+
+2018-05-11 12:19:22 - [TEST_STEP][PASSED] - setText: Text 'junaid_sm' is set on object 'Object Repository/Page_ Login/Txt_Username'
+
+2018-05-11 12:19:23 - [MESSAGE][PASSED] - Text 'junaid_sm' is set on object 'Object Repository/Page_ Login/Txt_Username'
+
+2018-05-11 12:19:23 - [TEST_STEP][PASSED] - setText: Text 'str0ng_2' is set on object 'Object Repository/Page_ Login/Txt_Password'
+
+2018-05-11 12:19:23 - [MESSAGE][PASSED] - Text 'str0ng_2' is set on object 'Object Repository/Page_ Login/Txt_Password'
+
+2018-05-11 12:19:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ Login/Btn_Login' is clicked on
+
+2018-05-11 12:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Login/Btn_Login' is clicked on
+
+2018-05-11 12:19:23 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 12:19:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 12:19:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Project_Selection/div_Trade Funds Customer' is clicked on
+
+2018-05-11 12:19:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Selection/div_Trade Funds Customer' is clicked on
+
+2018-05-11 12:19:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-11 12:19:49 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_3_Open_All_Pages" classname="Test Cases/Smoke_TF_Customer/TC_3_Open_All_Pages" status="PASSED">
+         <system-out><![CDATA[2018-05-11 12:19:49 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_3_Open_All_Pages: Test Cases/Smoke_TF_Customer/TC_3_Open_All_Pages
+
+2018-05-11 12:19:50 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 12:19:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 12:19:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/1_Banner' is clicked on
+
+2018-05-11 12:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/1_Banner' is clicked on
+
+2018-05-11 12:19:54 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 12:19:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 12:19:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/2_RGM Designated Baseline' is clicked on
+
+2018-05-11 12:19:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/2_RGM Designated Baseline' is clicked on
+
+2018-05-11 12:19:56 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 12:19:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 12:19:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/3_JMS Sales Organizations' is clicked on
+
+2018-05-11 12:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/3_JMS Sales Organizations' is clicked on
+
+2018-05-11 12:19:57 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 12:19:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 12:19:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/4_Consumption Baseline Source' is clicked on
+
+2018-05-11 12:19:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/4_Consumption Baseline Source' is clicked on
+
+2018-05-11 12:19:59 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 12:19:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 12:19:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/5_Corporate Customer' is clicked on
+
+2018-05-11 12:20:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/5_Corporate Customer' is clicked on
+
+2018-05-11 12:20:05 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 12:20:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 12:20:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/1_SBU (Sales Business Unit)' is clicked on
+
+2018-05-11 12:20:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/1_SBU (Sales Business Unit)' is clicked on
+
+2018-05-11 12:20:10 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 12:20:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 12:20:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/2_Sales Segment' is clicked on
+
+2018-05-11 12:20:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/2_Sales Segment' is clicked on
+
+2018-05-11 12:20:13 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 12:20:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 12:20:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/3_Sales Division' is clicked on
+
+2018-05-11 12:20:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/3_Sales Division' is clicked on
+
+2018-05-11 12:20:17 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 12:20:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 12:20:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/4_Sales Region' is clicked on
+
+2018-05-11 12:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/4_Sales Region' is clicked on
+
+2018-05-11 12:20:19 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 12:20:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 12:20:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/5_Sales Market' is clicked on
+
+2018-05-11 12:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/5_Sales Market' is clicked on
+
+2018-05-11 12:20:23 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 12:20:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 12:20:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Planning_Account/1_Planning Account' is clicked on
+
+2018-05-11 12:20:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Planning_Account/1_Planning Account' is clicked on
+
+2018-05-11 12:20:25 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 12:20:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 12:20:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Planning_Account/2_Sub Planning Account' is clicked on
+
+2018-05-11 12:20:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Planning_Account/2_Sub Planning Account' is clicked on
+
+2018-05-11 12:20:27 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 12:20:27 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_2_Logout" classname="Test Cases/Smoke_TF_Customer/TC_2_Logout" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_ Login/Btn_Logout' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JUNAID', ip: '200.199.80.62', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\JUNAID~1.TAR\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: f9a27c425c8f496b9db17bc9e6261b91)"/>
+         <system-out><![CDATA[2018-05-11 12:20:27 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_2_Logout: Test Cases/Smoke_TF_Customer/TC_2_Logout FAILED because (of) Unable to click on object 'Object Repository/Page_ Login/Btn_Logout' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JUNAID', ip: '200.199.80.62', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\JUNAID~1.TAR\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: f9a27c425c8f496b9db17bc9e6261b91)
+
+2018-05-11 12:20:27 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_ Login/Btn_Logout' is clickable
+
+2018-05-11 12:20:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-11 12:20:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ Login/Btn_Logout' is clickable
+
+2018-05-11 12:20:27 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_ Login/Btn_Logout' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JUNAID', ip: '200.199.80.62', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\JUNAID~1.TAR\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: f9a27c425c8f496b9db17bc9e6261b91)
+
+2018-05-11 12:20:27 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_ Login/Btn_Logout' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JUNAID', ip: '200.199.80.62', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\JUNAID~1.TAR\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: f9a27c425c8f496b9db17bc9e6261b91)
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_121852\\1526023227186.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-11 12:20:27 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_2_Logout: Test Cases/Smoke_TF_Customer/TC_2_Logout FAILED because (of) Unable to click on object 'Object Repository/Page_ Login/Btn_Logout' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JUNAID', ip: '200.199.80.62', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\JUNAID~1.TAR\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: f9a27c425c8f496b9db17bc9e6261b91)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-11 12:18:53 - [TEST_SUITE][FAILED] - Smoke_TF_Customer: Test Cases/Smoke_TF_Customer/TC_2_Logout FAILED because (of) Unable to click on object 'Object Repository/Page_ Login/Btn_Logout' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JUNAID', ip: '200.199.80.62', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\JUNAID~1.TAR\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: f9a27c425c8f496b9db17bc9e6261b91)]]></system-out>
+      <system-err><![CDATA[2018-05-11 12:18:53 - [TEST_SUITE][FAILED] - Smoke_TF_Customer: Test Cases/Smoke_TF_Customer/TC_2_Logout FAILED because (of) Unable to click on object 'Object Repository/Page_ Login/Btn_Logout' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'JUNAID', ip: '200.199.80.62', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\JUNAID~1.TAR\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: f9a27c425c8f496b9db17bc9e6261b91)]]></system-err>
+   </testsuite>
+</testsuites>

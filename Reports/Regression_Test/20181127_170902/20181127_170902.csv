@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression_Test,,,2018-11-27 17:09:03,2018-11-27 17:09:05,2.457s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_1_Create_Banner,,,2018-11-27 17:09:03,2018-11-27 17:09:04,0.491s,FAILED
+waitForPageLoad,,,2018-11-27 17:09:03,2018-11-27 17:09:04,0.242s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_2_Create_RGM_Designated_Baseline,,,2018-11-27 17:09:04,2018-11-27 17:09:04,0.146s,FAILED
+waitForPageLoad,,,2018-11-27 17:09:04,2018-11-27 17:09:04,0.004s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_3_Create_JMS_Sales_Org,,,2018-11-27 17:09:04,2018-11-27 17:09:04,0.151s,FAILED
+waitForPageLoad,,,2018-11-27 17:09:04,2018-11-27 17:09:04,0.003s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_4_Create_Consumption_Baseline_Source,,,2018-11-27 17:09:04,2018-11-27 17:09:04,0.137s,FAILED
+waitForPageLoad,,,2018-11-27 17:09:04,2018-11-27 17:09:04,0.003s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_5_Create_Corporate_Customer,,,2018-11-27 17:09:04,2018-11-27 17:09:04,0.141s,FAILED
+waitForPageLoad,,,2018-11-27 17:09:04,2018-11-27 17:09:04,0.002s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_6_Create_SHL1_SBU,,,2018-11-27 17:09:04,2018-11-27 17:09:04,0.140s,FAILED
+waitForPageLoad,,,2018-11-27 17:09:04,2018-11-27 17:09:04,0.002s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_7_Create_SHL2_Sales_Segment,,,2018-11-27 17:09:04,2018-11-27 17:09:04,0.096s,FAILED
+waitForPageLoad,,,2018-11-27 17:09:04,2018-11-27 17:09:04,0.003s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_8_Create_SHL3_Sales_Division,,,2018-11-27 17:09:04,2018-11-27 17:09:05,0.138s,FAILED
+waitForPageLoad,,,2018-11-27 17:09:05,2018-11-27 17:09:05,0.003s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_9_Create_SHL4_Sales_Region,,,2018-11-27 17:09:05,2018-11-27 17:09:05,0.142s,FAILED
+waitForPageLoad,,,2018-11-27 17:09:05,2018-11-27 17:09:05,0.002s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_10_Create_SHL5_Sales_Market,,,2018-11-27 17:09:05,2018-11-27 17:09:05,0.115s,FAILED
+waitForPageLoad,,,2018-11-27 17:09:05,2018-11-27 17:09:05,0.003s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_11_Open_PA_Planning_Account,,,2018-11-27 17:09:05,2018-11-27 17:09:05,0.238s,FAILED
+waitForPageLoad,,,2018-11-27 17:09:05,2018-11-27 17:09:05,0.002s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_12_Open_PA_Sub_Planning_Account,,,2018-11-27 17:09:05,2018-11-27 17:09:05,0.232s,FAILED
+waitForPageLoad,,,2018-11-27 17:09:05,2018-11-27 17:09:05,0.002s,FAILED

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="2_New Test Suite" time="50" tests="0" failures="1" errors="0">
+   <testsuite name="2_New Test Suite" tests="0" failures="1" errors="0" time="50" timestamp="2018-05-30 13:03:19" hostname="Junaid.Tariq - Junaid.instepinc.com" id="Test Suites/2_New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\2_New Test Suite\\20180530_130318"/>
+         <property name="logFiles" value="D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\2_New Test Suite\\20180530_130318\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\2_New Test Suite\\20180530_130318\\1527667449403.png"/>
+         <property name="hostName" value="Junaid.Tariq - Junaid.instepinc.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="200.199.80.62"/>
+         <property name="sessionId" value="abf62d901ca67a9755725cd888ca03c3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Smoke_TF_Customer/Create_Objects/TC_13_Create_Banner" classname="Test Cases/Smoke_TF_Customer/Create_Objects/TC_13_Create_Banner" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'Banner_X1' of object 'Object Repository/TF_Customer_Smoke_OpenPage/Create_Objects_And_Save/1_Create_Banner/2_Txt_Input_Banner_Name' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Create_Objects_And_Save/1_Create_Banner/2_Txt_Input_Banner_Name' located by 'By.xpath: //input[@id = 'aF:DVTC2:incDVTC2:inc_asset:inc_view:dv_GEDVB2_1:coreGEDVB2_1:inccorerowCPLR2:incBPC3:tfsfxBPC3' and @type = 'text' and @name = 'aF:DVTC2:incDVTC2:inc_asset:inc_view:dv_GEDVB2_1:coreGEDVB2_1:inccorerowCPLR2:incBPC3:tfsfxBPC3']' not found)"/>
+         <system-out><![CDATA[2018-05-30 13:03:19 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/Create_Objects/TC_13_Create_Banner: Test Cases/Smoke_TF_Customer/Create_Objects/TC_13_Create_Banner FAILED because (of) Unable to set text 'Banner_X1' of object 'Object Repository/TF_Customer_Smoke_OpenPage/Create_Objects_And_Save/1_Create_Banner/2_Txt_Input_Banner_Name' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Create_Objects_And_Save/1_Create_Banner/2_Txt_Input_Banner_Name' located by 'By.xpath: //input[@id = 'aF:DVTC2:incDVTC2:inc_asset:inc_view:dv_GEDVB2_1:coreGEDVB2_1:inccorerowCPLR2:incBPC3:tfsfxBPC3' and @type = 'text' and @name = 'aF:DVTC2:incDVTC2:inc_asset:inc_view:dv_GEDVB2_1:coreGEDVB2_1:inccorerowCPLR2:incBPC3:tfsfxBPC3']' not found)
+
+2018-05-30 13:03:20 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smoke_TF_Customer/TC_1_Open_Banner' successfully
+
+2018-05-30 13:03:20 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_1_Open_Banner: Test Cases/Smoke_TF_Customer/TC_1_Open_Banner
+
+2018-05-30 13:03:20 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-30 13:03:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-30 13:03:20 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-05-30 13:03:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-05-30 13:03:21 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-30 13:03:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-30 13:03:21 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-05-30 13:03:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-05-30 13:03:21 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-30 13:03:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-30 13:03:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/1_Menu_Banner' is clicked on
+
+2018-05-30 13:03:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/1_Menu_Banner' is clicked on
+
+2018-05-30 13:03:38 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-30 13:03:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-30 13:03:38 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-05-30 13:03:38 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent
+
+2018-05-30 13:03:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smoke_TF_Customer/TC_1_Open_Banner' successfully
+
+2018-05-30 13:03:38 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-30 13:03:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-30 13:03:38 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-05-30 13:03:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-05-30 13:03:38 - [TEST_STEP][FAILED] - setText: Unable to set text 'Banner_X1' of object 'Object Repository/TF_Customer_Smoke_OpenPage/Create_Objects_And_Save/1_Create_Banner/2_Txt_Input_Banner_Name' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Create_Objects_And_Save/1_Create_Banner/2_Txt_Input_Banner_Name' located by 'By.xpath: //input[@id = 'aF:DVTC2:incDVTC2:inc_asset:inc_view:dv_GEDVB2_1:coreGEDVB2_1:inccorerowCPLR2:incBPC3:tfsfxBPC3' and @type = 'text' and @name = 'aF:DVTC2:incDVTC2:inc_asset:inc_view:dv_GEDVB2_1:coreGEDVB2_1:inccorerowCPLR2:incBPC3:tfsfxBPC3']' not found)
+
+2018-05-30 13:04:09 - [MESSAGE][FAILED] - Unable to set text 'Banner_X1' of object 'Object Repository/TF_Customer_Smoke_OpenPage/Create_Objects_And_Save/1_Create_Banner/2_Txt_Input_Banner_Name' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Create_Objects_And_Save/1_Create_Banner/2_Txt_Input_Banner_Name' located by 'By.xpath: //input[@id = 'aF:DVTC2:incDVTC2:inc_asset:inc_view:dv_GEDVB2_1:coreGEDVB2_1:inccorerowCPLR2:incBPC3:tfsfxBPC3' and @type = 'text' and @name = 'aF:DVTC2:incDVTC2:inc_asset:inc_view:dv_GEDVB2_1:coreGEDVB2_1:inccorerowCPLR2:incBPC3:tfsfxBPC3']' not found)
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\2_New Test Suite\\20180530_130318\\1527667449403.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-30 13:03:19 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/Create_Objects/TC_13_Create_Banner: Test Cases/Smoke_TF_Customer/Create_Objects/TC_13_Create_Banner FAILED because (of) Unable to set text 'Banner_X1' of object 'Object Repository/TF_Customer_Smoke_OpenPage/Create_Objects_And_Save/1_Create_Banner/2_Txt_Input_Banner_Name' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Create_Objects_And_Save/1_Create_Banner/2_Txt_Input_Banner_Name' located by 'By.xpath: //input[@id = 'aF:DVTC2:incDVTC2:inc_asset:inc_view:dv_GEDVB2_1:coreGEDVB2_1:inccorerowCPLR2:incBPC3:tfsfxBPC3' and @type = 'text' and @name = 'aF:DVTC2:incDVTC2:inc_asset:inc_view:dv_GEDVB2_1:coreGEDVB2_1:inccorerowCPLR2:incBPC3:tfsfxBPC3']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-30 13:03:19 - [TEST_SUITE][FAILED] - 2_New Test Suite: Test Cases/Smoke_TF_Customer/Create_Objects/TC_13_Create_Banner FAILED because (of) Unable to set text 'Banner_X1' of object 'Object Repository/TF_Customer_Smoke_OpenPage/Create_Objects_And_Save/1_Create_Banner/2_Txt_Input_Banner_Name' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Create_Objects_And_Save/1_Create_Banner/2_Txt_Input_Banner_Name' located by 'By.xpath: //input[@id = 'aF:DVTC2:incDVTC2:inc_asset:inc_view:dv_GEDVB2_1:coreGEDVB2_1:inccorerowCPLR2:incBPC3:tfsfxBPC3' and @type = 'text' and @name = 'aF:DVTC2:incDVTC2:inc_asset:inc_view:dv_GEDVB2_1:coreGEDVB2_1:inccorerowCPLR2:incBPC3:tfsfxBPC3']' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-30 13:03:19 - [TEST_SUITE][FAILED] - 2_New Test Suite: Test Cases/Smoke_TF_Customer/Create_Objects/TC_13_Create_Banner FAILED because (of) Unable to set text 'Banner_X1' of object 'Object Repository/TF_Customer_Smoke_OpenPage/Create_Objects_And_Save/1_Create_Banner/2_Txt_Input_Banner_Name' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Create_Objects_And_Save/1_Create_Banner/2_Txt_Input_Banner_Name' located by 'By.xpath: //input[@id = 'aF:DVTC2:incDVTC2:inc_asset:inc_view:dv_GEDVB2_1:coreGEDVB2_1:inccorerowCPLR2:incBPC3:tfsfxBPC3' and @type = 'text' and @name = 'aF:DVTC2:incDVTC2:inc_asset:inc_view:dv_GEDVB2_1:coreGEDVB2_1:inccorerowCPLR2:incBPC3:tfsfxBPC3']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

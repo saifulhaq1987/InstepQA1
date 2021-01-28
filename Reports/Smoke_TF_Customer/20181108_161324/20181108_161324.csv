@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke_TF_Customer,,,2018-11-08 16:13:25,2018-11-08 16:13:57,31.722s,FAILED
+,,,,,,
+Test Cases/General_Login_Logout/Login,,,2018-11-08 16:13:25,2018-11-08 16:13:45,19.279s,FAILED
+tradeFunds.TF_Regression.LoginTFCustomer,,,2018-11-08 16:13:26,2018-11-08 16:13:45,18.995s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_1_Create_Banner,,,2018-11-08 16:13:45,2018-11-08 16:13:57,12.198s,FAILED
+waitForPageLoad,,,2018-11-08 16:13:45,2018-11-08 16:13:57,12.042s,FAILED

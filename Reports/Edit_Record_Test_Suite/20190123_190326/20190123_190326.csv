@@ -1,0 +1,1153 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Edit_Record_Test_Suite,Chrome 71.0.3578.98,,2019-01-23 19:03:27,2019-01-23 19:10:03,6m - 35.991s,PASSED
+,,,,,,
+Test Cases/General_Login_Logout/Login,Chrome 71.0.3578.98,,2019-01-23 19:03:27,2019-01-23 19:03:53,25.890s,PASSED
+"com.oracledb.regressiontest.LoginTFCustomer(User, Password)",Chrome 71.0.3578.98,,2019-01-23 19:03:27,2019-01-23 19:03:53,25.601s,PASSED
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:03:53,2019-01-23 19:04:17,24.497s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:03:53,2019-01-23 19:03:53,0.007s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:03:53,2019-01-23 19:03:53,0.048s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:03:53,2019-01-23 19:03:53,0.005s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:03:53,2019-01-23 19:04:03,9.532s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:03,2019-01-23 19:04:03,0.010s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:04:03,2019-01-23 19:04:03,0.600s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:03,2019-01-23 19:04:03,0.011s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:04:03,2019-01-23 19:04:03,0.068s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:03,2019-01-23 19:04:03,0.007s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:04:03,2019-01-23 19:04:06,3.003s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:04:06,2019-01-23 19:04:06,0.031s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:04:06,2019-01-23 19:04:06,0.001s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:04:06,2019-01-23 19:04:06,0.001s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:04:06,2019-01-23 19:04:06,0.002s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:04:06,2019-01-23 19:04:06,0.001s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:04:06,2019-01-23 19:04:08,2.044s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:04:08,2019-01-23 19:04:09,0.153s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:04:09,2019-01-23 19:04:09,0.127s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:04:09,2019-01-23 19:04:09,0.114s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:04:09,2019-01-23 19:04:09,0.124s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:04:09,2019-01-23 19:04:09,0.002s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:04:09,2019-01-23 19:04:11,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:04:11,2019-01-23 19:04:11,0.106s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:04:11,2019-01-23 19:04:11,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:04:11,2019-01-23 19:04:11,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:04:11,2019-01-23 19:04:13,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:04:13,2019-01-23 19:04:13,0.165s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:04:13,2019-01-23 19:04:15,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:04:15,2019-01-23 19:04:15,0.128s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:04:15,2019-01-23 19:04:17,2.001s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:04:17,2019-01-23 19:04:17,0.002s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:04:17,2019-01-23 19:04:17,0.002s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:04:17,2019-01-23 19:04:17,0.002s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:04:17,2019-01-23 19:04:17,0.002s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:04:17,2019-01-23 19:04:17,0.002s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:04:17,2019-01-23 19:04:17,0.002s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:04:17,2019-01-23 19:04:17,0.002s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:04:17,2019-01-23 19:04:17,0.000s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:04:17,2019-01-23 19:04:30,12.855s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:17,2019-01-23 19:04:17,0.007s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:04:17,2019-01-23 19:04:17,0.039s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:17,2019-01-23 19:04:17,0.022s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:04:17,2019-01-23 19:04:17,0.044s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:17,2019-01-23 19:04:18,0.005s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:04:18,2019-01-23 19:04:18,0.572s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:18,2019-01-23 19:04:18,0.007s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:04:18,2019-01-23 19:04:18,0.070s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:18,2019-01-23 19:04:18,0.007s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:04:18,2019-01-23 19:04:21,3.001s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:04:21,2019-01-23 19:04:21,0.002s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:04:21,2019-01-23 19:04:21,0.002s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:04:21,2019-01-23 19:04:21,0.002s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:04:21,2019-01-23 19:04:21,0.002s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:04:21,2019-01-23 19:04:21,0.002s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:04:21,2019-01-23 19:04:21,0.179s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:04:21,2019-01-23 19:04:21,0.126s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:04:21,2019-01-23 19:04:22,0.123s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:04:22,2019-01-23 19:04:22,0.112s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:04:22,2019-01-23 19:04:22,0.106s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:04:22,2019-01-23 19:04:22,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:04:22,2019-01-23 19:04:24,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:04:24,2019-01-23 19:04:24,0.078s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:04:24,2019-01-23 19:04:24,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:04:24,2019-01-23 19:04:24,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:04:24,2019-01-23 19:04:26,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:04:26,2019-01-23 19:04:26,0.122s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:04:26,2019-01-23 19:04:28,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:04:28,2019-01-23 19:04:28,0.157s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:04:28,2019-01-23 19:04:30,2.001s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:04:30,2019-01-23 19:04:30,0.002s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:04:30,2019-01-23 19:04:30,0.003s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:04:30,2019-01-23 19:04:30,0.002s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:04:30,2019-01-23 19:04:30,0.002s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:04:30,2019-01-23 19:04:30,0.002s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:04:30,2019-01-23 19:04:30,0.002s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:04:30,2019-01-23 19:04:30,0.003s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:04:30,2019-01-23 19:04:30,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:04:30,2019-01-23 19:04:43,12.837s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:30,2019-01-23 19:04:30,0.007s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:04:30,2019-01-23 19:04:30,0.036s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:30,2019-01-23 19:04:30,0.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:04:30,2019-01-23 19:04:30,0.040s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:30,2019-01-23 19:04:30,0.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:04:30,2019-01-23 19:04:31,0.550s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:31,2019-01-23 19:04:31,0.014s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:04:31,2019-01-23 19:04:31,0.074s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:31,2019-01-23 19:04:31,0.007s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:04:31,2019-01-23 19:04:34,3.002s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:04:34,2019-01-23 19:04:34,0.002s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:04:34,2019-01-23 19:04:34,0.001s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:04:34,2019-01-23 19:04:34,0.002s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:04:34,2019-01-23 19:04:34,0.002s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:04:34,2019-01-23 19:04:34,0.003s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:04:34,2019-01-23 19:04:34,0.187s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:04:34,2019-01-23 19:04:34,0.131s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:04:34,2019-01-23 19:04:34,0.116s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:04:34,2019-01-23 19:04:35,0.145s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:04:35,2019-01-23 19:04:35,0.113s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:04:35,2019-01-23 19:04:35,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:04:35,2019-01-23 19:04:37,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:04:37,2019-01-23 19:04:37,0.085s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:04:37,2019-01-23 19:04:37,0.000s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:04:37,2019-01-23 19:04:37,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:04:37,2019-01-23 19:04:39,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:04:39,2019-01-23 19:04:39,0.119s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:04:39,2019-01-23 19:04:41,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:04:41,2019-01-23 19:04:41,0.121s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:04:41,2019-01-23 19:04:43,2.001s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:04:43,2019-01-23 19:04:43,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:04:43,2019-01-23 19:04:43,0.002s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:04:43,2019-01-23 19:04:43,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:04:43,2019-01-23 19:04:43,0.002s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:04:43,2019-01-23 19:04:43,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:04:43,2019-01-23 19:04:43,0.001s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:04:43,2019-01-23 19:04:43,0.002s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:04:43,2019-01-23 19:04:43,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:04:43,2019-01-23 19:04:56,12.806s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:43,2019-01-23 19:04:43,0.008s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:04:43,2019-01-23 19:04:43,0.038s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:43,2019-01-23 19:04:43,0.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:04:43,2019-01-23 19:04:43,0.041s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:43,2019-01-23 19:04:43,0.005s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:04:43,2019-01-23 19:04:44,0.565s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:44,2019-01-23 19:04:44,0.011s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:04:44,2019-01-23 19:04:44,0.060s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:44,2019-01-23 19:04:44,0.004s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:04:44,2019-01-23 19:04:47,3.002s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:04:47,2019-01-23 19:04:47,0.003s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:04:47,2019-01-23 19:04:47,0.002s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:04:47,2019-01-23 19:04:47,0.002s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:04:47,2019-01-23 19:04:47,0.002s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:04:47,2019-01-23 19:04:47,0.001s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:04:47,2019-01-23 19:04:47,0.193s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:04:47,2019-01-23 19:04:47,0.135s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:04:47,2019-01-23 19:04:47,0.113s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:04:47,2019-01-23 19:04:47,0.106s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:04:47,2019-01-23 19:04:48,0.137s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:04:48,2019-01-23 19:04:48,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:04:48,2019-01-23 19:04:50,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:04:50,2019-01-23 19:04:50,0.080s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:04:50,2019-01-23 19:04:50,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:04:50,2019-01-23 19:04:50,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:04:50,2019-01-23 19:04:52,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:04:52,2019-01-23 19:04:52,0.123s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:04:52,2019-01-23 19:04:54,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:04:54,2019-01-23 19:04:54,0.118s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:04:54,2019-01-23 19:04:56,2.002s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:04:56,2019-01-23 19:04:56,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:04:56,2019-01-23 19:04:56,0.001s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:04:56,2019-01-23 19:04:56,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:04:56,2019-01-23 19:04:56,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:04:56,2019-01-23 19:04:56,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:04:56,2019-01-23 19:04:56,0.002s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:04:56,2019-01-23 19:04:56,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:04:56,2019-01-23 19:04:56,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:04:56,2019-01-23 19:05:09,12.783s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:56,2019-01-23 19:04:56,0.024s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:04:56,2019-01-23 19:04:56,0.051s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:56,2019-01-23 19:04:56,0.006s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:04:56,2019-01-23 19:04:56,0.048s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:56,2019-01-23 19:04:56,0.009s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:04:56,2019-01-23 19:04:57,0.552s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:57,2019-01-23 19:04:57,0.007s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:04:57,2019-01-23 19:04:57,0.067s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:04:57,2019-01-23 19:04:57,0.004s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:04:57,2019-01-23 19:05:00,3.002s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:05:00,2019-01-23 19:05:00,0.002s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:05:00,2019-01-23 19:05:00,0.001s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:05:00,2019-01-23 19:05:00,0.001s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:05:00,2019-01-23 19:05:00,0.001s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:05:00,2019-01-23 19:05:00,0.002s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:05:00,2019-01-23 19:05:00,0.177s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:05:00,2019-01-23 19:05:00,0.118s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:05:00,2019-01-23 19:05:00,0.111s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:05:00,2019-01-23 19:05:00,0.137s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:05:00,2019-01-23 19:05:00,0.099s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:05:00,2019-01-23 19:05:00,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:00,2019-01-23 19:05:02,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:05:02,2019-01-23 19:05:02,0.067s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:05:02,2019-01-23 19:05:02,0.000s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:05:02,2019-01-23 19:05:02,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:02,2019-01-23 19:05:04,2.000s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:05:04,2019-01-23 19:05:04,0.115s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:04,2019-01-23 19:05:06,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:05:07,2019-01-23 19:05:07,0.127s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:07,2019-01-23 19:05:09,2.002s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:05:09,2019-01-23 19:05:09,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:05:09,2019-01-23 19:05:09,0.002s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:05:09,2019-01-23 19:05:09,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:05:09,2019-01-23 19:05:09,0.002s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:09,2019-01-23 19:05:09,0.002s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:05:09,2019-01-23 19:05:09,0.001s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:05:09,2019-01-23 19:05:09,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:05:09,2019-01-23 19:05:09,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:05:09,2019-01-23 19:05:21,12.846s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:05:09,2019-01-23 19:05:09,0.007s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:05:09,2019-01-23 19:05:09,0.026s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:05:09,2019-01-23 19:05:09,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:05:09,2019-01-23 19:05:09,0.046s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:05:09,2019-01-23 19:05:09,0.022s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:05:09,2019-01-23 19:05:09,0.567s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:05:09,2019-01-23 19:05:09,0.008s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:05:09,2019-01-23 19:05:09,0.062s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:05:09,2019-01-23 19:05:09,0.005s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:05:09,2019-01-23 19:05:12,3.002s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:05:12,2019-01-23 19:05:12,0.002s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:05:12,2019-01-23 19:05:12,0.001s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:05:12,2019-01-23 19:05:12,0.001s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:05:12,2019-01-23 19:05:12,0.001s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:05:12,2019-01-23 19:05:12,0.001s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:05:12,2019-01-23 19:05:13,0.181s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:05:13,2019-01-23 19:05:13,0.121s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:05:13,2019-01-23 19:05:13,0.161s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:05:13,2019-01-23 19:05:13,0.113s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:05:13,2019-01-23 19:05:13,0.109s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:05:13,2019-01-23 19:05:13,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:13,2019-01-23 19:05:15,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:05:15,2019-01-23 19:05:15,0.083s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:05:15,2019-01-23 19:05:15,0.000s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:05:15,2019-01-23 19:05:15,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:15,2019-01-23 19:05:17,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:05:17,2019-01-23 19:05:17,0.144s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:17,2019-01-23 19:05:19,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:05:19,2019-01-23 19:05:19,0.129s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:19,2019-01-23 19:05:21,2.001s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:05:21,2019-01-23 19:05:21,0.002s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:05:21,2019-01-23 19:05:21,0.001s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:05:21,2019-01-23 19:05:21,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:05:21,2019-01-23 19:05:21,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:21,2019-01-23 19:05:21,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:05:21,2019-01-23 19:05:21,0.001s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:05:21,2019-01-23 19:05:21,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:05:21,2019-01-23 19:05:21,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:05:22,2019-01-23 19:05:34,12.814s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:05:22,2019-01-23 19:05:22,0.006s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:05:22,2019-01-23 19:05:22,0.038s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:05:22,2019-01-23 19:05:22,0.006s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:05:22,2019-01-23 19:05:22,0.046s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:05:22,2019-01-23 19:05:22,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:05:22,2019-01-23 19:05:22,0.547s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:05:22,2019-01-23 19:05:22,0.019s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:05:22,2019-01-23 19:05:22,0.073s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:05:22,2019-01-23 19:05:22,0.005s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:05:22,2019-01-23 19:05:25,3.001s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:05:25,2019-01-23 19:05:25,0.003s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:05:25,2019-01-23 19:05:25,0.002s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:05:25,2019-01-23 19:05:25,0.002s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:05:25,2019-01-23 19:05:25,0.003s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:05:25,2019-01-23 19:05:25,0.002s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:05:25,2019-01-23 19:05:25,0.189s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:05:25,2019-01-23 19:05:26,0.115s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:05:26,2019-01-23 19:05:26,0.144s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:05:26,2019-01-23 19:05:26,0.106s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:05:26,2019-01-23 19:05:26,0.093s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:05:26,2019-01-23 19:05:26,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:26,2019-01-23 19:05:28,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:05:28,2019-01-23 19:05:28,0.064s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:05:28,2019-01-23 19:05:28,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:05:28,2019-01-23 19:05:28,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:28,2019-01-23 19:05:30,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:05:30,2019-01-23 19:05:30,0.155s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:30,2019-01-23 19:05:32,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:05:32,2019-01-23 19:05:32,0.115s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:32,2019-01-23 19:05:34,2.001s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:05:34,2019-01-23 19:05:34,0.002s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:05:34,2019-01-23 19:05:34,0.001s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:05:34,2019-01-23 19:05:34,0.000s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:05:34,2019-01-23 19:05:34,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:34,2019-01-23 19:05:34,0.000s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:05:34,2019-01-23 19:05:34,0.000s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:05:34,2019-01-23 19:05:34,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:05:34,2019-01-23 19:05:34,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:05:34,2019-01-23 19:05:47,12.727s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:05:34,2019-01-23 19:05:34,0.005s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:05:34,2019-01-23 19:05:34,0.027s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:05:34,2019-01-23 19:05:34,0.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:05:34,2019-01-23 19:05:34,0.034s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:05:34,2019-01-23 19:05:34,0.005s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:05:34,2019-01-23 19:05:35,0.583s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:05:35,2019-01-23 19:05:35,0.008s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:05:35,2019-01-23 19:05:35,0.066s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:05:35,2019-01-23 19:05:35,0.006s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:05:35,2019-01-23 19:05:38,3.001s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:05:38,2019-01-23 19:05:38,0.002s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:05:38,2019-01-23 19:05:38,0.002s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:05:38,2019-01-23 19:05:38,0.002s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:05:38,2019-01-23 19:05:38,0.002s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:05:38,2019-01-23 19:05:38,0.001s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:05:38,2019-01-23 19:05:38,0.202s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:05:38,2019-01-23 19:05:38,0.113s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:05:38,2019-01-23 19:05:39,0.111s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:05:39,2019-01-23 19:05:39,0.104s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:05:39,2019-01-23 19:05:39,0.097s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:05:39,2019-01-23 19:05:39,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:39,2019-01-23 19:05:41,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:05:41,2019-01-23 19:05:41,0.066s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:05:41,2019-01-23 19:05:41,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:05:41,2019-01-23 19:05:41,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:41,2019-01-23 19:05:43,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:05:43,2019-01-23 19:05:43,0.127s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:43,2019-01-23 19:05:45,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:05:45,2019-01-23 19:05:45,0.118s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:45,2019-01-23 19:05:47,2.002s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:05:47,2019-01-23 19:05:47,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:05:47,2019-01-23 19:05:47,0.001s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:05:47,2019-01-23 19:05:47,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:05:47,2019-01-23 19:05:47,0.002s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:47,2019-01-23 19:05:47,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:05:47,2019-01-23 19:05:47,0.001s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:05:47,2019-01-23 19:05:47,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:05:47,2019-01-23 19:05:47,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:05:47,2019-01-23 19:06:00,12.807s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:05:47,2019-01-23 19:05:47,0.006s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:05:47,2019-01-23 19:05:47,0.040s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:05:47,2019-01-23 19:05:47,0.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:05:47,2019-01-23 19:05:47,0.041s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:05:47,2019-01-23 19:05:47,0.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:05:47,2019-01-23 19:05:48,0.547s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:05:48,2019-01-23 19:05:48,0.006s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:05:48,2019-01-23 19:05:48,0.070s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:05:48,2019-01-23 19:05:48,0.004s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:05:48,2019-01-23 19:05:51,3.002s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:05:51,2019-01-23 19:05:51,0.002s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:05:51,2019-01-23 19:05:51,0.002s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:05:51,2019-01-23 19:05:51,0.001s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:05:51,2019-01-23 19:05:51,0.001s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:05:51,2019-01-23 19:05:51,0.001s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:05:51,2019-01-23 19:05:51,0.193s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:05:51,2019-01-23 19:05:51,0.126s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:05:51,2019-01-23 19:05:51,0.120s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:05:51,2019-01-23 19:05:51,0.103s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:05:51,2019-01-23 19:05:51,0.095s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:05:51,2019-01-23 19:05:51,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:51,2019-01-23 19:05:53,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:05:53,2019-01-23 19:05:54,0.083s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:05:54,2019-01-23 19:05:54,0.000s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:05:54,2019-01-23 19:05:54,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:54,2019-01-23 19:05:56,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:05:56,2019-01-23 19:05:56,0.170s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:56,2019-01-23 19:05:58,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:05:58,2019-01-23 19:05:58,0.135s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:05:58,2019-01-23 19:06:00,2.001s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:06:00,2019-01-23 19:06:00,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:06:00,2019-01-23 19:06:00,0.001s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:06:00,2019-01-23 19:06:00,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:06:00,2019-01-23 19:06:00,0.002s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:00,2019-01-23 19:06:00,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:06:00,2019-01-23 19:06:00,0.001s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:06:00,2019-01-23 19:06:00,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:06:00,2019-01-23 19:06:00,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:06:00,2019-01-23 19:06:13,12.799s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:00,2019-01-23 19:06:00,0.007s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:06:00,2019-01-23 19:06:00,0.036s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:00,2019-01-23 19:06:00,0.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:06:00,2019-01-23 19:06:00,0.060s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:00,2019-01-23 19:06:00,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:06:00,2019-01-23 19:06:01,0.537s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:01,2019-01-23 19:06:01,0.003s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:06:01,2019-01-23 19:06:01,0.072s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:01,2019-01-23 19:06:01,0.013s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:06:01,2019-01-23 19:06:04,3.002s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:06:04,2019-01-23 19:06:04,0.002s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:06:04,2019-01-23 19:06:04,0.001s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:06:04,2019-01-23 19:06:04,0.001s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:06:04,2019-01-23 19:06:04,0.001s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:06:04,2019-01-23 19:06:04,0.002s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:06:04,2019-01-23 19:06:04,0.189s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:06:04,2019-01-23 19:06:04,0.123s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:06:04,2019-01-23 19:06:04,0.138s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:06:04,2019-01-23 19:06:04,0.118s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:06:04,2019-01-23 19:06:04,0.107s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:06:04,2019-01-23 19:06:04,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:04,2019-01-23 19:06:06,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:06:06,2019-01-23 19:06:06,0.075s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:06:06,2019-01-23 19:06:06,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:06:06,2019-01-23 19:06:06,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:06,2019-01-23 19:06:08,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:06:08,2019-01-23 19:06:09,0.125s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:09,2019-01-23 19:06:11,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:06:11,2019-01-23 19:06:11,0.124s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:11,2019-01-23 19:06:13,2.001s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:06:13,2019-01-23 19:06:13,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:06:13,2019-01-23 19:06:13,0.001s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:06:13,2019-01-23 19:06:13,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:06:13,2019-01-23 19:06:13,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:13,2019-01-23 19:06:13,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:06:13,2019-01-23 19:06:13,0.001s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:06:13,2019-01-23 19:06:13,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:06:13,2019-01-23 19:06:13,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:06:13,2019-01-23 19:06:25,12.774s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:13,2019-01-23 19:06:13,0.011s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:06:13,2019-01-23 19:06:13,0.051s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:13,2019-01-23 19:06:13,0.007s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:06:13,2019-01-23 19:06:13,0.031s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:13,2019-01-23 19:06:13,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:06:13,2019-01-23 19:06:13,0.567s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:13,2019-01-23 19:06:13,0.007s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:06:13,2019-01-23 19:06:13,0.065s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:13,2019-01-23 19:06:13,0.009s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:06:13,2019-01-23 19:06:16,3.002s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:06:16,2019-01-23 19:06:16,0.002s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:06:16,2019-01-23 19:06:16,0.002s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:06:16,2019-01-23 19:06:16,0.002s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:06:16,2019-01-23 19:06:16,0.001s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:06:16,2019-01-23 19:06:16,0.001s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:06:16,2019-01-23 19:06:17,0.211s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:06:17,2019-01-23 19:06:17,0.121s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:06:17,2019-01-23 19:06:17,0.108s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:06:17,2019-01-23 19:06:17,0.107s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:06:17,2019-01-23 19:06:17,0.101s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:06:17,2019-01-23 19:06:17,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:17,2019-01-23 19:06:19,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:06:19,2019-01-23 19:06:19,0.052s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:06:19,2019-01-23 19:06:19,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:06:19,2019-01-23 19:06:19,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:19,2019-01-23 19:06:21,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:06:21,2019-01-23 19:06:21,0.143s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:21,2019-01-23 19:06:23,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:06:23,2019-01-23 19:06:23,0.129s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:23,2019-01-23 19:06:25,2.001s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:06:25,2019-01-23 19:06:25,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:06:25,2019-01-23 19:06:25,0.001s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:06:25,2019-01-23 19:06:25,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:06:25,2019-01-23 19:06:25,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:25,2019-01-23 19:06:25,0.000s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:06:25,2019-01-23 19:06:25,0.000s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:06:25,2019-01-23 19:06:25,0.000s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:06:25,2019-01-23 19:06:25,0.000s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:06:25,2019-01-23 19:06:38,12.804s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:25,2019-01-23 19:06:25,0.010s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:06:25,2019-01-23 19:06:26,0.034s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:26,2019-01-23 19:06:26,0.005s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:06:26,2019-01-23 19:06:26,0.039s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:26,2019-01-23 19:06:26,0.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:06:26,2019-01-23 19:06:26,0.548s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:26,2019-01-23 19:06:26,0.005s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:06:26,2019-01-23 19:06:26,0.070s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:26,2019-01-23 19:06:26,0.029s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:06:26,2019-01-23 19:06:29,3.001s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:06:29,2019-01-23 19:06:29,0.002s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:06:29,2019-01-23 19:06:29,0.002s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:06:29,2019-01-23 19:06:29,0.002s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:06:29,2019-01-23 19:06:29,0.001s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:06:29,2019-01-23 19:06:29,0.001s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:06:29,2019-01-23 19:06:29,0.181s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:06:29,2019-01-23 19:06:30,0.118s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:06:30,2019-01-23 19:06:30,0.109s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:06:30,2019-01-23 19:06:30,0.105s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:06:30,2019-01-23 19:06:30,0.105s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:06:30,2019-01-23 19:06:30,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:30,2019-01-23 19:06:32,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:06:32,2019-01-23 19:06:32,0.065s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:06:32,2019-01-23 19:06:32,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:06:32,2019-01-23 19:06:32,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:32,2019-01-23 19:06:34,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:06:34,2019-01-23 19:06:34,0.142s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:34,2019-01-23 19:06:36,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:06:36,2019-01-23 19:06:36,0.176s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:36,2019-01-23 19:06:38,2.001s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:06:38,2019-01-23 19:06:38,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:06:38,2019-01-23 19:06:38,0.002s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:06:38,2019-01-23 19:06:38,0.002s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:06:38,2019-01-23 19:06:38,0.002s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:38,2019-01-23 19:06:38,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:06:38,2019-01-23 19:06:38,0.001s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:06:38,2019-01-23 19:06:38,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:06:38,2019-01-23 19:06:38,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:06:38,2019-01-23 19:06:51,12.841s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:38,2019-01-23 19:06:38,0.009s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:06:38,2019-01-23 19:06:38,0.044s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:38,2019-01-23 19:06:38,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:06:38,2019-01-23 19:06:38,0.041s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:38,2019-01-23 19:06:38,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:06:38,2019-01-23 19:06:39,0.568s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:39,2019-01-23 19:06:39,0.026s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:06:39,2019-01-23 19:06:39,0.056s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:39,2019-01-23 19:06:39,0.024s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:06:39,2019-01-23 19:06:42,3.001s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:06:42,2019-01-23 19:06:42,0.001s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:06:42,2019-01-23 19:06:42,0.001s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:06:42,2019-01-23 19:06:42,0.002s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:06:42,2019-01-23 19:06:42,0.001s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:06:42,2019-01-23 19:06:42,0.001s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:06:42,2019-01-23 19:06:42,0.196s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:06:42,2019-01-23 19:06:42,0.120s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:06:42,2019-01-23 19:06:42,0.112s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:06:42,2019-01-23 19:06:43,0.123s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:06:43,2019-01-23 19:06:43,0.135s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:06:43,2019-01-23 19:06:43,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:43,2019-01-23 19:06:45,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:06:45,2019-01-23 19:06:45,0.077s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:06:45,2019-01-23 19:06:45,0.000s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:06:45,2019-01-23 19:06:45,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:45,2019-01-23 19:06:47,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:06:47,2019-01-23 19:06:47,0.137s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:47,2019-01-23 19:06:49,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:06:49,2019-01-23 19:06:49,0.108s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:49,2019-01-23 19:06:51,2.001s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:06:51,2019-01-23 19:06:51,0.002s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:06:51,2019-01-23 19:06:51,0.001s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:06:51,2019-01-23 19:06:51,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:06:51,2019-01-23 19:06:51,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:51,2019-01-23 19:06:51,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:06:51,2019-01-23 19:06:51,0.007s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:06:51,2019-01-23 19:06:51,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:06:51,2019-01-23 19:06:51,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:06:51,2019-01-23 19:07:04,12.770s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:51,2019-01-23 19:06:51,0.007s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:06:51,2019-01-23 19:06:51,0.023s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:51,2019-01-23 19:06:51,0.011s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:06:51,2019-01-23 19:06:51,0.042s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:51,2019-01-23 19:06:51,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:06:51,2019-01-23 19:06:52,0.551s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:52,2019-01-23 19:06:52,0.006s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:06:52,2019-01-23 19:06:52,0.065s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:06:52,2019-01-23 19:06:52,0.003s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:06:52,2019-01-23 19:06:55,3.001s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:06:55,2019-01-23 19:06:55,0.002s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:06:55,2019-01-23 19:06:55,0.002s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:06:55,2019-01-23 19:06:55,0.002s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:06:55,2019-01-23 19:06:55,0.002s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:06:55,2019-01-23 19:06:55,0.002s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:06:55,2019-01-23 19:06:55,0.218s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:06:55,2019-01-23 19:06:55,0.116s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:06:55,2019-01-23 19:06:55,0.110s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:06:55,2019-01-23 19:06:55,0.144s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:06:55,2019-01-23 19:06:56,0.116s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:06:56,2019-01-23 19:06:56,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:56,2019-01-23 19:06:58,2.000s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:06:58,2019-01-23 19:06:58,0.054s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:06:58,2019-01-23 19:06:58,0.000s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:06:58,2019-01-23 19:06:58,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:06:58,2019-01-23 19:07:00,2.000s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:07:00,2019-01-23 19:07:00,0.129s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:00,2019-01-23 19:07:02,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:07:02,2019-01-23 19:07:02,0.118s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:02,2019-01-23 19:07:04,2.002s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:07:04,2019-01-23 19:07:04,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:07:04,2019-01-23 19:07:04,0.002s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:07:04,2019-01-23 19:07:04,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:07:04,2019-01-23 19:07:04,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:04,2019-01-23 19:07:04,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:07:04,2019-01-23 19:07:04,0.001s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:07:04,2019-01-23 19:07:04,0.002s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:07:04,2019-01-23 19:07:04,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:07:04,2019-01-23 19:07:17,12.754s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:04,2019-01-23 19:07:04,0.013s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:07:04,2019-01-23 19:07:04,0.035s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:04,2019-01-23 19:07:04,0.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:07:04,2019-01-23 19:07:04,0.041s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:04,2019-01-23 19:07:04,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:07:04,2019-01-23 19:07:05,0.548s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:05,2019-01-23 19:07:05,0.005s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:07:05,2019-01-23 19:07:05,0.055s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:05,2019-01-23 19:07:05,0.004s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:07:05,2019-01-23 19:07:08,3.002s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:07:08,2019-01-23 19:07:08,0.002s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:07:08,2019-01-23 19:07:08,0.001s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:07:08,2019-01-23 19:07:08,0.001s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:07:08,2019-01-23 19:07:08,0.001s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:07:08,2019-01-23 19:07:08,0.002s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:07:08,2019-01-23 19:07:08,0.172s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:07:08,2019-01-23 19:07:08,0.112s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:07:08,2019-01-23 19:07:08,0.111s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:07:08,2019-01-23 19:07:08,0.151s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:07:08,2019-01-23 19:07:08,0.110s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:07:08,2019-01-23 19:07:08,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:08,2019-01-23 19:07:10,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:07:10,2019-01-23 19:07:10,0.083s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:07:10,2019-01-23 19:07:10,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:07:10,2019-01-23 19:07:10,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:10,2019-01-23 19:07:12,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:07:12,2019-01-23 19:07:12,0.123s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:12,2019-01-23 19:07:14,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:07:14,2019-01-23 19:07:15,0.127s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:15,2019-01-23 19:07:17,2.001s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:07:17,2019-01-23 19:07:17,0.002s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:07:17,2019-01-23 19:07:17,0.001s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:07:17,2019-01-23 19:07:17,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:07:17,2019-01-23 19:07:17,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:17,2019-01-23 19:07:17,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:07:17,2019-01-23 19:07:17,0.001s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:07:17,2019-01-23 19:07:17,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:07:17,2019-01-23 19:07:17,0.002s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:07:17,2019-01-23 19:07:29,12.756s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:17,2019-01-23 19:07:17,0.010s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:07:17,2019-01-23 19:07:17,0.025s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:17,2019-01-23 19:07:17,0.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:07:17,2019-01-23 19:07:17,0.032s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:17,2019-01-23 19:07:17,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:07:17,2019-01-23 19:07:17,0.547s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:17,2019-01-23 19:07:17,0.005s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:07:17,2019-01-23 19:07:17,0.069s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:17,2019-01-23 19:07:17,0.004s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:07:17,2019-01-23 19:07:20,3.002s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:07:20,2019-01-23 19:07:20,0.001s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:07:20,2019-01-23 19:07:20,0.001s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:07:20,2019-01-23 19:07:20,0.001s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:07:20,2019-01-23 19:07:20,0.002s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:07:20,2019-01-23 19:07:20,0.001s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:07:20,2019-01-23 19:07:21,0.166s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:07:21,2019-01-23 19:07:21,0.134s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:07:21,2019-01-23 19:07:21,0.115s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:07:21,2019-01-23 19:07:21,0.108s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:07:21,2019-01-23 19:07:21,0.132s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:07:21,2019-01-23 19:07:21,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:21,2019-01-23 19:07:23,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:07:23,2019-01-23 19:07:23,0.083s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:07:23,2019-01-23 19:07:23,0.000s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:07:23,2019-01-23 19:07:23,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:23,2019-01-23 19:07:25,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:07:25,2019-01-23 19:07:25,0.148s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:25,2019-01-23 19:07:27,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:07:27,2019-01-23 19:07:27,0.124s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:27,2019-01-23 19:07:29,2.001s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:07:29,2019-01-23 19:07:29,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:07:29,2019-01-23 19:07:29,0.001s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:07:29,2019-01-23 19:07:29,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:07:29,2019-01-23 19:07:29,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:29,2019-01-23 19:07:29,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:07:29,2019-01-23 19:07:29,0.001s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:07:29,2019-01-23 19:07:29,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:07:29,2019-01-23 19:07:29,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:07:29,2019-01-23 19:07:42,12.748s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:29,2019-01-23 19:07:29,0.007s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:07:29,2019-01-23 19:07:29,0.036s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:29,2019-01-23 19:07:29,0.005s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:07:29,2019-01-23 19:07:29,0.040s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:29,2019-01-23 19:07:30,0.005s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:07:30,2019-01-23 19:07:30,0.563s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:30,2019-01-23 19:07:30,0.005s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:07:30,2019-01-23 19:07:30,0.053s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:30,2019-01-23 19:07:30,0.003s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:07:30,2019-01-23 19:07:33,3.001s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:07:33,2019-01-23 19:07:33,0.002s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:07:33,2019-01-23 19:07:33,0.001s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:07:33,2019-01-23 19:07:33,0.001s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:07:33,2019-01-23 19:07:33,0.001s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:07:33,2019-01-23 19:07:33,0.002s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:07:33,2019-01-23 19:07:33,0.197s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:07:33,2019-01-23 19:07:33,0.126s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:07:33,2019-01-23 19:07:34,0.109s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:07:34,2019-01-23 19:07:34,0.110s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:07:34,2019-01-23 19:07:34,0.095s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:07:34,2019-01-23 19:07:34,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:34,2019-01-23 19:07:36,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:07:36,2019-01-23 19:07:36,0.057s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:07:36,2019-01-23 19:07:36,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:07:36,2019-01-23 19:07:36,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:36,2019-01-23 19:07:38,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:07:38,2019-01-23 19:07:38,0.162s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:38,2019-01-23 19:07:40,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:07:40,2019-01-23 19:07:40,0.116s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:40,2019-01-23 19:07:42,2.001s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:07:42,2019-01-23 19:07:42,0.002s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:07:42,2019-01-23 19:07:42,0.002s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:07:42,2019-01-23 19:07:42,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:07:42,2019-01-23 19:07:42,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:42,2019-01-23 19:07:42,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:07:42,2019-01-23 19:07:42,0.001s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:07:42,2019-01-23 19:07:42,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:07:42,2019-01-23 19:07:42,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:07:42,2019-01-23 19:07:55,12.758s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:42,2019-01-23 19:07:42,0.007s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:07:42,2019-01-23 19:07:42,0.029s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:42,2019-01-23 19:07:42,0.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:07:42,2019-01-23 19:07:42,0.042s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:42,2019-01-23 19:07:42,0.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:07:42,2019-01-23 19:07:43,0.548s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:43,2019-01-23 19:07:43,0.006s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:07:43,2019-01-23 19:07:43,0.068s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:43,2019-01-23 19:07:43,0.004s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:07:43,2019-01-23 19:07:46,3.001s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:07:46,2019-01-23 19:07:46,0.002s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:07:46,2019-01-23 19:07:46,0.002s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:07:46,2019-01-23 19:07:46,0.001s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:07:46,2019-01-23 19:07:46,0.001s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:07:46,2019-01-23 19:07:46,0.002s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:07:46,2019-01-23 19:07:46,0.189s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:07:46,2019-01-23 19:07:46,0.113s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:07:46,2019-01-23 19:07:46,0.107s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:07:46,2019-01-23 19:07:46,0.137s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:07:46,2019-01-23 19:07:47,0.095s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:07:47,2019-01-23 19:07:47,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:47,2019-01-23 19:07:49,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:07:49,2019-01-23 19:07:49,0.069s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:07:49,2019-01-23 19:07:49,0.000s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:07:49,2019-01-23 19:07:49,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:49,2019-01-23 19:07:51,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:07:51,2019-01-23 19:07:51,0.145s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:51,2019-01-23 19:07:53,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:07:53,2019-01-23 19:07:53,0.133s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:53,2019-01-23 19:07:55,2.001s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:07:55,2019-01-23 19:07:55,0.002s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:07:55,2019-01-23 19:07:55,0.001s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:07:55,2019-01-23 19:07:55,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:07:55,2019-01-23 19:07:55,0.002s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:55,2019-01-23 19:07:55,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:07:55,2019-01-23 19:07:55,0.001s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:07:55,2019-01-23 19:07:55,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:07:55,2019-01-23 19:07:55,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:07:55,2019-01-23 19:08:08,12.829s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:55,2019-01-23 19:07:55,0.009s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:07:55,2019-01-23 19:07:55,0.026s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:55,2019-01-23 19:07:55,0.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:07:55,2019-01-23 19:07:55,0.032s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:55,2019-01-23 19:07:55,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:07:55,2019-01-23 19:07:56,0.567s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:56,2019-01-23 19:07:56,0.006s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:07:56,2019-01-23 19:07:56,0.068s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:07:56,2019-01-23 19:07:56,0.004s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:07:56,2019-01-23 19:07:59,3.001s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:07:59,2019-01-23 19:07:59,0.002s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:07:59,2019-01-23 19:07:59,0.001s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:07:59,2019-01-23 19:07:59,0.001s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:07:59,2019-01-23 19:07:59,0.001s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:07:59,2019-01-23 19:07:59,0.001s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:07:59,2019-01-23 19:07:59,0.197s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:07:59,2019-01-23 19:07:59,0.136s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:07:59,2019-01-23 19:07:59,0.114s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:07:59,2019-01-23 19:07:59,0.145s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:07:59,2019-01-23 19:07:59,0.100s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:07:59,2019-01-23 19:07:59,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:07:59,2019-01-23 19:08:01,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:08:01,2019-01-23 19:08:01,0.063s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:08:01,2019-01-23 19:08:01,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:08:01,2019-01-23 19:08:01,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:01,2019-01-23 19:08:03,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:08:03,2019-01-23 19:08:04,0.155s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:04,2019-01-23 19:08:06,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:08:06,2019-01-23 19:08:06,0.150s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:06,2019-01-23 19:08:08,2.000s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:08:08,2019-01-23 19:08:08,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:08:08,2019-01-23 19:08:08,0.002s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:08:08,2019-01-23 19:08:08,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:08:08,2019-01-23 19:08:08,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:08,2019-01-23 19:08:08,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:08:08,2019-01-23 19:08:08,0.001s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:08:08,2019-01-23 19:08:08,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:08:08,2019-01-23 19:08:08,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:08:08,2019-01-23 19:08:21,12.814s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:08,2019-01-23 19:08:08,0.012s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:08:08,2019-01-23 19:08:08,0.033s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:08,2019-01-23 19:08:08,0.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:08:08,2019-01-23 19:08:08,0.040s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:08,2019-01-23 19:08:08,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:08:08,2019-01-23 19:08:08,0.548s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:08,2019-01-23 19:08:08,0.006s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:08:08,2019-01-23 19:08:08,0.070s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:08,2019-01-23 19:08:08,0.004s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:08:08,2019-01-23 19:08:11,3.001s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:08:11,2019-01-23 19:08:11,0.002s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:08:11,2019-01-23 19:08:11,0.002s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:08:11,2019-01-23 19:08:11,0.002s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:08:11,2019-01-23 19:08:11,0.002s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:08:11,2019-01-23 19:08:11,0.001s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:08:11,2019-01-23 19:08:12,0.201s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:08:12,2019-01-23 19:08:12,0.138s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:08:12,2019-01-23 19:08:12,0.107s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:08:12,2019-01-23 19:08:12,0.140s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:08:12,2019-01-23 19:08:12,0.099s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:08:12,2019-01-23 19:08:12,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:12,2019-01-23 19:08:14,2.000s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:08:14,2019-01-23 19:08:14,0.056s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:08:14,2019-01-23 19:08:14,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:08:14,2019-01-23 19:08:14,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:14,2019-01-23 19:08:16,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:08:16,2019-01-23 19:08:16,0.134s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:16,2019-01-23 19:08:18,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:08:18,2019-01-23 19:08:19,0.163s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:19,2019-01-23 19:08:21,2.001s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:08:21,2019-01-23 19:08:21,0.002s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:08:21,2019-01-23 19:08:21,0.002s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:08:21,2019-01-23 19:08:21,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:08:21,2019-01-23 19:08:21,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:21,2019-01-23 19:08:21,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:08:21,2019-01-23 19:08:21,0.001s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:08:21,2019-01-23 19:08:21,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:08:21,2019-01-23 19:08:21,0.002s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:08:21,2019-01-23 19:08:33,12.753s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:21,2019-01-23 19:08:21,0.006s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:08:21,2019-01-23 19:08:21,0.027s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:21,2019-01-23 19:08:21,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:08:21,2019-01-23 19:08:21,0.025s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:21,2019-01-23 19:08:21,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:08:21,2019-01-23 19:08:21,0.566s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:21,2019-01-23 19:08:21,0.006s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:08:21,2019-01-23 19:08:21,0.069s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:21,2019-01-23 19:08:21,0.005s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:08:21,2019-01-23 19:08:24,3.001s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:08:24,2019-01-23 19:08:24,0.002s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:08:24,2019-01-23 19:08:24,0.001s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:08:24,2019-01-23 19:08:24,0.002s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:08:24,2019-01-23 19:08:24,0.002s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:08:24,2019-01-23 19:08:24,0.001s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:08:24,2019-01-23 19:08:24,0.185s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:08:24,2019-01-23 19:08:25,0.140s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:08:25,2019-01-23 19:08:25,0.106s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:08:25,2019-01-23 19:08:25,0.101s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:08:25,2019-01-23 19:08:25,0.098s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:08:25,2019-01-23 19:08:25,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:25,2019-01-23 19:08:27,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:08:27,2019-01-23 19:08:27,0.062s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:08:27,2019-01-23 19:08:27,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:08:27,2019-01-23 19:08:27,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:27,2019-01-23 19:08:29,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:08:29,2019-01-23 19:08:29,0.128s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:29,2019-01-23 19:08:31,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:08:31,2019-01-23 19:08:31,0.163s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:31,2019-01-23 19:08:33,2.002s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:08:33,2019-01-23 19:08:33,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:08:33,2019-01-23 19:08:33,0.001s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:08:33,2019-01-23 19:08:33,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:08:33,2019-01-23 19:08:33,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:33,2019-01-23 19:08:33,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:08:33,2019-01-23 19:08:33,0.001s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:08:33,2019-01-23 19:08:33,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:08:33,2019-01-23 19:08:33,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:08:33,2019-01-23 19:08:46,12.779s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:33,2019-01-23 19:08:33,0.006s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:08:33,2019-01-23 19:08:33,0.039s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:33,2019-01-23 19:08:33,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:08:33,2019-01-23 19:08:33,0.054s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:33,2019-01-23 19:08:33,0.005s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:08:33,2019-01-23 19:08:34,0.569s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:34,2019-01-23 19:08:34,0.007s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:08:34,2019-01-23 19:08:34,0.069s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:34,2019-01-23 19:08:34,0.004s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:08:34,2019-01-23 19:08:37,3.000s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:08:37,2019-01-23 19:08:37,0.000s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:08:37,2019-01-23 19:08:37,0.001s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:08:37,2019-01-23 19:08:37,0.000s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:08:37,2019-01-23 19:08:37,0.001s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:08:37,2019-01-23 19:08:37,0.000s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:08:37,2019-01-23 19:08:37,0.150s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:08:37,2019-01-23 19:08:37,0.140s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:08:37,2019-01-23 19:08:37,0.106s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:08:37,2019-01-23 19:08:38,0.104s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:08:38,2019-01-23 19:08:38,0.100s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:08:38,2019-01-23 19:08:38,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:38,2019-01-23 19:08:40,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:08:40,2019-01-23 19:08:40,0.057s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:08:40,2019-01-23 19:08:40,0.000s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:08:40,2019-01-23 19:08:40,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:40,2019-01-23 19:08:42,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:08:42,2019-01-23 19:08:42,0.169s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:42,2019-01-23 19:08:44,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:08:44,2019-01-23 19:08:44,0.146s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:44,2019-01-23 19:08:46,2.002s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:08:46,2019-01-23 19:08:46,0.002s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:08:46,2019-01-23 19:08:46,0.001s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:08:46,2019-01-23 19:08:46,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:08:46,2019-01-23 19:08:46,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:46,2019-01-23 19:08:46,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:08:46,2019-01-23 19:08:46,0.001s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:08:46,2019-01-23 19:08:46,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:08:46,2019-01-23 19:08:46,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:08:46,2019-01-23 19:08:59,12.831s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:46,2019-01-23 19:08:46,0.008s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:08:46,2019-01-23 19:08:46,0.029s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:46,2019-01-23 19:08:46,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:08:46,2019-01-23 19:08:46,0.034s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:46,2019-01-23 19:08:46,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:08:46,2019-01-23 19:08:47,0.564s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:47,2019-01-23 19:08:47,0.004s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:08:47,2019-01-23 19:08:47,0.087s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:47,2019-01-23 19:08:47,0.005s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:08:47,2019-01-23 19:08:50,3.001s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:08:50,2019-01-23 19:08:50,0.001s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:08:50,2019-01-23 19:08:50,0.000s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:08:50,2019-01-23 19:08:50,0.000s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:08:50,2019-01-23 19:08:50,0.001s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:08:50,2019-01-23 19:08:50,0.001s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:08:50,2019-01-23 19:08:50,0.162s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:08:50,2019-01-23 19:08:50,0.146s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:08:50,2019-01-23 19:08:50,0.113s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:08:50,2019-01-23 19:08:50,0.151s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:08:50,2019-01-23 19:08:51,0.126s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:08:51,2019-01-23 19:08:51,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:51,2019-01-23 19:08:53,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:08:53,2019-01-23 19:08:53,0.080s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:08:53,2019-01-23 19:08:53,0.000s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:08:53,2019-01-23 19:08:53,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:53,2019-01-23 19:08:55,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:08:55,2019-01-23 19:08:55,0.134s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:55,2019-01-23 19:08:57,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:08:57,2019-01-23 19:08:57,0.131s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:57,2019-01-23 19:08:59,2.001s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:08:59,2019-01-23 19:08:59,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:08:59,2019-01-23 19:08:59,0.001s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:08:59,2019-01-23 19:08:59,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:08:59,2019-01-23 19:08:59,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:08:59,2019-01-23 19:08:59,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:08:59,2019-01-23 19:08:59,0.000s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:08:59,2019-01-23 19:08:59,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:08:59,2019-01-23 19:08:59,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:08:59,2019-01-23 19:09:12,12.749s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:59,2019-01-23 19:08:59,0.025s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:08:59,2019-01-23 19:08:59,0.025s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:59,2019-01-23 19:08:59,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:08:59,2019-01-23 19:08:59,0.027s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:08:59,2019-01-23 19:08:59,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:08:59,2019-01-23 19:09:00,0.567s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:00,2019-01-23 19:09:00,0.008s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:09:00,2019-01-23 19:09:00,0.098s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:00,2019-01-23 19:09:00,0.004s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:09:00,2019-01-23 19:09:03,3.001s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:09:03,2019-01-23 19:09:03,0.001s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:09:03,2019-01-23 19:09:03,0.001s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:09:03,2019-01-23 19:09:03,0.001s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:09:03,2019-01-23 19:09:03,0.001s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:09:03,2019-01-23 19:09:03,0.001s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:09:03,2019-01-23 19:09:03,0.194s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:09:03,2019-01-23 19:09:03,0.112s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:09:03,2019-01-23 19:09:03,0.134s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:09:03,2019-01-23 19:09:03,0.135s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:09:03,2019-01-23 19:09:03,0.109s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:09:03,2019-01-23 19:09:03,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:03,2019-01-23 19:09:05,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:09:05,2019-01-23 19:09:05,0.032s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:09:05,2019-01-23 19:09:05,0.000s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:09:05,2019-01-23 19:09:05,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:05,2019-01-23 19:09:07,2.000s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:09:07,2019-01-23 19:09:08,0.119s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:08,2019-01-23 19:09:10,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:09:10,2019-01-23 19:09:10,0.091s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:10,2019-01-23 19:09:12,2.001s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:09:12,2019-01-23 19:09:12,0.002s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:09:12,2019-01-23 19:09:12,0.004s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:09:12,2019-01-23 19:09:12,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:09:12,2019-01-23 19:09:12,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:12,2019-01-23 19:09:12,0.000s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:09:12,2019-01-23 19:09:12,0.001s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:09:12,2019-01-23 19:09:12,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:09:12,2019-01-23 19:09:12,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:09:12,2019-01-23 19:09:24,12.816s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:12,2019-01-23 19:09:12,0.012s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:09:12,2019-01-23 19:09:12,0.041s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:12,2019-01-23 19:09:12,0.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:09:12,2019-01-23 19:09:12,0.046s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:12,2019-01-23 19:09:12,0.005s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:09:12,2019-01-23 19:09:12,0.561s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:12,2019-01-23 19:09:12,0.009s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:09:12,2019-01-23 19:09:12,0.076s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:12,2019-01-23 19:09:12,0.005s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:09:12,2019-01-23 19:09:15,3.001s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:09:15,2019-01-23 19:09:15,0.001s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:09:15,2019-01-23 19:09:15,0.001s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:09:15,2019-01-23 19:09:15,0.001s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:09:15,2019-01-23 19:09:15,0.001s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:09:15,2019-01-23 19:09:15,0.001s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:09:15,2019-01-23 19:09:16,0.234s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:09:16,2019-01-23 19:09:16,0.129s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:09:16,2019-01-23 19:09:16,0.105s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:09:16,2019-01-23 19:09:16,0.102s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:09:16,2019-01-23 19:09:16,0.099s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:09:16,2019-01-23 19:09:16,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:16,2019-01-23 19:09:18,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:09:18,2019-01-23 19:09:18,0.066s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:09:18,2019-01-23 19:09:18,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:09:18,2019-01-23 19:09:18,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:18,2019-01-23 19:09:20,2.000s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:09:20,2019-01-23 19:09:20,0.132s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:20,2019-01-23 19:09:22,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:09:22,2019-01-23 19:09:22,0.136s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:22,2019-01-23 19:09:24,2.001s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:09:24,2019-01-23 19:09:24,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:09:24,2019-01-23 19:09:24,0.001s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:09:24,2019-01-23 19:09:24,0.002s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:09:24,2019-01-23 19:09:24,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:24,2019-01-23 19:09:24,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:09:24,2019-01-23 19:09:24,0.002s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:09:24,2019-01-23 19:09:24,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:09:24,2019-01-23 19:09:24,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:09:24,2019-01-23 19:09:37,12.730s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:25,2019-01-23 19:09:25,0.010s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:09:25,2019-01-23 19:09:25,0.033s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:25,2019-01-23 19:09:25,0.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:09:25,2019-01-23 19:09:25,0.034s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:25,2019-01-23 19:09:25,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:09:25,2019-01-23 19:09:25,0.548s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:25,2019-01-23 19:09:25,0.007s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:09:25,2019-01-23 19:09:25,0.068s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:25,2019-01-23 19:09:25,0.004s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:09:25,2019-01-23 19:09:28,3.000s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:09:28,2019-01-23 19:09:28,0.001s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:09:28,2019-01-23 19:09:28,0.001s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:09:28,2019-01-23 19:09:28,0.001s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:09:28,2019-01-23 19:09:28,0.001s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:09:28,2019-01-23 19:09:28,0.000s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:09:28,2019-01-23 19:09:28,0.228s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:09:28,2019-01-23 19:09:29,0.110s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:09:29,2019-01-23 19:09:29,0.110s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:09:29,2019-01-23 19:09:29,0.101s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:09:29,2019-01-23 19:09:29,0.095s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:09:29,2019-01-23 19:09:29,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:29,2019-01-23 19:09:31,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:09:31,2019-01-23 19:09:31,0.061s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:09:31,2019-01-23 19:09:31,0.000s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:09:31,2019-01-23 19:09:31,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:31,2019-01-23 19:09:33,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:09:33,2019-01-23 19:09:33,0.148s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:33,2019-01-23 19:09:35,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:09:35,2019-01-23 19:09:35,0.119s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:35,2019-01-23 19:09:37,2.001s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:09:37,2019-01-23 19:09:37,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:09:37,2019-01-23 19:09:37,0.001s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:09:37,2019-01-23 19:09:37,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:09:37,2019-01-23 19:09:37,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:37,2019-01-23 19:09:37,0.000s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:09:37,2019-01-23 19:09:37,0.000s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:09:37,2019-01-23 19:09:37,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:09:37,2019-01-23 19:09:37,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:09:37,2019-01-23 19:09:50,12.734s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:37,2019-01-23 19:09:37,0.006s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:09:37,2019-01-23 19:09:37,0.024s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:37,2019-01-23 19:09:37,0.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:09:37,2019-01-23 19:09:37,0.031s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:37,2019-01-23 19:09:37,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:09:37,2019-01-23 19:09:38,0.532s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:38,2019-01-23 19:09:38,0.004s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:09:38,2019-01-23 19:09:38,0.055s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:38,2019-01-23 19:09:38,0.003s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:09:38,2019-01-23 19:09:41,3.001s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:09:41,2019-01-23 19:09:41,0.002s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:09:41,2019-01-23 19:09:41,0.002s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:09:41,2019-01-23 19:09:41,0.001s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:09:41,2019-01-23 19:09:41,0.001s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:09:41,2019-01-23 19:09:41,0.001s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:09:41,2019-01-23 19:09:41,0.176s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:09:41,2019-01-23 19:09:41,0.182s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:09:41,2019-01-23 19:09:41,0.137s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:09:41,2019-01-23 19:09:42,0.108s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:09:42,2019-01-23 19:09:42,0.102s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:09:42,2019-01-23 19:09:42,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:42,2019-01-23 19:09:44,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:09:44,2019-01-23 19:09:44,0.056s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:09:44,2019-01-23 19:09:44,0.000s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:09:44,2019-01-23 19:09:44,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:44,2019-01-23 19:09:46,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:09:46,2019-01-23 19:09:46,0.135s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:46,2019-01-23 19:09:48,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:09:48,2019-01-23 19:09:48,0.136s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:48,2019-01-23 19:09:50,2.000s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:09:50,2019-01-23 19:09:50,0.000s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:09:50,2019-01-23 19:09:50,0.001s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:09:50,2019-01-23 19:09:50,0.000s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:09:50,2019-01-23 19:09:50,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:50,2019-01-23 19:09:50,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:09:50,2019-01-23 19:09:50,0.000s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:09:50,2019-01-23 19:09:50,0.000s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:09:50,2019-01-23 19:09:50,0.000s,NOT_RUN
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-23 19:09:50,2019-01-23 19:10:03,12.823s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:50,2019-01-23 19:09:50,0.007s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-23 19:09:50,2019-01-23 19:09:50,0.024s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:50,2019-01-23 19:09:50,0.005s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-23 19:09:50,2019-01-23 19:09:50,0.035s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:50,2019-01-23 19:09:50,0.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-23 19:09:50,2019-01-23 19:09:51,0.546s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:51,2019-01-23 19:09:51,0.004s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-23 19:09:51,2019-01-23 19:09:51,0.054s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-23 19:09:51,2019-01-23 19:09:51,0.004s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 19:09:51,2019-01-23 19:09:54,3.001s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-23 19:09:54,2019-01-23 19:09:54,0.001s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-23 19:09:54,2019-01-23 19:09:54,0.001s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-23 19:09:54,2019-01-23 19:09:54,0.000s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-23 19:09:54,2019-01-23 19:09:54,0.001s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-23 19:09:54,2019-01-23 19:09:54,0.001s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-23 19:09:54,2019-01-23 19:09:54,0.178s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-23 19:09:54,2019-01-23 19:09:54,0.113s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-23 19:09:54,2019-01-23 19:09:54,0.108s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-23 19:09:54,2019-01-23 19:09:54,0.145s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-23 19:09:54,2019-01-23 19:09:54,0.120s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-23 19:09:54,2019-01-23 19:09:54,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:54,2019-01-23 19:09:56,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:09:56,2019-01-23 19:09:56,0.083s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-23 19:09:56,2019-01-23 19:09:56,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-23 19:09:56,2019-01-23 19:09:56,0.000s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:56,2019-01-23 19:09:58,2.000s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-23 19:09:58,2019-01-23 19:09:59,0.165s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:09:59,2019-01-23 19:10:01,2.001s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-23 19:10:01,2019-01-23 19:10:01,0.185s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:10:01,2019-01-23 19:10:03,2.001s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 19:10:03,2019-01-23 19:10:03,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-23 19:10:03,2019-01-23 19:10:03,0.001s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-23 19:10:03,2019-01-23 19:10:03,0.002s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-23 19:10:03,2019-01-23 19:10:03,0.002s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-23 19:10:03,2019-01-23 19:10:03,0.001s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-23 19:10:03,2019-01-23 19:10:03,0.001s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-23 19:10:03,2019-01-23 19:10:03,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-23 19:10:03,2019-01-23 19:10:03,0.001s,NOT_RUN

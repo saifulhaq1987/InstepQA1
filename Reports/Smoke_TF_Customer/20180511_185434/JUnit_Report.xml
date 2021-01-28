@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke_TF_Customer" time="287" tests="6" failures="7" errors="0">
+   <testsuite name="Smoke_TF_Customer" tests="6" failures="7" errors="0" time="287" timestamp="2018-05-11 18:54:35" hostname="Junaid.Tariq - Junaid.instepinc.com" id="Test Suites/Smoke_TF_Customer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434"/>
+         <property name="logFiles" value="D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526046967833.png, D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526046968181.png, D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047000192.png, D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047000505.png, D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047032501.png, D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047032823.png, D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047064688.png, D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047065020.png, D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047096942.png, D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047097244.png, D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047129218.png, D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047129546.png, D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047161408.png, D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047161740.png"/>
+         <property name="hostName" value="Junaid.Tariq - Junaid.instepinc.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="200.199.80.62"/>
+         <property name="sessionId" value="0d1d3bc6e8a0c25138705ece6fa5c7d1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/General_Login_Logout/TC_1_Login" classname="Test Cases/General_Login_Logout/TC_1_Login" status="PASSED">
+         <system-out><![CDATA[2018-05-11 18:54:35 - [TEST_CASE][PASSED] - Test Cases/General_Login_Logout/TC_1_Login: Test Cases/General_Login_Logout/TC_1_Login
+
+2018-05-11 18:54:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://52.6.78.242:7008/e360/com.informatica.tools.mdm.web.auth/login'
+
+2018-05-11 18:54:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://52.6.78.242:7008/e360/com.informatica.tools.mdm.web.auth/login'
+
+2018-05-11 18:54:45 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:54:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:54:45 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-11 18:54:47 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-11 18:54:47 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_ Login/Btn_Login' is clickable
+
+2018-05-11 18:54:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ Login/Btn_Login' is clickable
+
+2018-05-11 18:54:47 - [TEST_STEP][PASSED] - setText: Text 'junaid_sm' is set on object 'Object Repository/Page_ Login/Txt_Username'
+
+2018-05-11 18:54:47 - [MESSAGE][PASSED] - Text 'junaid_sm' is set on object 'Object Repository/Page_ Login/Txt_Username'
+
+2018-05-11 18:54:47 - [TEST_STEP][PASSED] - setText: Text 'str0ng_2' is set on object 'Object Repository/Page_ Login/Txt_Password'
+
+2018-05-11 18:54:47 - [MESSAGE][PASSED] - Text 'str0ng_2' is set on object 'Object Repository/Page_ Login/Txt_Password'
+
+2018-05-11 18:54:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ Login/Btn_Login' is clicked on
+
+2018-05-11 18:54:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Login/Btn_Login' is clicked on
+
+2018-05-11 18:54:47 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:54:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:54:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ Login/Project_Selection/div_Trade Funds Customer' is clicked on
+
+2018-05-11 18:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Login/Project_Selection/div_Trade Funds Customer' is clicked on
+
+2018-05-11 18:54:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-11 18:54:59 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_1_Open_Banner" classname="Test Cases/Smoke_TF_Customer/TC_1_Open_Banner" status="PASSED">
+         <system-out><![CDATA[2018-05-11 18:54:59 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_1_Open_Banner: Test Cases/Smoke_TF_Customer/TC_1_Open_Banner
+
+2018-05-11 18:54:59 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:54:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:54:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/1_Menu_Banner' is clicked on
+
+2018-05-11 18:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/1_Menu_Banner' is clicked on
+
+2018-05-11 18:55:14 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:55:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:55:14 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Banner' is present
+
+2018-05-11 18:55:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-11 18:55:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-11 18:55:18 - [MESSAGE][PASSED] - Object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Banner' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_2_Open_RGM_Designated_Baseline" classname="Test Cases/Smoke_TF_Customer/TC_2_Open_RGM_Designated_Baseline" status="PASSED">
+         <system-out><![CDATA[2018-05-11 18:55:18 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_2_Open_RGM_Designated_Baseline: Test Cases/Smoke_TF_Customer/TC_2_Open_RGM_Designated_Baseline
+
+2018-05-11 18:55:18 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:55:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:55:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/2_Menu_RGM Designated Baseline' is clicked on
+
+2018-05-11 18:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/2_Menu_RGM Designated Baseline' is clicked on
+
+2018-05-11 18:55:18 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:55:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:55:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New RGM Designated Baseli' is present
+
+2018-05-11 18:55:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-11 18:55:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-11 18:55:19 - [MESSAGE][PASSED] - Object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New RGM Designated Baseli' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_3_Open_JMS_Sales_Org" classname="Test Cases/Smoke_TF_Customer/TC_3_Open_JMS_Sales_Org" status="PASSED">
+         <system-out><![CDATA[2018-05-11 18:55:19 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_3_Open_JMS_Sales_Org: Test Cases/Smoke_TF_Customer/TC_3_Open_JMS_Sales_Org
+
+2018-05-11 18:55:19 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:55:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:55:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/3_Menu_JMS Sales Organizations' is clicked on
+
+2018-05-11 18:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/3_Menu_JMS Sales Organizations' is clicked on
+
+2018-05-11 18:55:19 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:55:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:55:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New JMS Sales Organizatio' is present
+
+2018-05-11 18:55:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-11 18:55:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-11 18:55:21 - [MESSAGE][PASSED] - Object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New JMS Sales Organizatio' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_4_Open_Consumption_Baseline_Source" classname="Test Cases/Smoke_TF_Customer/TC_4_Open_Consumption_Baseline_Source" status="PASSED">
+         <system-out><![CDATA[2018-05-11 18:55:21 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_4_Open_Consumption_Baseline_Source: Test Cases/Smoke_TF_Customer/TC_4_Open_Consumption_Baseline_Source
+
+2018-05-11 18:55:21 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:55:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:55:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/4_Menu_Consumption Baseline Source' is clicked on
+
+2018-05-11 18:55:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/4_Menu_Consumption Baseline Source' is clicked on
+
+2018-05-11 18:55:22 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:55:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:55:22 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Consumption Baseline' is present
+
+2018-05-11 18:55:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-11 18:55:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-11 18:55:23 - [MESSAGE][PASSED] - Object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Consumption Baseline' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_5_Open_Corporate_Customer" classname="Test Cases/Smoke_TF_Customer/TC_5_Open_Corporate_Customer" status="PASSED">
+         <system-out><![CDATA[2018-05-11 18:55:23 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_5_Open_Corporate_Customer: Test Cases/Smoke_TF_Customer/TC_5_Open_Corporate_Customer
+
+2018-05-11 18:55:23 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:55:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:55:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/5_Menu_Corporate Customer' is clicked on
+
+2018-05-11 18:55:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/5_Menu_Corporate Customer' is clicked on
+
+2018-05-11 18:55:25 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:55:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:55:25 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Corporate Customer' is present
+
+2018-05-11 18:55:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-11 18:55:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-11 18:55:26 - [MESSAGE][PASSED] - Object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Corporate Customer' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_6_Open_SHL1_SBU" classname="Test Cases/Smoke_TF_Customer/TC_6_Open_SHL1_SBU" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New SBU' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New SBU' located by 'By.xpath: //span[(text() = 'New SBU (Sales Business Unit)' or . = 'New SBU (Sales Business Unit)')]' not found)"/>
+         <system-out><![CDATA[2018-05-11 18:55:26 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_6_Open_SHL1_SBU: Test Cases/Smoke_TF_Customer/TC_6_Open_SHL1_SBU FAILED because (of) Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New SBU' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New SBU' located by 'By.xpath: //span[(text() = 'New SBU (Sales Business Unit)' or . = 'New SBU (Sales Business Unit)')]' not found)
+
+2018-05-11 18:55:26 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:55:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:55:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/1_Menu_SBU (Sales Business Unit)' is clicked on
+
+2018-05-11 18:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/1_Menu_SBU (Sales Business Unit)' is clicked on
+
+2018-05-11 18:55:36 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:55:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:55:36 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New SBU' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New SBU' located by 'By.xpath: //span[(text() = 'New SBU (Sales Business Unit)' or . = 'New SBU (Sales Business Unit)')]' not found)
+
+2018-05-11 18:55:36 - [MESSAGE][WARNING] - Test object with id 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/Page_Informatica MDM/iframe_data' does not exist
+
+2018-05-11 18:55:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-11 18:56:08 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New SBU' located by 'By.xpath: //span[(text() = 'New SBU (Sales Business Unit)' or . = 'New SBU (Sales Business Unit)')]' not found
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526046967833.png]]
+
+2018-05-11 18:56:08 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New SBU' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New SBU' located by 'By.xpath: //span[(text() = 'New SBU (Sales Business Unit)' or . = 'New SBU (Sales Business Unit)')]' not found)
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526046968181.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-11 18:55:26 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_6_Open_SHL1_SBU: Test Cases/Smoke_TF_Customer/TC_6_Open_SHL1_SBU FAILED because (of) Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New SBU' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New SBU' located by 'By.xpath: //span[(text() = 'New SBU (Sales Business Unit)' or . = 'New SBU (Sales Business Unit)')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_7_Open_SHL2_Sales_Segment" classname="Test Cases/Smoke_TF_Customer/TC_7_Open_SHL2_Sales_Segment" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Segment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Segment' located by 'By.xpath: //span[(text() = 'New Sales Segment' or . = 'New Sales Segment')]' not found)"/>
+         <system-out><![CDATA[2018-05-11 18:56:08 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_7_Open_SHL2_Sales_Segment: Test Cases/Smoke_TF_Customer/TC_7_Open_SHL2_Sales_Segment FAILED because (of) Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Segment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Segment' located by 'By.xpath: //span[(text() = 'New Sales Segment' or . = 'New Sales Segment')]' not found)
+
+2018-05-11 18:56:08 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:56:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:56:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/2_Menu_Sales Segment' is clicked on
+
+2018-05-11 18:56:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/2_Menu_Sales Segment' is clicked on
+
+2018-05-11 18:56:08 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:56:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:56:08 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Segment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Segment' located by 'By.xpath: //span[(text() = 'New Sales Segment' or . = 'New Sales Segment')]' not found)
+
+2018-05-11 18:56:08 - [MESSAGE][WARNING] - Test object with id 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/Page_Informatica MDM/iframe_data' does not exist
+
+2018-05-11 18:56:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-11 18:56:40 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Segment' located by 'By.xpath: //span[(text() = 'New Sales Segment' or . = 'New Sales Segment')]' not found
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047000192.png]]
+
+2018-05-11 18:56:40 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Segment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Segment' located by 'By.xpath: //span[(text() = 'New Sales Segment' or . = 'New Sales Segment')]' not found)
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047000505.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-11 18:56:08 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_7_Open_SHL2_Sales_Segment: Test Cases/Smoke_TF_Customer/TC_7_Open_SHL2_Sales_Segment FAILED because (of) Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Segment' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Segment' located by 'By.xpath: //span[(text() = 'New Sales Segment' or . = 'New Sales Segment')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_8_Open_SHL3_Sales_Division" classname="Test Cases/Smoke_TF_Customer/TC_8_Open_SHL3_Sales_Division" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Division' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Division' located by 'By.xpath: //span[(text() = 'New Sales Division' or . = 'New Sales Division')]' not found)"/>
+         <system-out><![CDATA[2018-05-11 18:56:40 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_8_Open_SHL3_Sales_Division: Test Cases/Smoke_TF_Customer/TC_8_Open_SHL3_Sales_Division FAILED because (of) Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Division' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Division' located by 'By.xpath: //span[(text() = 'New Sales Division' or . = 'New Sales Division')]' not found)
+
+2018-05-11 18:56:40 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:56:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:56:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/3_Menu_Sales Division' is clicked on
+
+2018-05-11 18:56:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/3_Menu_Sales Division' is clicked on
+
+2018-05-11 18:56:41 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:56:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:56:41 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Division' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Division' located by 'By.xpath: //span[(text() = 'New Sales Division' or . = 'New Sales Division')]' not found)
+
+2018-05-11 18:56:41 - [MESSAGE][WARNING] - Test object with id 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/Page_Informatica MDM/iframe_data' does not exist
+
+2018-05-11 18:56:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-11 18:57:12 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Division' located by 'By.xpath: //span[(text() = 'New Sales Division' or . = 'New Sales Division')]' not found
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047032501.png]]
+
+2018-05-11 18:57:13 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Division' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Division' located by 'By.xpath: //span[(text() = 'New Sales Division' or . = 'New Sales Division')]' not found)
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047032823.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-11 18:56:40 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_8_Open_SHL3_Sales_Division: Test Cases/Smoke_TF_Customer/TC_8_Open_SHL3_Sales_Division FAILED because (of) Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Division' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Division' located by 'By.xpath: //span[(text() = 'New Sales Division' or . = 'New Sales Division')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_9_Open_SHL4_Sales_Region" classname="Test Cases/Smoke_TF_Customer/TC_9_Open_SHL4_Sales_Region" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Region' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Region' located by 'By.xpath: //span[(text() = 'New Sales Region' or . = 'New Sales Region')]' not found)"/>
+         <system-out><![CDATA[2018-05-11 18:57:13 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_9_Open_SHL4_Sales_Region: Test Cases/Smoke_TF_Customer/TC_9_Open_SHL4_Sales_Region FAILED because (of) Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Region' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Region' located by 'By.xpath: //span[(text() = 'New Sales Region' or . = 'New Sales Region')]' not found)
+
+2018-05-11 18:57:13 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:57:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:57:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/4_Menu_Sales Region' is clicked on
+
+2018-05-11 18:57:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/4_Menu_Sales Region' is clicked on
+
+2018-05-11 18:57:13 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:57:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:57:13 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Region' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Region' located by 'By.xpath: //span[(text() = 'New Sales Region' or . = 'New Sales Region')]' not found)
+
+2018-05-11 18:57:13 - [MESSAGE][WARNING] - Test object with id 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/Page_Informatica MDM/iframe_data' does not exist
+
+2018-05-11 18:57:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-11 18:57:45 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Region' located by 'By.xpath: //span[(text() = 'New Sales Region' or . = 'New Sales Region')]' not found
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047064688.png]]
+
+2018-05-11 18:57:45 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Region' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Region' located by 'By.xpath: //span[(text() = 'New Sales Region' or . = 'New Sales Region')]' not found)
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047065020.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-11 18:57:13 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_9_Open_SHL4_Sales_Region: Test Cases/Smoke_TF_Customer/TC_9_Open_SHL4_Sales_Region FAILED because (of) Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Region' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Region' located by 'By.xpath: //span[(text() = 'New Sales Region' or . = 'New Sales Region')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_10_Open_SHL5_Sales_Market" classname="Test Cases/Smoke_TF_Customer/TC_10_Open_SHL5_Sales_Market" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Market' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Market' located by 'By.xpath: //span[(text() = 'New Sales Market' or . = 'New Sales Market')]' not found)"/>
+         <system-out><![CDATA[2018-05-11 18:57:45 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_10_Open_SHL5_Sales_Market: Test Cases/Smoke_TF_Customer/TC_10_Open_SHL5_Sales_Market FAILED because (of) Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Market' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Market' located by 'By.xpath: //span[(text() = 'New Sales Market' or . = 'New Sales Market')]' not found)
+
+2018-05-11 18:57:45 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:57:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:57:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/5_Menu_Sales Market' is clicked on
+
+2018-05-11 18:57:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/5_Menu_Sales Market' is clicked on
+
+2018-05-11 18:57:45 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:57:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:57:45 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Market' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Market' located by 'By.xpath: //span[(text() = 'New Sales Market' or . = 'New Sales Market')]' not found)
+
+2018-05-11 18:57:45 - [MESSAGE][WARNING] - Test object with id 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/Page_Informatica MDM/iframe_data' does not exist
+
+2018-05-11 18:57:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-11 18:58:17 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Market' located by 'By.xpath: //span[(text() = 'New Sales Market' or . = 'New Sales Market')]' not found
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047096942.png]]
+
+2018-05-11 18:58:17 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Market' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Market' located by 'By.xpath: //span[(text() = 'New Sales Market' or . = 'New Sales Market')]' not found)
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047097244.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-11 18:57:45 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_10_Open_SHL5_Sales_Market: Test Cases/Smoke_TF_Customer/TC_10_Open_SHL5_Sales_Market FAILED because (of) Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Market' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sales Market' located by 'By.xpath: //span[(text() = 'New Sales Market' or . = 'New Sales Market')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_11_Open_PA_Planning_Account" classname="Test Cases/Smoke_TF_Customer/TC_11_Open_PA_Planning_Account" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Planning Account' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Planning Account' located by 'By.xpath: //span[(text() = 'New Planning Account' or . = 'New Planning Account')]' not found)"/>
+         <system-out><![CDATA[2018-05-11 18:58:17 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_11_Open_PA_Planning_Account: Test Cases/Smoke_TF_Customer/TC_11_Open_PA_Planning_Account FAILED because (of) Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Planning Account' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Planning Account' located by 'By.xpath: //span[(text() = 'New Planning Account' or . = 'New Planning Account')]' not found)
+
+2018-05-11 18:58:17 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:58:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:58:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Planning_Account/1_Menu_Planning Account' is clicked on
+
+2018-05-11 18:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Planning_Account/1_Menu_Planning Account' is clicked on
+
+2018-05-11 18:58:17 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:58:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:58:17 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Planning Account' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Planning Account' located by 'By.xpath: //span[(text() = 'New Planning Account' or . = 'New Planning Account')]' not found)
+
+2018-05-11 18:58:17 - [MESSAGE][WARNING] - Test object with id 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/Page_Informatica MDM/iframe_data' does not exist
+
+2018-05-11 18:58:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-11 18:58:49 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Planning Account' located by 'By.xpath: //span[(text() = 'New Planning Account' or . = 'New Planning Account')]' not found
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047129218.png]]
+
+2018-05-11 18:58:49 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Planning Account' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Planning Account' located by 'By.xpath: //span[(text() = 'New Planning Account' or . = 'New Planning Account')]' not found)
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047129546.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-11 18:58:17 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_11_Open_PA_Planning_Account: Test Cases/Smoke_TF_Customer/TC_11_Open_PA_Planning_Account FAILED because (of) Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Planning Account' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Planning Account' located by 'By.xpath: //span[(text() = 'New Planning Account' or . = 'New Planning Account')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_12_Open_PA_Sub_Planning_Account" classname="Test Cases/Smoke_TF_Customer/TC_12_Open_PA_Sub_Planning_Account" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sub Planning Account' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sub Planning Account' located by 'By.xpath: //span[(text() = 'New Sub Planning Account' or . = 'New Sub Planning Account')]' not found)"/>
+         <system-out><![CDATA[2018-05-11 18:58:49 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_12_Open_PA_Sub_Planning_Account: Test Cases/Smoke_TF_Customer/TC_12_Open_PA_Sub_Planning_Account FAILED because (of) Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sub Planning Account' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sub Planning Account' located by 'By.xpath: //span[(text() = 'New Sub Planning Account' or . = 'New Sub Planning Account')]' not found)
+
+2018-05-11 18:58:49 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:58:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:58:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Planning_Account/2_Menu_Sub Planning Account' is clicked on
+
+2018-05-11 18:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Planning_Account/2_Menu_Sub Planning Account' is clicked on
+
+2018-05-11 18:58:50 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 18:58:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 18:58:50 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sub Planning Account' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sub Planning Account' located by 'By.xpath: //span[(text() = 'New Sub Planning Account' or . = 'New Sub Planning Account')]' not found)
+
+2018-05-11 18:58:50 - [MESSAGE][WARNING] - Test object with id 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/Page_Informatica MDM/iframe_data' does not exist
+
+2018-05-11 18:58:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-11 18:59:21 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sub Planning Account' located by 'By.xpath: //span[(text() = 'New Sub Planning Account' or . = 'New Sub Planning Account')]' not found
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047161408.png]]
+
+2018-05-11 18:59:22 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sub Planning Account' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sub Planning Account' located by 'By.xpath: //span[(text() = 'New Sub Planning Account' or . = 'New Sub Planning Account')]' not found)
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_185434\\1526047161740.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-11 18:58:49 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_12_Open_PA_Sub_Planning_Account: Test Cases/Smoke_TF_Customer/TC_12_Open_PA_Sub_Planning_Account FAILED because (of) Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sub Planning Account' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New Sub Planning Account' located by 'By.xpath: //span[(text() = 'New Sub Planning Account' or . = 'New Sub Planning Account')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-11 18:54:35 - [TEST_SUITE][FAILED] - Smoke_TF_Customer: Test Cases/Smoke_TF_Customer/TC_6_Open_SHL1_SBU FAILED because (of) Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New SBU' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New SBU' located by 'By.xpath: //span[(text() = 'New SBU (Sales Business Unit)' or . = 'New SBU (Sales Business Unit)')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-11 18:54:35 - [TEST_SUITE][FAILED] - Smoke_TF_Customer: Test Cases/Smoke_TF_Customer/TC_6_Open_SHL1_SBU FAILED because (of) Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New SBU' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/span_New SBU' located by 'By.xpath: //span[(text() = 'New SBU (Sales Business Unit)' or . = 'New SBU (Sales Business Unit)')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

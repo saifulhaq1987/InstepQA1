@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_1_Create_Banner</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff8e7c00-a8db-42f2-89f5-9e24063874d1</testCaseGuid>
+   <variable>
+      <defaultValue>'TEST_BANNER_216'</defaultValue>
+      <description></description>
+      <id>575c6c99-e18c-44ba-9e05-8bbc75ed6bd3</id>
+      <masked>false</masked>
+      <name>Inpt_Banner_Name</name>
+   </variable>
+</TestCaseEntity>

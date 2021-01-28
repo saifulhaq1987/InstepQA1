@@ -1,0 +1,86 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Open_All_Pages,Chrome 74.0.3729.131,,,2019-05-13 06:47:37,2019-05-13 06:50:03,2m - 25.730s,FAILED
+,,,,,,,
+Test Cases/General_Login_Logout/Login,Chrome 74.0.3729.131,,,2019-05-13 06:47:37,2019-05-13 06:47:59,21.465s,PASSED
+"com.oracledb.regressiontest.LoginTFProduct(User, Password)",Chrome 74.0.3729.131,,,2019-05-13 06:47:37,2019-05-13 06:47:59,21.059s,PASSED
+,,,,,,,
+Test Cases/Regression_TF_Product/Open_Pages/TC_1_Open_JMS_Sales_Organisation,Chrome 74.0.3729.131,This test case will open JMS Sales organistion page.,,2019-05-13 06:47:59,2019-05-13 06:48:14,15.643s,PASSED
+delay(6),Chrome 74.0.3729.131,,,2019-05-13 06:47:59,2019-05-13 06:48:05,6.002s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 74.0.3729.131,,,2019-05-13 06:48:05,2019-05-13 06:48:05,0.288s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-13 06:48:05,2019-05-13 06:48:08,3.005s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 74.0.3729.131,,,2019-05-13 06:48:08,2019-05-13 06:48:08,0.064s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-13 06:48:08,2019-05-13 06:48:11,3.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/1_Menu_JMS_Sales_Organisation""))",Chrome 74.0.3729.131,,,2019-05-13 06:48:11,2019-05-13 06:48:11,0.110s,PASSED
+waitForPageLoad(G_Timeout),Chrome 74.0.3729.131,,,2019-05-13 06:48:11,2019-05-13 06:48:11,0.012s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-13 06:48:11,2019-05-13 06:48:14,3.003s,PASSED
+,,,,,,,
+Test Cases/Regression_TF_Product/Open_Pages/TC_2-1_Total_Company,Chrome 74.0.3729.131,This test case will open total company page by going into the Product Hierarchy level.,,2019-05-13 06:48:14,2019-05-13 06:48:26,12.020s,PASSED
+waitForPageLoad(G_Timeout),Chrome 74.0.3729.131,,,2019-05-13 06:48:14,2019-05-13 06:48:15,0.605s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 74.0.3729.131,,,2019-05-13 06:48:15,2019-05-13 06:48:15,0.039s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-13 06:48:15,2019-05-13 06:48:18,3.005s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 74.0.3729.131,,,2019-05-13 06:48:18,2019-05-13 06:48:18,0.062s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-13 06:48:18,2019-05-13 06:48:21,3.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level,_Hoverover_Option""))",Chrome 74.0.3729.131,,,2019-05-13 06:48:21,2019-05-13 06:48:21,0.072s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-13 06:48:21,2019-05-13 06:48:23,2.005s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_total_company""))",Chrome 74.0.3729.131,,,2019-05-13 06:48:23,2019-05-13 06:48:23,0.090s,PASSED
+waitForPageLoad(G_Timeout),Chrome 74.0.3729.131,,,2019-05-13 06:48:23,2019-05-13 06:48:23,0.008s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-13 06:48:23,2019-05-13 06:48:26,3.003s,PASSED
+,,,,,,,
+Test Cases/Regression_TF_Product/Open_Pages/TC_2-2_Product_Summary,Chrome 74.0.3729.131,This test case will open page product summary.,,2019-05-13 06:48:26,2019-05-13 06:48:38,11.392s,PASSED
+waitForPageLoad(G_Timeout),Chrome 74.0.3729.131,,,2019-05-13 06:48:26,2019-05-13 06:48:26,0.008s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 74.0.3729.131,,,2019-05-13 06:48:26,2019-05-13 06:48:26,0.029s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-13 06:48:26,2019-05-13 06:48:29,3.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 74.0.3729.131,,,2019-05-13 06:48:29,2019-05-13 06:48:29,0.077s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-13 06:48:29,2019-05-13 06:48:32,3.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level,_Hoverover_Option""))",Chrome 74.0.3729.131,,,2019-05-13 06:48:32,2019-05-13 06:48:33,0.056s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-13 06:48:33,2019-05-13 06:48:35,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_Product_summary""))",Chrome 74.0.3729.131,,,2019-05-13 06:48:35,2019-05-13 06:48:35,0.095s,PASSED
+waitForPageLoad(G_Timeout),Chrome 74.0.3729.131,,,2019-05-13 06:48:35,2019-05-13 06:48:35,0.009s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-13 06:48:35,2019-05-13 06:48:38,3.003s,PASSED
+,,,,,,,
+Test Cases/Regression_TF_Product/Open_Pages/TC_2-3_Planning_Product,Chrome 74.0.3729.131,This test case will open page product summary.,,2019-05-13 06:48:38,2019-05-13 06:48:49,11.384s,PASSED
+waitForPageLoad(G_Timeout),Chrome 74.0.3729.131,,,2019-05-13 06:48:38,2019-05-13 06:48:38,0.010s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 74.0.3729.131,,,2019-05-13 06:48:38,2019-05-13 06:48:38,0.031s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-13 06:48:38,2019-05-13 06:48:41,3.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 74.0.3729.131,,,2019-05-13 06:48:41,2019-05-13 06:48:41,0.071s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-13 06:48:41,2019-05-13 06:48:44,3.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level,_Hoverover_Option""))",Chrome 74.0.3729.131,,,2019-05-13 06:48:44,2019-05-13 06:48:44,0.061s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-13 06:48:44,2019-05-13 06:48:46,2.003s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_Planning_product""))",Chrome 74.0.3729.131,,,2019-05-13 06:48:46,2019-05-13 06:48:46,0.082s,PASSED
+waitForPageLoad(G_Timeout),Chrome 74.0.3729.131,,,2019-05-13 06:48:46,2019-05-13 06:48:46,0.007s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-13 06:48:46,2019-05-13 06:48:49,3.001s,PASSED
+,,,,,,,
+Test Cases/Regression_TF_Product/Open_Pages/TC_2-4_Sub_Planning_Product,Chrome 74.0.3729.131,This test case will open page product summary.,,2019-05-13 06:48:49,2019-05-13 06:49:01,12.377s,PASSED
+waitForPageLoad(G_Timeout),Chrome 74.0.3729.131,,,2019-05-13 06:48:49,2019-05-13 06:48:49,0.010s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 74.0.3729.131,,,2019-05-13 06:48:49,2019-05-13 06:48:49,0.029s,PASSED
+delay(4),Chrome 74.0.3729.131,,,2019-05-13 06:48:49,2019-05-13 06:48:53,4.002s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 74.0.3729.131,,,2019-05-13 06:48:53,2019-05-13 06:48:53,0.068s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-13 06:48:53,2019-05-13 06:48:56,3.002s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level,_Hoverover_Option""))",Chrome 74.0.3729.131,,,2019-05-13 06:48:56,2019-05-13 06:48:56,0.044s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-13 06:48:56,2019-05-13 06:48:58,2.004s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_Sub_Planning_Product""))",Chrome 74.0.3729.131,,,2019-05-13 06:48:58,2019-05-13 06:48:58,0.093s,PASSED
+waitForPageLoad(G_Timeout),Chrome 74.0.3729.131,,,2019-05-13 06:48:58,2019-05-13 06:48:58,0.007s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-13 06:48:58,2019-05-13 06:49:01,3.002s,PASSED
+,,,,,,,
+Test Cases/Regression_TF_Product/Open_Pages/TC_3_Open_Product_Visibility_list,Chrome 74.0.3729.131,This test case will open the product visibiltiy list page.,,2019-05-13 06:49:01,2019-05-13 06:49:19,17.381s,PASSED
+delay(6),Chrome 74.0.3729.131,,,2019-05-13 06:49:02,2019-05-13 06:49:08,6.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 74.0.3729.131,,,2019-05-13 06:49:08,2019-05-13 06:49:08,0.062s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-13 06:49:08,2019-05-13 06:49:11,3.004s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 74.0.3729.131,,,2019-05-13 06:49:11,2019-05-13 06:49:11,0.057s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-13 06:49:11,2019-05-13 06:49:14,3.004s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/3_Menu_Product_Visibility_list""))",Chrome 74.0.3729.131,,,2019-05-13 06:49:14,2019-05-13 06:49:14,0.099s,PASSED
+waitForPageLoad(G_Timeout),Chrome 74.0.3729.131,,,2019-05-13 06:49:14,2019-05-13 06:49:14,0.007s,PASSED
+delay(5),Chrome 74.0.3729.131,,,2019-05-13 06:49:14,2019-05-13 06:49:19,5.001s,PASSED
+,,,,,,,
+Test Cases/Regression_TF_Product/Open_Pages/TC_4_Open_Adjustable_Rate_Policy,Chrome 74.0.3729.131,This test case will open the adjustable rate policy page.,,2019-05-13 06:49:19,2019-05-13 06:49:31,11.907s,PASSED
+delay(6),Chrome 74.0.3729.131,,,2019-05-13 06:49:19,2019-05-13 06:49:25,6.003s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 74.0.3729.131,,,2019-05-13 06:49:25,2019-05-13 06:49:25,0.066s,PASSED
+waitForPageLoad(G_Timeout),Chrome 74.0.3729.131,,,2019-05-13 06:49:25,2019-05-13 06:49:25,0.011s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 74.0.3729.131,,,2019-05-13 06:49:25,2019-05-13 06:49:25,0.027s,PASSED
+waitForPageLoad(G_Timeout),Chrome 74.0.3729.131,,,2019-05-13 06:49:25,2019-05-13 06:49:25,0.006s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Adjustable_rate_policy""))",Chrome 74.0.3729.131,,,2019-05-13 06:49:25,2019-05-13 06:49:26,0.636s,PASSED
+waitForPageLoad(G_Timeout),Chrome 74.0.3729.131,,,2019-05-13 06:49:26,2019-05-13 06:49:26,0.008s,PASSED
+delay(5),Chrome 74.0.3729.131,,,2019-05-13 06:49:26,2019-05-13 06:49:31,5.001s,PASSED
+,,,,,,,
+Test Cases/General_Login_Logout/Logout,Chrome 74.0.3729.131,,,2019-05-13 06:49:31,2019-05-13 06:50:03,31.934s,FAILED
+com.oracledb.regressiontest.logoutTFCustomer(),Chrome 74.0.3729.131,,,2019-05-13 06:49:31,2019-05-13 06:50:03,31.810s,FAILED

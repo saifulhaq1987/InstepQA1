@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will open the product visibiltiy list page.</description>
+   <name>TC_3_Open_Product_Visibility_list</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>604b1cf9-d326-4526-ac93-f93d9523d034</testCaseGuid>
+   <variable>
+      <defaultValue>'TEST_BANNER_216'</defaultValue>
+      <description></description>
+      <id>939e66fd-4257-4edc-9e29-21dd47b47b0b</id>
+      <masked>false</masked>
+      <name>Inpt_Banner_Name</name>
+   </variable>
+</TestCaseEntity>

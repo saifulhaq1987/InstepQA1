@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke_TF_Customer" time="57" tests="2" failures="0" errors="0">
+   <testsuite name="Smoke_TF_Customer" tests="2" failures="0" errors="0" time="57" timestamp="2018-10-25 13:47:06" hostname="Junaid.Tariq - Junaid.instepinc.com" id="Test Suites/Smoke_TF_Customer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\Projects\\Trade_Funds\\TF_Regression\\Reports\\Smoke_TF_Customer\\20181025_134701"/>
+         <property name="logFiles" value="D:\\Katalon\\Projects\\Trade_Funds\\TF_Regression\\Reports\\Smoke_TF_Customer\\20181025_134701\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Junaid.Tariq - Junaid.instepinc.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="200.199.80.62"/>
+         <property name="sessionId" value="77e7211c57f96226f966bc0cd4682756"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/General_Login_Logout/Login" classname="Test Cases/General_Login_Logout/Login" status="PASSED">
+         <system-out><![CDATA[2018-10-25 13:47:06 - [TEST_CASE][PASSED] - Test Cases/General_Login_Logout/Login: Test Cases/General_Login_Logout/Login
+
+2018-10-25 13:47:07 - [TEST_STEP][PASSED] - tradeFunds.TradeFunds.LoginTFCustomer: tradeFunds.TradeFunds.LoginTFCustomer is PASSED
+
+2018-10-25 13:47:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-25 13:47:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-25 13:47:10 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-25 13:47:18 - [MESSAGE][PASSED] - Navigate to 'https://52.6.78.242:7008/e360/com.informatica.tools.mdm.web.auth/login' successfully
+
+2018-10-25 13:47:18 - [MESSAGE][PASSED] - Text 'junaid_sm' is set on object 'Object Repository/Page_ Login/Txt_Username'
+
+2018-10-25 13:47:18 - [MESSAGE][PASSED] - Text 'str0ng_2' is set on object 'Object Repository/Page_ Login/Txt_Password'
+
+2018-10-25 13:47:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Login/Btn_Login' is clicked on
+
+2018-10-25 13:47:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-25 13:47:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Login/Project_Selection/div_Trade Funds Customer' is clicked on
+
+2018-10-25 13:47:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-25 13:47:33 - [MESSAGE][PASSED] - tradeFunds.TradeFunds.LoginTFCustomer is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_1_Open_Banner" classname="Test Cases/Smoke_TF_Customer/TC_1_Open_Banner" status="PASSED">
+         <system-out><![CDATA[2018-10-25 13:47:33 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_1_Open_Banner: Test Cases/Smoke_TF_Customer/TC_1_Open_Banner
+
+2018-10-25 13:47:33 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-25 13:47:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-25 13:47:33 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-10-25 13:47:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-10-25 13:47:34 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-25 13:47:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-25 13:47:34 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-10-25 13:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-10-25 13:48:02 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-25 13:48:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-25 13:48:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/1_Menu_Banner' is clicked on
+
+2018-10-25 13:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/1_Menu_Banner' is clicked on
+
+2018-10-25 13:48:03 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-25 13:48:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-25 13:48:03 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-10-25 13:48:03 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-25 13:47:06 - [TEST_SUITE][PASSED] - Smoke_TF_Customer: Test Cases/Smoke_TF_Customer/TC_1_Open_Banner]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

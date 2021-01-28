@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke_TF_Customer,Chrome 70.0.3538.77,,2018-11-09 15:28:50,2018-11-09 15:36:12,7m - 21.448s,FAILED
+,,,,,,
+Test Cases/General_Login_Logout/Login,Chrome 70.0.3538.77,,2018-11-09 15:28:51,2018-11-09 15:30:54,2m - 3.565s,FAILED
+tradeFunds.TF_Regression.LoginTFCustomer,Chrome 70.0.3538.77,,2018-11-09 15:28:51,2018-11-09 15:30:54,2m - 3.311s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_1_Create_Banner,Chrome 70.0.3538.77,,2018-11-09 15:30:54,2018-11-09 15:31:26,32.089s,FAILED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-11-09 15:30:54,2018-11-09 15:30:54,0.013s,PASSED
+mouseOver,Chrome 70.0.3538.77,,2018-11-09 15:30:54,2018-11-09 15:31:26,31.916s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_1_Create_Banner,Chrome 70.0.3538.77,,2018-11-09 15:31:26,2018-11-09 15:31:58,31.782s,FAILED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-11-09 15:31:26,2018-11-09 15:31:26,0.009s,PASSED
+mouseOver,Chrome 70.0.3538.77,,2018-11-09 15:31:26,2018-11-09 15:31:58,31.766s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_1_Create_Banner,Chrome 70.0.3538.77,,2018-11-09 15:31:58,2018-11-09 15:32:30,31.845s,FAILED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-11-09 15:31:58,2018-11-09 15:31:58,0.008s,PASSED
+mouseOver,Chrome 70.0.3538.77,,2018-11-09 15:31:58,2018-11-09 15:32:30,31.823s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_1_Create_Banner,Chrome 70.0.3538.77,,2018-11-09 15:32:30,2018-11-09 15:33:02,31.782s,FAILED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-11-09 15:32:30,2018-11-09 15:32:30,0.006s,PASSED
+mouseOver,Chrome 70.0.3538.77,,2018-11-09 15:32:30,2018-11-09 15:33:02,31.764s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_1_Create_Banner,Chrome 70.0.3538.77,,2018-11-09 15:33:02,2018-11-09 15:33:33,31.751s,FAILED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-11-09 15:33:02,2018-11-09 15:33:02,0.006s,PASSED
+mouseOver,Chrome 70.0.3538.77,,2018-11-09 15:33:02,2018-11-09 15:33:33,31.737s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_1_Create_Banner,Chrome 70.0.3538.77,,2018-11-09 15:33:34,2018-11-09 15:34:05,31.715s,FAILED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-11-09 15:33:34,2018-11-09 15:33:34,0.022s,PASSED
+mouseOver,Chrome 70.0.3538.77,,2018-11-09 15:33:34,2018-11-09 15:34:05,31.681s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_1_Create_Banner,Chrome 70.0.3538.77,,2018-11-09 15:34:05,2018-11-09 15:34:37,31.666s,FAILED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-11-09 15:34:05,2018-11-09 15:34:05,0.005s,PASSED
+mouseOver,Chrome 70.0.3538.77,,2018-11-09 15:34:05,2018-11-09 15:34:37,31.654s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_1_Create_Banner,Chrome 70.0.3538.77,,2018-11-09 15:34:37,2018-11-09 15:35:09,31.699s,FAILED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-11-09 15:34:37,2018-11-09 15:34:37,0.005s,PASSED
+mouseOver,Chrome 70.0.3538.77,,2018-11-09 15:34:37,2018-11-09 15:35:09,31.686s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_1_Create_Banner,Chrome 70.0.3538.77,,2018-11-09 15:35:09,2018-11-09 15:35:40,31.651s,FAILED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-11-09 15:35:09,2018-11-09 15:35:09,0.005s,PASSED
+mouseOver,Chrome 70.0.3538.77,,2018-11-09 15:35:09,2018-11-09 15:35:40,31.640s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_1_Create_Banner,Chrome 70.0.3538.77,,2018-11-09 15:35:40,2018-11-09 15:36:12,31.677s,FAILED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-11-09 15:35:40,2018-11-09 15:35:40,0.005s,PASSED
+mouseOver,Chrome 70.0.3538.77,,2018-11-09 15:35:40,2018-11-09 15:36:12,31.666s,FAILED

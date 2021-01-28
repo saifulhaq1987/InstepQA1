@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke_TF_Customer" time="57" tests="1" failures="1" errors="0">
+   <testsuite name="Smoke_TF_Customer" tests="1" failures="1" errors="0" time="57" timestamp="2018-05-23 12:41:19" hostname="Junaid.Tariq - Junaid.instepinc.com" id="Test Suites/Smoke_TF_Customer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180523_124118"/>
+         <property name="logFiles" value="D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180523_124118\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180523_124118\\1527061335367.png, D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180523_124118\\1527061335718.png"/>
+         <property name="hostName" value="Junaid.Tariq - Junaid.instepinc.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="200.199.80.62"/>
+         <property name="sessionId" value="ced79b6a100df6202738f6065f8a1226"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/General_Login_Logout/TC_1_Login" classname="Test Cases/General_Login_Logout/TC_1_Login" status="PASSED">
+         <system-out><![CDATA[2018-05-23 12:41:19 - [TEST_CASE][PASSED] - Test Cases/General_Login_Logout/TC_1_Login: Test Cases/General_Login_Logout/TC_1_Login
+
+2018-05-23 12:41:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://52.6.78.242:7008/e360/com.informatica.tools.mdm.web.auth/login'
+
+2018-05-23 12:41:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://52.6.78.242:7008/e360/com.informatica.tools.mdm.web.auth/login'
+
+2018-05-23 12:41:28 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-23 12:41:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-23 12:41:28 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-23 12:41:29 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-23 12:41:29 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_ Login/Btn_Login' is clickable
+
+2018-05-23 12:41:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ Login/Btn_Login' is clickable
+
+2018-05-23 12:41:29 - [TEST_STEP][PASSED] - setText: Text 'junaid_sm' is set on object 'Object Repository/Page_ Login/Txt_Username'
+
+2018-05-23 12:41:29 - [MESSAGE][PASSED] - Text 'junaid_sm' is set on object 'Object Repository/Page_ Login/Txt_Username'
+
+2018-05-23 12:41:29 - [TEST_STEP][PASSED] - setText: Text 'str0ng_2' is set on object 'Object Repository/Page_ Login/Txt_Password'
+
+2018-05-23 12:41:30 - [MESSAGE][PASSED] - Text 'str0ng_2' is set on object 'Object Repository/Page_ Login/Txt_Password'
+
+2018-05-23 12:41:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ Login/Btn_Login' is clicked on
+
+2018-05-23 12:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Login/Btn_Login' is clicked on
+
+2018-05-23 12:41:30 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-23 12:41:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-23 12:41:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ Login/Project_Selection/div_Trade Funds Customer' is clicked on
+
+2018-05-23 12:41:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Login/Project_Selection/div_Trade Funds Customer' is clicked on
+
+2018-05-23 12:41:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-23 12:41:42 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_1_Open_Banner" classname="Test Cases/Smoke_TF_Customer/TC_1_Open_Banner" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/1_New_Banner' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/1_New_Banner' located by 'By.xpath: //td[contains(text(),'Banner Code')]' not found)"/>
+         <system-out><![CDATA[2018-05-23 12:41:42 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_1_Open_Banner: Test Cases/Smoke_TF_Customer/TC_1_Open_Banner FAILED because (of) Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/1_New_Banner' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/1_New_Banner' located by 'By.xpath: //td[contains(text(),'Banner Code')]' not found)
+
+2018-05-23 12:41:42 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-23 12:41:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-23 12:41:42 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/0_Menu_Create_In_Data_View' is hovered
+
+2018-05-23 12:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/0_Menu_Create_In_Data_View' is hovered
+
+2018-05-23 12:41:42 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-23 12:41:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-23 12:41:42 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/00_Sub_Menu_Create_Master_Data' is hovered
+
+2018-05-23 12:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/00_Sub_Menu_Create_Master_Data' is hovered
+
+2018-05-23 12:41:42 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-23 12:41:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-23 12:41:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/1_Menu_Banner' is clicked on
+
+2018-05-23 12:41:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/1_Menu_Banner' is clicked on
+
+2018-05-23 12:41:44 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-23 12:41:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-23 12:41:44 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/1_New_Banner' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/1_New_Banner' located by 'By.xpath: //td[contains(text(),'Banner Code')]' not found)
+
+2018-05-23 12:41:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-23 12:42:15 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/1_New_Banner' located by 'By.xpath: //td[contains(text(),'Banner Code')]' not found
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180523_124118\\1527061335367.png]]
+
+2018-05-23 12:42:16 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/1_New_Banner' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/1_New_Banner' located by 'By.xpath: //td[contains(text(),'Banner Code')]' not found)
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180523_124118\\1527061335718.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-23 12:41:42 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_1_Open_Banner: Test Cases/Smoke_TF_Customer/TC_1_Open_Banner FAILED because (of) Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/1_New_Banner' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/1_New_Banner' located by 'By.xpath: //td[contains(text(),'Banner Code')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-23 12:41:19 - [TEST_SUITE][FAILED] - Smoke_TF_Customer: Test Cases/Smoke_TF_Customer/TC_1_Open_Banner FAILED because (of) Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/1_New_Banner' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/1_New_Banner' located by 'By.xpath: //td[contains(text(),'Banner Code')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-23 12:41:19 - [TEST_SUITE][FAILED] - Smoke_TF_Customer: Test Cases/Smoke_TF_Customer/TC_1_Open_Banner FAILED because (of) Unable to verify object 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/1_New_Banner' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/Verification_Point_After_Open_Page/1_New_Banner' located by 'By.xpath: //td[contains(text(),'Banner Code')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

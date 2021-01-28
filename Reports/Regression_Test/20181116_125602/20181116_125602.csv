@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression_Test,,,2018-11-16 12:56:03,2018-11-16 12:56:05,1.846s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_1_Create_Banner,,,2018-11-16 12:56:03,2018-11-16 12:56:04,0.466s,FAILED
+waitForPageLoad,,,2018-11-16 12:56:03,2018-11-16 12:56:04,0.214s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_2_Create_RGM_Designated_Baseline,,,2018-11-16 12:56:04,2018-11-16 12:56:04,0.107s,FAILED
+waitForPageLoad,,,2018-11-16 12:56:04,2018-11-16 12:56:04,0.003s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_3_Create_JMS_Sales_Org,,,2018-11-16 12:56:04,2018-11-16 12:56:04,0.147s,FAILED
+waitForPageLoad,,,2018-11-16 12:56:04,2018-11-16 12:56:04,0.002s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_4_Create_Consumption_Baseline_Source,,,2018-11-16 12:56:04,2018-11-16 12:56:04,0.143s,FAILED
+waitForPageLoad,,,2018-11-16 12:56:04,2018-11-16 12:56:04,0.003s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_5_Create_Corporate_Customer,,,2018-11-16 12:56:04,2018-11-16 12:56:04,0.133s,FAILED
+waitForPageLoad,,,2018-11-16 12:56:04,2018-11-16 12:56:04,0.003s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_6_Create_SHL1_SBU,,,2018-11-16 12:56:04,2018-11-16 12:56:04,0.151s,FAILED
+waitForPageLoad,,,2018-11-16 12:56:04,2018-11-16 12:56:04,0.002s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_7_Create_SHL2_Sales_Segment,,,2018-11-16 12:56:04,2018-11-16 12:56:04,0.090s,FAILED
+waitForPageLoad,,,2018-11-16 12:56:04,2018-11-16 12:56:04,0.002s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_8_Create_SHL3_Sales_Division,,,2018-11-16 12:56:04,2018-11-16 12:56:05,0.133s,FAILED
+waitForPageLoad,,,2018-11-16 12:56:05,2018-11-16 12:56:05,0.002s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_9_Create_SHL4_Sales_Region,,,2018-11-16 12:56:05,2018-11-16 12:56:05,0.107s,FAILED
+waitForPageLoad,,,2018-11-16 12:56:05,2018-11-16 12:56:05,0.003s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_10_Create_SHL5_Sales_Market,,,2018-11-16 12:56:05,2018-11-16 12:56:05,0.106s,FAILED
+waitForPageLoad,,,2018-11-16 12:56:05,2018-11-16 12:56:05,0.001s,FAILED

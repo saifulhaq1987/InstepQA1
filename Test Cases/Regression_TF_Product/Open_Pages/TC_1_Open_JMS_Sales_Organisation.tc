@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will open JMS Sales organistion page.</description>
+   <name>TC_1_Open_JMS_Sales_Organisation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2021efda-638e-4fee-8c0e-e008e761d563</testCaseGuid>
+   <variable>
+      <defaultValue>'TEST_BANNER_216'</defaultValue>
+      <description></description>
+      <id>9aa2daf5-c6da-4518-97b7-86afac4f773d</id>
+      <masked>false</masked>
+      <name>Inpt_Banner_Name</name>
+   </variable>
+</TestCaseEntity>

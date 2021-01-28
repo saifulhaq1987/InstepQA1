@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke_TF_Customer,Firefox 59.0,,2018-10-25 15:23:54,2018-10-25 15:24:27,32.996s,FAILED
+,,,,,,
+Test Cases/General_Login_Logout/Login,Firefox 59.0,,2018-10-25 15:23:55,2018-10-25 15:24:14,19.630s,PASSED
+tradeFunds.TradeFunds.LoginTFCustomer,Firefox 59.0,,2018-10-25 15:23:55,2018-10-25 15:24:14,19.412s,PASSED
+,,,,,,
+Test Cases/Smoke_TF_Customer/TC_1_Open_Banner,Firefox 59.0,,2018-10-25 15:24:14,2018-10-25 15:24:27,13.119s,FAILED
+waitForPageLoad,Firefox 59.0,,2018-10-25 15:24:14,2018-10-25 15:24:14,0.018s,PASSED
+mouseOver,Firefox 59.0,,2018-10-25 15:24:14,2018-10-25 15:24:15,0.182s,PASSED
+waitForPageLoad,Firefox 59.0,,2018-10-25 15:24:15,2018-10-25 15:24:15,0.006s,PASSED
+mouseOver,Firefox 59.0,,2018-10-25 15:24:15,2018-10-25 15:24:26,11.859s,PASSED
+waitForPageLoad,Firefox 59.0,,2018-10-25 15:24:26,2018-10-25 15:24:26,0.009s,PASSED
+click,Firefox 59.0,,2018-10-25 15:24:26,2018-10-25 15:24:27,0.765s,PASSED
+waitForPageLoad,Firefox 59.0,,2018-10-25 15:24:27,2018-10-25 15:24:27,0.009s,PASSED
+click,Firefox 59.0,,2018-10-25 15:24:27,2018-10-25 15:24:27,0.001s,NOT_RUN
+setText,Firefox 59.0,,2018-10-25 15:24:27,2018-10-25 15:24:27,0.127s,FAILED

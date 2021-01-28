@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+2_New Test Suite,Chrome 66.0.3359.181,,2018-05-30 13:03:19,2018-05-30 13:04:09,50.118s,FAILED
+,,,,,,
+Test Cases/Smoke_TF_Customer/Create_Objects/TC_13_Create_Banner,Chrome 66.0.3359.181,,2018-05-30 13:03:19,2018-05-30 13:04:09,49.901s,FAILED
+callTestCase,Chrome 66.0.3359.181,,2018-05-30 13:03:20,2018-05-30 13:03:38,17.885s,PASSED
+waitForPageLoad,Chrome 66.0.3359.181,,2018-05-30 13:03:38,2018-05-30 13:03:38,0.007s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-30 13:03:38,2018-05-30 13:03:38,0.001s,NOT_RUN
+setText,Chrome 66.0.3359.181,,2018-05-30 13:03:38,2018-05-30 13:04:09,31.781s,FAILED

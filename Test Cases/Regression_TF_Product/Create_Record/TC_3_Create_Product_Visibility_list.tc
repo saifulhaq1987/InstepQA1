@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will open the product visibiltiy list page.</description>
+   <name>TC_3_Create_Product_Visibility_list</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>428dad6a-442c-42aa-84b9-f4b27a1c3d54</testCaseGuid>
+   <variable>
+      <defaultValue>'12'</defaultValue>
+      <description></description>
+      <id>2d939eb1-84c4-4ee0-98ee-f1b693e5a13c</id>
+      <masked>false</masked>
+      <name>Inpt_Months_until_archive</name>
+   </variable>
+</TestCaseEntity>

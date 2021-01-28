@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke_TF_Customer" time="56" tests="2" failures="0" errors="0">
+   <testsuite name="Smoke_TF_Customer" tests="2" failures="0" errors="0" time="56" timestamp="2018-11-08 15:42:00" hostname="Junaid.Tariq - Junaid.instepinc.com" id="Test Suites/Smoke_TF_Customer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\Projects\\Trade_Funds\\TF_Regression\\Reports\\Smoke_TF_Customer\\20181108_154159"/>
+         <property name="logFiles" value="D:\\Katalon\\Projects\\Trade_Funds\\TF_Regression\\Reports\\Smoke_TF_Customer\\20181108_154159\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Junaid.Tariq - Junaid.instepinc.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="200.199.80.62"/>
+         <property name="sessionId" value="d6f4cb64bd2de35d3e4ea56c66d3ab61"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/General_Login_Logout/Login" classname="Test Cases/General_Login_Logout/Login" status="PASSED">
+         <system-out><![CDATA[2018-11-08 15:42:00 - [TEST_CASE][PASSED] - Test Cases/General_Login_Logout/Login: Test Cases/General_Login_Logout/Login
+
+2018-11-08 15:42:00 - [TEST_STEP][PASSED] - tradeFunds.TF_Regression.LoginTFCustomer: tradeFunds.TF_Regression.LoginTFCustomer is PASSED
+
+2018-11-08 15:42:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-08 15:42:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-08 15:42:04 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-08 15:42:13 - [MESSAGE][PASSED] - Navigate to 'https://52.6.78.242:7008/e360/com.informatica.tools.mdm.web.auth/login' successfully
+
+2018-11-08 15:42:13 - [MESSAGE][PASSED] - Text 'junaid_sm' is set on object 'Object Repository/Page_ Login/Txt_Username'
+
+2018-11-08 15:42:13 - [MESSAGE][PASSED] - Text 'str0ng_2' is set on object 'Object Repository/Page_ Login/Txt_Password'
+
+2018-11-08 15:42:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Login/Btn_Login' is clicked on
+
+2018-11-08 15:42:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-08 15:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Login/Project_Selection/div_Trade Funds Customer' is clicked on
+
+2018-11-08 15:42:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 15:42:28 - [MESSAGE][PASSED] - tradeFunds.TF_Regression.LoginTFCustomer is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Customer/TC_1_Create_Banner" classname="Test Cases/Regression_TF_Customer/TC_1_Create_Banner" status="PASSED">
+         <system-out><![CDATA[2018-11-08 15:42:28 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Customer/TC_1_Create_Banner: Test Cases/Regression_TF_Customer/TC_1_Create_Banner
+
+2018-11-08 15:42:28 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-08 15:42:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-08 15:42:28 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-08 15:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-11-08 15:42:28 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-08 15:42:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-08 15:42:28 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Create/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-08 15:42:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-11-08 15:42:44 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-08 15:42:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-08 15:42:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/1_Menu_Banner' is clicked on
+
+2018-11-08 15:42:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Banner' is clicked on
+
+2018-11-08 15:42:45 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-08 15:42:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-08 15:42:45 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-08 15:42:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-08 15:42:45 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-11-08 15:42:45 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-11-08 15:42:45 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-08 15:42:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-08 15:42:45 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-11-08 15:42:45 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-11-08 15:42:45 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-08 15:42:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-08 15:42:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-08 15:42:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-08 15:42:48 - [TEST_STEP][PASSED] - setText: Text 'Banner_Test_47' is set on object 'Object Repository/TF_Customer_Create/Create_Objects_And_Save/1_Create_Banner/Input_Banner_Name/input_Banner_Nm'
+
+2018-11-08 15:42:49 - [MESSAGE][PASSED] - Text 'Banner_Test_47' is set on object 'Object Repository/TF_Customer_Create/Create_Objects_And_Save/1_Create_Banner/Input_Banner_Name/input_Banner_Nm'
+
+2018-11-08 15:42:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-08 15:42:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-08 15:42:51 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-08 15:42:51 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-08 15:42:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/Create_Objects_And_Save/Click_Apply_Button/td_Apply' is clicked on
+
+2018-11-08 15:42:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/Create_Objects_And_Save/Click_Apply_Button/td_Apply' is clicked on
+
+2018-11-08 15:42:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-08 15:42:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-08 15:42:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/Create_Objects_And_Save/Click_Save_Button/td_Save' is clicked on
+
+2018-11-08 15:42:53 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/Create_Objects_And_Save/Click_Save_Button/td_Save' is clicked on
+
+2018-11-08 15:42:53 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-08 15:42:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-08 15:42:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Create/Create_Objects_And_Save/Click_Close_Button/td_Close' is clicked on
+
+2018-11-08 15:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/Create_Objects_And_Save/Click_Close_Button/td_Close' is clicked on
+
+2018-11-08 15:42:56 - [TEST_STEP][NOT_RUN] - Statement - row_MTCH = CustomKeywords.tradeFunds.TF_Regression.verifyBanner(ora_connt, ora_usr, ora_psswrd, ora_schema): NOT_RUN: Statement - row_MTCH = CustomKeywords.tradeFunds.TF_Regression.verifyBanner(ora_connt, ora_usr, ora_psswrd, ora_schema)
+
+2018-11-08 15:42:56 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - row_MTCH = CustomKeywords.tradeFunds.TF_Regression.verifyBanner(ora_connt, ora_usr, ora_psswrd, ora_schema)
+
+2018-11-08 15:42:56 - [TEST_STEP][NOT_RUN] - Statement - println("MTCH_Banner_Name"): NOT_RUN: Statement - println("MTCH_Banner_Name")
+
+2018-11-08 15:42:56 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println("MTCH_Banner_Name")
+
+2018-11-08 15:42:56 - [TEST_STEP][NOT_RUN] - verifyEqual: NOT_RUN: verifyEqual
+
+2018-11-08 15:42:56 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-08 15:42:00 - [TEST_SUITE][PASSED] - Smoke_TF_Customer: Test Cases/Regression_TF_Customer/TC_1_Create_Banner]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

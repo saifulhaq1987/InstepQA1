@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit_Record_Test_Suite" time="14" tests="1" failures="0" errors="0">
+   <testsuite name="Edit_Record_Test_Suite" tests="1" failures="0" errors="0" time="14" timestamp="2019-01-18 20:09:22" hostname="Junaid.Tariq - Junaid.instepinc.com" id="Test Suites/Edit_Record_Test_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\Projects\\Trade_Funds\\TF_Regression\\Reports\\Edit_Record_Test_Suite\\20190118_200921"/>
+         <property name="logFiles" value="D:\\Katalon\\Projects\\Trade_Funds\\TF_Regression\\Reports\\Edit_Record_Test_Suite\\20190118_200921\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Junaid.Tariq - Junaid.instepinc.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="200.199.80.62"/>
+         <property name="sessionId" value="0f6913f542ae8f2ae08ff2a39b572524"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site" classname="Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site" status="PASSED">
+         <system-out><![CDATA[2019-01-18 20:09:22 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site: Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site
+
+2019-01-18 20:09:22 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-18 20:09:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-18 20:09:23 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-18 20:09:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2019-01-18 20:09:23 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-18 20:09:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-18 20:09:23 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-18 20:09:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2019-01-18 20:09:23 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-18 20:09:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-18 20:09:23 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option' is hovered
+
+2019-01-18 20:09:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option' is hovered
+
+2019-01-18 20:09:24 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-18 20:09:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-18 20:09:24 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site")): Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site' is clicked on
+
+2019-01-18 20:09:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site' is clicked on
+
+2019-01-18 20:09:24 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2019-01-18 20:09:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-18 20:09:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-18 20:09:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-18 20:09:27 - [TEST_STEP][PASSED] - vndSiteName = com.oracledb.regressiontest.genName(15): com.oracledb.regressiontest.genName is PASSED
+
+2019-01-18 20:09:27 - [MESSAGE][PASSED] - com.oracledb.regressiontest.genName is PASSED
+
+2019-01-18 20:09:27 - [TEST_STEP][PASSED] - vndSiteNumber = com.oracledb.regressiontest.genName(12): com.oracledb.regressiontest.genName is PASSED
+
+2019-01-18 20:09:27 - [MESSAGE][PASSED] - com.oracledb.regressiontest.genName is PASSED
+
+2019-01-18 20:09:27 - [TEST_STEP][PASSED] - vndSiteCd = com.oracledb.regressiontest.genName(10): com.oracledb.regressiontest.genName is PASSED
+
+2019-01-18 20:09:27 - [MESSAGE][PASSED] - com.oracledb.regressiontest.genName is PASSED
+
+2019-01-18 20:09:27 - [TEST_STEP][PASSED] - vndSiteCity = com.oracledb.regressiontest.genName(8): com.oracledb.regressiontest.genName is PASSED
+
+2019-01-18 20:09:27 - [MESSAGE][PASSED] - com.oracledb.regressiontest.genName is PASSED
+
+2019-01-18 20:09:27 - [TEST_STEP][PASSED] - vndSitePtlCd = com.oracledb.regressiontest.genName(6): com.oracledb.regressiontest.genName is PASSED
+
+2019-01-18 20:09:27 - [MESSAGE][PASSED] - com.oracledb.regressiontest.genName is PASSED
+
+2019-01-18 20:09:27 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm"), vndSiteName): Text 'OQYXKA3BTK759LP' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm'
+
+2019-01-18 20:09:27 - [MESSAGE][PASSED] - Text 'OQYXKA3BTK759LP' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm'
+
+2019-01-18 20:09:27 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number"), vndSiteNumber): Text 'YLI9G6RO3P93' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number'
+
+2019-01-18 20:09:27 - [MESSAGE][PASSED] - Text 'YLI9G6RO3P93' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number'
+
+2019-01-18 20:09:27 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd"), vndSiteCd): Text '5B80DMT0X2' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd'
+
+2019-01-18 20:09:27 - [MESSAGE][PASSED] - Text '5B80DMT0X2' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd'
+
+2019-01-18 20:09:27 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City"), vndSiteCity): Text '9629KRPG' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City'
+
+2019-01-18 20:09:27 - [MESSAGE][PASSED] - Text '9629KRPG' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City'
+
+2019-01-18 20:09:27 - [TEST_STEP][PASSED] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code"), vndSitePtlCd): Text '5LOETM' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code'
+
+2019-01-18 20:09:28 - [MESSAGE][PASSED] - Text '5LOETM' is set on object 'Object Repository/TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code'
+
+2019-01-18 20:09:28 - [TEST_STEP][NOT_RUN] - setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Set_Effective_Dates/input_Effective_End_Date"), input_Eff_End_Dt): NOT_RUN: setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Set_Effective_Dates/input_Effective_End_Date"), input_Eff_End_Dt)
+
+2019-01-18 20:09:28 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Set_Effective_Dates/input_Effective_End_Date"), input_Eff_End_Dt)
+
+2019-01-18 20:09:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-18 20:09:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-18 20:09:30 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-18 20:09:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab' is clicked on
+
+2019-01-18 20:09:30 - [TEST_STEP][NOT_RUN] - click(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD"), CONTINUE_ON_FAILURE): NOT_RUN: click(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD"), CONTINUE_ON_FAILURE)
+
+2019-01-18 20:09:30 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD"), CONTINUE_ON_FAILURE)
+
+2019-01-18 20:09:30 - [TEST_STEP][NOT_RUN] - click(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object"), CONTINUE_ON_FAILURE): NOT_RUN: click(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object"), CONTINUE_ON_FAILURE)
+
+2019-01-18 20:09:30 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object"), CONTINUE_ON_FAILURE)
+
+2019-01-18 20:09:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-18 20:09:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-18 20:09:32 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-18 20:09:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply' is clicked on
+
+2019-01-18 20:09:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-18 20:09:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-18 20:09:34 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save")): Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-18 20:09:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save' is clicked on
+
+2019-01-18 20:09:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-18 20:09:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-18 20:09:36 - [TEST_STEP][NOT_RUN] - verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE): NOT_RUN: verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE)
+
+2019-01-18 20:09:36 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message"), "Record has been saved successfully.", CONTINUE_ON_FAILURE)
+
+2019-01-18 20:09:36 - [TEST_STEP][NOT_RUN] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab")): NOT_RUN: click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab"))
+
+2019-01-18 20:09:36 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab"))
+
+2019-01-18 20:09:36 - [TEST_STEP][NOT_RUN] - delay(1): NOT_RUN: delay(1)
+
+2019-01-18 20:09:36 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(1)
+
+2019-01-18 20:09:36 - [TEST_STEP][NOT_RUN] - click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close")): NOT_RUN: click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close"))
+
+2019-01-18 20:09:36 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close"))
+
+2019-01-18 20:09:36 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2019-01-18 20:09:36 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2019-01-18 20:09:36 - [TEST_STEP][NOT_RUN] - vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName): NOT_RUN: vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)
+
+2019-01-18 20:09:36 - [MESSAGE][NOT_RUN] - NOT_RUN: vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)
+
+2019-01-18 20:09:36 - [TEST_STEP][NOT_RUN] - println("Planning Account Name"): NOT_RUN: println("Planning Account Name")
+
+2019-01-18 20:09:36 - [MESSAGE][NOT_RUN] - NOT_RUN: println("Planning Account Name")
+
+2019-01-18 20:09:36 - [TEST_STEP][NOT_RUN] - verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName): NOT_RUN: verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)
+
+2019-01-18 20:09:36 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-18 20:09:22 - [TEST_SUITE][PASSED] - Edit_Record_Test_Suite: Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will open total company page by going into the Product Hierarchy level.</description>
+   <name>TC_2-1_Total_Company</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3c1596a-c1ee-4aba-adf8-f378a40923e5</testCaseGuid>
+</TestCaseEntity>

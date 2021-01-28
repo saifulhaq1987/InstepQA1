@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Open_All_Pages" time="106.277" tests="9" failures="0" errors="0">
+   <testsuite name="Open_All_Pages" tests="9" failures="0" errors="0" time="106.277" timestamp="2020-01-16 16:10:13" hostname="MSaif - Saif.instepinc.com" id="Test Suites/Open_All_Pages">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Katalon\\TF_Product\\Reports\\20200116_161011\\Open_All_Pages\\20200116_161011"/>
+         <property name="logFiles" value="G:\\Katalon\\TF_Product\\Reports\\20200116_161011\\Open_All_Pages\\20200116_161011\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MSaif - Saif.instepinc.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 79.0.3945.117"/>
+         <property name="hostAddress" value="200.199.80.59"/>
+         <property name="sessionId" value="ae22396196a36faf7c16f9b1c3d09f99"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Regression_TF_Product/Open_Pages/TC_1_Open_JMS_Sales_Organisation" time="12.115" classname="Test Cases/Regression_TF_Product/Open_Pages/TC_1_Open_JMS_Sales_Organisation" status="PASSED">
+         <system-out><![CDATA[2020-01-16 16:10:13 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Product/Open_Pages/TC_1_Open_JMS_Sales_Organisation: Test Cases/Regression_TF_Product/Open_Pages/TC_1_Open_JMS_Sales_Organisation
+
+2020-01-16 16:10:13 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2020-01-16 16:10:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-01-16 16:10:14 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2020-01-16 16:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2020-01-16 16:10:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 16:10:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-16 16:10:18 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2020-01-16 16:10:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2020-01-16 16:10:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 16:10:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-16 16:10:21 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/1_Menu_JMS_Sales_Organisation")): Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/1_Menu_JMS_Sales_Organisation' is clicked on
+
+2020-01-16 16:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/1_Menu_JMS_Sales_Organisation' is clicked on
+
+2020-01-16 16:10:22 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2020-01-16 16:10:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-01-16 16:10:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 16:10:25 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Product/Open_Pages/TC_2-1_Total_Company" time="13.295" classname="Test Cases/Regression_TF_Product/Open_Pages/TC_2-1_Total_Company" status="PASSED">
+         <system-out><![CDATA[2020-01-16 16:10:25 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Product/Open_Pages/TC_2-1_Total_Company: Test Cases/Regression_TF_Product/Open_Pages/TC_2-1_Total_Company
+
+2020-01-16 16:10:25 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2020-01-16 16:10:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-01-16 16:10:25 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2020-01-16 16:10:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2020-01-16 16:10:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 16:10:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-16 16:10:29 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2020-01-16 16:10:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2020-01-16 16:10:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 16:10:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-16 16:10:32 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level_Hoverover_Option")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level_Hoverover_Option' is hovered
+
+2020-01-16 16:10:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level_Hoverover_Option' is hovered
+
+2020-01-16 16:10:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 16:10:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 16:10:35 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_total_company")): Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_total_company' is clicked on
+
+2020-01-16 16:10:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_total_company' is clicked on
+
+2020-01-16 16:10:35 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2020-01-16 16:10:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-01-16 16:10:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 16:10:38 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Product/Open_Pages/TC_2-2_Product_Summary" time="12.971" classname="Test Cases/Regression_TF_Product/Open_Pages/TC_2-2_Product_Summary" status="PASSED">
+         <system-out><![CDATA[2020-01-16 16:10:38 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Product/Open_Pages/TC_2-2_Product_Summary: Test Cases/Regression_TF_Product/Open_Pages/TC_2-2_Product_Summary
+
+2020-01-16 16:10:38 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2020-01-16 16:10:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-01-16 16:10:38 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2020-01-16 16:10:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2020-01-16 16:10:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 16:10:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-16 16:10:42 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2020-01-16 16:10:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2020-01-16 16:10:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 16:10:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-16 16:10:45 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level_Hoverover_Option")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level_Hoverover_Option' is hovered
+
+2020-01-16 16:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level_Hoverover_Option' is hovered
+
+2020-01-16 16:10:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 16:10:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 16:10:48 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_Product_summary")): Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_Product_summary' is clicked on
+
+2020-01-16 16:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_Product_summary' is clicked on
+
+2020-01-16 16:10:48 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2020-01-16 16:10:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-01-16 16:10:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 16:10:51 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Product/Open_Pages/TC_2-3_Planning_Product" time="13.062" classname="Test Cases/Regression_TF_Product/Open_Pages/TC_2-3_Planning_Product" status="PASSED">
+         <system-out><![CDATA[2020-01-16 16:10:51 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Product/Open_Pages/TC_2-3_Planning_Product: Test Cases/Regression_TF_Product/Open_Pages/TC_2-3_Planning_Product
+
+2020-01-16 16:10:51 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2020-01-16 16:10:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-01-16 16:10:51 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2020-01-16 16:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2020-01-16 16:10:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 16:10:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-16 16:10:55 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2020-01-16 16:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2020-01-16 16:10:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 16:10:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-16 16:10:58 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level_Hoverover_Option")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level_Hoverover_Option' is hovered
+
+2020-01-16 16:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level_Hoverover_Option' is hovered
+
+2020-01-16 16:10:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 16:11:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 16:11:01 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_Planning_product")): Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_Planning_product' is clicked on
+
+2020-01-16 16:11:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_Planning_product' is clicked on
+
+2020-01-16 16:11:01 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2020-01-16 16:11:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-01-16 16:11:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 16:11:04 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Product/Open_Pages/TC_2-4_Sub_Planning_Product" time="14.137" classname="Test Cases/Regression_TF_Product/Open_Pages/TC_2-4_Sub_Planning_Product" status="PASSED">
+         <system-out><![CDATA[2020-01-16 16:11:04 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Product/Open_Pages/TC_2-4_Sub_Planning_Product: Test Cases/Regression_TF_Product/Open_Pages/TC_2-4_Sub_Planning_Product
+
+2020-01-16 16:11:04 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2020-01-16 16:11:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-01-16 16:11:04 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2020-01-16 16:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2020-01-16 16:11:05 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-16 16:11:09 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-16 16:11:09 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2020-01-16 16:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2020-01-16 16:11:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 16:11:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-16 16:11:12 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level_Hoverover_Option")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level_Hoverover_Option' is hovered
+
+2020-01-16 16:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level_Hoverover_Option' is hovered
+
+2020-01-16 16:11:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 16:11:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 16:11:15 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_Sub_Planning_Product")): Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_Sub_Planning_Product' is clicked on
+
+2020-01-16 16:11:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_Sub_Planning_Product' is clicked on
+
+2020-01-16 16:11:15 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2020-01-16 16:11:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-01-16 16:11:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 16:11:18 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Product/Open_Pages/TC_2-5_Promoted_Product_Group" time="14.026" classname="Test Cases/Regression_TF_Product/Open_Pages/TC_2-5_Promoted_Product_Group" status="PASSED">
+         <system-out><![CDATA[2020-01-16 16:11:18 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Product/Open_Pages/TC_2-5_Promoted_Product_Group: Test Cases/Regression_TF_Product/Open_Pages/TC_2-5_Promoted_Product_Group
+
+2020-01-16 16:11:19 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2020-01-16 16:11:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-01-16 16:11:19 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2020-01-16 16:11:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2020-01-16 16:11:19 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-16 16:11:23 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-16 16:11:23 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2020-01-16 16:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2020-01-16 16:11:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 16:11:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-16 16:11:26 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level_Hoverover_Option")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level_Hoverover_Option' is hovered
+
+2020-01-16 16:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/2_Product_Hierarchy_Level_Hoverover_Option' is hovered
+
+2020-01-16 16:11:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-16 16:11:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-16 16:11:29 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_Promoted_Product_Group")): Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_Promoted_Product_Group' is clicked on
+
+2020-01-16 16:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/Product Hierarchy Level/td_Promoted_Product_Group' is clicked on
+
+2020-01-16 16:11:29 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2020-01-16 16:11:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-01-16 16:11:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 16:11:32 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Product/Open_Pages/TC_3_Open_Product_Visibility_list" time="12.549" classname="Test Cases/Regression_TF_Product/Open_Pages/TC_3_Open_Product_Visibility_list" status="PASSED">
+         <system-out><![CDATA[2020-01-16 16:11:32 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Product/Open_Pages/TC_3_Open_Product_Visibility_list: Test Cases/Regression_TF_Product/Open_Pages/TC_3_Open_Product_Visibility_list
+
+2020-01-16 16:11:33 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2020-01-16 16:11:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-01-16 16:11:33 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2020-01-16 16:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2020-01-16 16:11:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 16:11:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-16 16:11:36 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2020-01-16 16:11:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2020-01-16 16:11:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-16 16:11:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-16 16:11:40 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/3_Menu_Product_Visibility_list")): Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/3_Menu_Product_Visibility_list' is clicked on
+
+2020-01-16 16:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/3_Menu_Product_Visibility_list' is clicked on
+
+2020-01-16 16:11:40 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2020-01-16 16:11:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-01-16 16:11:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-16 16:11:45 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Regression_TF_Product/Open_Pages/TC_4_Open_Adjustable_Rate_Policy" time="6.901" classname="Test Cases/Regression_TF_Product/Open_Pages/TC_4_Open_Adjustable_Rate_Policy" status="PASSED">
+         <system-out><![CDATA[2020-01-16 16:11:45 - [TEST_CASE][PASSED] - Test Cases/Regression_TF_Product/Open_Pages/TC_4_Open_Adjustable_Rate_Policy: Test Cases/Regression_TF_Product/Open_Pages/TC_4_Open_Adjustable_Rate_Policy
+
+2020-01-16 16:11:45 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2020-01-16 16:11:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-01-16 16:11:45 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2020-01-16 16:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2020-01-16 16:11:46 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2020-01-16 16:11:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-01-16 16:11:46 - [TEST_STEP][PASSED] - mouseOver(findTestObject("TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data")): Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2020-01-16 16:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2020-01-16 16:11:46 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2020-01-16 16:11:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-01-16 16:11:46 - [TEST_STEP][PASSED] - click(findTestObject("TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Adjustable_rate_policy")): Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Adjustable_rate_policy' is clicked on
+
+2020-01-16 16:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Create/2_Select_Menu_Options(All)/4_Menu_Adjustable_rate_policy' is clicked on
+
+2020-01-16 16:11:47 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout): Wait for page load successfully
+
+2020-01-16 16:11:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-01-16 16:11:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-16 16:11:52 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/General_Login_Logout/Logout" time="6.945" classname="Test Cases/General_Login_Logout/Logout" status="PASSED">
+         <system-out><![CDATA[2020-01-16 16:11:52 - [TEST_CASE][PASSED] - Test Cases/General_Login_Logout/Logout: Test Cases/General_Login_Logout/Logout
+
+2020-01-16 16:11:52 - [TEST_STEP][PASSED] - com.oracledb.regressiontest.logoutTFProduct(): com.oracledb.regressiontest.logoutTFProduct is PASSED
+
+2020-01-16 16:11:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-01-16 16:11:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Product_Open_Pages/Page_Informatica MDM/td_Jiwani DS' is hovered using offset x = 5 and y = 5
+
+2020-01-16 16:11:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-16 16:11:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Product_Open_Pages/Page_Informatica MDM/a_Log Out' is clicked on
+
+2020-01-16 16:11:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-16 16:11:59 - [MESSAGE][PASSED] - com.oracledb.regressiontest.logoutTFProduct is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-16 16:10:13 - [TEST_SUITE][PASSED] - Open_All_Pages: Test Cases/General_Login_Logout/Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Edit_Record_Test_Suite,Chrome 71.0.3578.98,,2019-01-18 20:29:32,2019-01-18 20:29:46,14.761s,PASSED
+,,,,,,
+Test Cases/Regression_TF_Customer/Create_Record/TC_13_Create_LDI_Vendor_Site,Chrome 71.0.3578.98,,2019-01-18 20:29:32,2019-01-18 20:29:46,14.617s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-18 20:29:32,2019-01-18 20:29:33,0.717s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View""))",Chrome 71.0.3578.98,,2019-01-18 20:29:33,2019-01-18 20:29:33,0.073s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-18 20:29:33,2019-01-18 20:29:33,0.006s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data""))",Chrome 71.0.3578.98,,2019-01-18 20:29:33,2019-01-18 20:29:33,0.072s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-18 20:29:33,2019-01-18 20:29:33,0.006s,PASSED
+"mouseOver(findTestObject(""TF_Customer_Create/1_Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option""))",Chrome 71.0.3578.98,,2019-01-18 20:29:33,2019-01-18 20:29:34,0.573s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-18 20:29:34,2019-01-18 20:29:34,0.010s,PASSED
+"click(findTestObject(""TF_Customer_Create/2_Select_Menu_Options(All)/13_LDI_Vendor_Site""))",Chrome 71.0.3578.98,,2019-01-18 20:29:34,2019-01-18 20:29:34,0.075s,PASSED
+waitForPageLoad(G_Timeout),Chrome 71.0.3578.98,,2019-01-18 20:29:34,2019-01-18 20:29:34,0.005s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-18 20:29:34,2019-01-18 20:29:37,3.012s,PASSED
+vndSiteName = com.oracledb.regressiontest.genName(15),Chrome 71.0.3578.98,,2019-01-18 20:29:37,2019-01-18 20:29:37,0.048s,PASSED
+vndSiteNumber = com.oracledb.regressiontest.genName(12),Chrome 71.0.3578.98,,2019-01-18 20:29:37,2019-01-18 20:29:37,0.000s,PASSED
+vndSiteCd = com.oracledb.regressiontest.genName(10),Chrome 71.0.3578.98,,2019-01-18 20:29:37,2019-01-18 20:29:37,0.000s,PASSED
+vndSiteCity = com.oracledb.regressiontest.genName(8),Chrome 71.0.3578.98,,2019-01-18 20:29:37,2019-01-18 20:29:37,0.005s,PASSED
+vndSitePtlCd = com.oracledb.regressiontest.genName(6),Chrome 71.0.3578.98,,2019-01-18 20:29:37,2019-01-18 20:29:37,0.000s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Nm""), vndSiteName)",Chrome 71.0.3578.98,,2019-01-18 20:29:37,2019-01-18 20:29:37,0.224s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Number""), vndSiteNumber)",Chrome 71.0.3578.98,,2019-01-18 20:29:37,2019-01-18 20:29:37,0.190s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Cd""), vndSiteCd)",Chrome 71.0.3578.98,,2019-01-18 20:29:37,2019-01-18 20:29:37,0.182s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_City""), vndSiteCity)",Chrome 71.0.3578.98,,2019-01-18 20:29:37,2019-01-18 20:29:38,0.182s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Postal_Code""), vndSitePtlCd)",Chrome 71.0.3578.98,,2019-01-18 20:29:38,2019-01-18 20:29:38,0.187s,PASSED
+"setText(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/13_Create_LDI_Vendor_Site/Input_Vendor_Site_Name/input_Vendor_Site_Inactive_dt""), input_Eff_Dt)",Chrome 71.0.3578.98,,2019-01-18 20:29:38,2019-01-18 20:29:38,0.196s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-18 20:29:38,2019-01-18 20:29:40,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-18 20:29:40,2019-01-18 20:29:40,0.080s,PASSED
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/Click_Sales_Org_DD""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,"Click dropdown button.
+",2019-01-18 20:29:40,2019-01-18 20:29:40,0.001s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/4_Create_Objects_And_Save/Choose_Sales_Org/CA_Object""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,Select dropdown option 'CA'.,2019-01-18 20:29:40,2019-01-18 20:29:40,0.001s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-18 20:29:40,2019-01-18 20:29:42,2.003s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Apply_Button/td_Apply""))",Chrome 71.0.3578.98,,2019-01-18 20:29:42,2019-01-18 20:29:42,0.257s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-18 20:29:42,2019-01-18 20:29:44,2.002s,PASSED
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Save_Button/btn_Save""))",Chrome 71.0.3578.98,,2019-01-18 20:29:44,2019-01-18 20:29:44,0.163s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-18 20:29:44,2019-01-18 20:29:46,2.003s,PASSED
+"verifyElementText(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Verify_Success_Message/Success_Message""), ""Record has been saved successfully."", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-18 20:29:46,2019-01-18 20:29:46,0.002s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Data_Tab/span_Data_Tab""))",Chrome 71.0.3578.98,,2019-01-18 20:29:46,2019-01-18 20:29:46,0.003s,NOT_RUN
+delay(1),Chrome 71.0.3578.98,,2019-01-18 20:29:46,2019-01-18 20:29:46,0.003s,NOT_RUN
+"click(findTestObject(""TF_Customer_Create/3_Common_Action_Buttons/Click_Close_Button/btn_Close""))",Chrome 71.0.3578.98,New Planning Account has been created.,2019-01-18 20:29:46,2019-01-18 20:29:46,0.003s,NOT_RUN
+delay(2),Chrome 71.0.3578.98,,2019-01-18 20:29:46,2019-01-18 20:29:46,0.003s,NOT_RUN
+"vrfy_PLA = com.oracledb.regressiontest.verifyPLA(ora_connt, ora_usr, ora_psswrd, ora_schema, plaAcctName)",Chrome 71.0.3578.98,,2019-01-18 20:29:46,2019-01-18 20:29:46,0.003s,NOT_RUN
+"println(""Planning Account Name"")",Chrome 71.0.3578.98,,2019-01-18 20:29:46,2019-01-18 20:29:46,0.001s,NOT_RUN
+"verifyEqual(PLANNING_ACCOUNT_NAME, plaAcctName)",Chrome 71.0.3578.98,New Planning Account has been verified. ,2019-01-18 20:29:46,2019-01-18 20:29:46,0.005s,NOT_RUN

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke_TF_Customer" time="77" tests="0" failures="3" errors="0">
+   <testsuite name="Smoke_TF_Customer" tests="0" failures="3" errors="0" time="77" timestamp="2018-05-11 11:57:51" hostname="Junaid.Tariq - Junaid.instepinc.com" id="Test Suites/Smoke_TF_Customer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_115750"/>
+         <property name="logFiles" value="D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_115750\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_115750\\1526021915418.png, D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_115750\\1526021947731.png, D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_115750\\1526021948153.png"/>
+         <property name="hostName" value="Junaid.Tariq - Junaid.instepinc.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="200.199.80.62"/>
+         <property name="sessionId" value="7409bf8edb1fbe601a22b38fd4a3b2c8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_1_Login" classname="Test Cases/Smoke_TF_Customer/TC_1_Login" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Project_Selection/div_Trade Funds Customer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Project_Selection/div_Trade Funds Customer' located by 'By.xpath: //div[(text() = '
+                    Trade Funds Customer
+                ' or . = '
+                    Trade Funds Customer
+                ')]' not found)"/>
+         <system-out><![CDATA[2018-05-11 11:57:51 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_1_Login: Test Cases/Smoke_TF_Customer/TC_1_Login FAILED because (of) Unable to click on object 'Object Repository/Project_Selection/div_Trade Funds Customer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Project_Selection/div_Trade Funds Customer' located by 'By.xpath: //div[(text() = '
+                    Trade Funds Customer
+                ' or . = '
+                    Trade Funds Customer
+                ')]' not found)
+
+2018-05-11 11:57:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://52.6.78.242:7008/e360/com.informatica.tools.mdm.web.auth/login'
+
+2018-05-11 11:58:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://52.6.78.242:7008/e360/com.informatica.tools.mdm.web.auth/login'
+
+2018-05-11 11:58:03 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 11:58:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 11:58:03 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-11 11:58:04 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-11 11:58:04 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_ Login/Btn_Login' is clickable
+
+2018-05-11 11:58:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ Login/Btn_Login' is clickable
+
+2018-05-11 11:58:04 - [TEST_STEP][PASSED] - setText: Text 'junaid_sm' is set on object 'Object Repository/Page_ Login/Txt_Username'
+
+2018-05-11 11:58:04 - [MESSAGE][PASSED] - Text 'junaid_sm' is set on object 'Object Repository/Page_ Login/Txt_Username'
+
+2018-05-11 11:58:04 - [TEST_STEP][PASSED] - setText: Text 'str0ng_2' is set on object 'Object Repository/Page_ Login/Txt_Password'
+
+2018-05-11 11:58:04 - [MESSAGE][PASSED] - Text 'str0ng_2' is set on object 'Object Repository/Page_ Login/Txt_Password'
+
+2018-05-11 11:58:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ Login/Btn_Login' is clicked on
+
+2018-05-11 11:58:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Login/Btn_Login' is clicked on
+
+2018-05-11 11:58:04 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 11:58:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 11:58:04 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Project_Selection/div_Trade Funds Customer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Project_Selection/div_Trade Funds Customer' located by 'By.xpath: //div[(text() = '
+                    Trade Funds Customer
+                ' or . = '
+                    Trade Funds Customer
+                ')]' not found)
+
+2018-05-11 11:58:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Project_Selection/div_Trade Funds Customer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Project_Selection/div_Trade Funds Customer' located by 'By.xpath: //div[(text() = '
+                    Trade Funds Customer
+                ' or . = '
+                    Trade Funds Customer
+                ')]' not found)
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_115750\\1526021915418.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-11 11:57:51 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_1_Login: Test Cases/Smoke_TF_Customer/TC_1_Login FAILED because (of) Unable to click on object 'Object Repository/Project_Selection/div_Trade Funds Customer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Project_Selection/div_Trade Funds Customer' located by 'By.xpath: //div[(text() = '
+                    Trade Funds Customer
+                ' or . = '
+                    Trade Funds Customer
+                ')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_3_Open_All_Pages" classname="Test Cases/Smoke_TF_Customer/TC_3_Open_All_Pages" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TF_Customer_Smoke_OpenPage/1_Banner' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/1_Banner' located by 'By.xpath: //td[(text() = 'Banner' or . = 'Banner')]' not found)"/>
+         <system-out><![CDATA[2018-05-11 11:58:35 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_3_Open_All_Pages: Test Cases/Smoke_TF_Customer/TC_3_Open_All_Pages FAILED because (of) Unable to click on object 'Object Repository/TF_Customer_Smoke_OpenPage/1_Banner' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/1_Banner' located by 'By.xpath: //td[(text() = 'Banner' or . = 'Banner')]' not found)
+
+2018-05-11 11:58:36 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-11 11:58:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-11 11:58:36 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TF_Customer_Smoke_OpenPage/1_Banner' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/1_Banner' located by 'By.xpath: //td[(text() = 'Banner' or . = 'Banner')]' not found)
+
+2018-05-11 11:59:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TF_Customer_Smoke_OpenPage/1_Banner' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/1_Banner' located by 'By.xpath: //td[(text() = 'Banner' or . = 'Banner')]' not found)
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_115750\\1526021947731.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-11 11:58:35 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_3_Open_All_Pages: Test Cases/Smoke_TF_Customer/TC_3_Open_All_Pages FAILED because (of) Unable to click on object 'Object Repository/TF_Customer_Smoke_OpenPage/1_Banner' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TF_Customer_Smoke_OpenPage/1_Banner' located by 'By.xpath: //td[(text() = 'Banner' or . = 'Banner')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_2_Logout" classname="Test Cases/Smoke_TF_Customer/TC_2_Logout" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object is present (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-05-11 11:59:08 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_2_Logout: Test Cases/Smoke_TF_Customer/TC_2_Logout FAILED because (of) Unable to verify object is present (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-11 11:59:08 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object is present (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-11 11:59:08 - [MESSAGE][WARNING] - Test object id is null
+
+2018-05-11 11:59:08 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-05-11 11:59:08 - [MESSAGE][FAILED] - Unable to verify object is present (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|D:\\Katalon\\Projects\\TF-Customer\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180511_115750\\1526021948153.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-11 11:59:08 - [TEST_CASE][FAILED] - Test Cases/Smoke_TF_Customer/TC_2_Logout: Test Cases/Smoke_TF_Customer/TC_2_Logout FAILED because (of) Unable to verify object is present (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-11 11:57:51 - [TEST_SUITE][FAILED] - Smoke_TF_Customer: Test Cases/Smoke_TF_Customer/TC_1_Login FAILED because (of) Unable to click on object 'Object Repository/Project_Selection/div_Trade Funds Customer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Project_Selection/div_Trade Funds Customer' located by 'By.xpath: //div[(text() = '
+                    Trade Funds Customer
+                ' or . = '
+                    Trade Funds Customer
+                ')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-11 11:57:51 - [TEST_SUITE][FAILED] - Smoke_TF_Customer: Test Cases/Smoke_TF_Customer/TC_1_Login FAILED because (of) Unable to click on object 'Object Repository/Project_Selection/div_Trade Funds Customer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Project_Selection/div_Trade Funds Customer' located by 'By.xpath: //div[(text() = '
+                    Trade Funds Customer
+                ' or . = '
+                    Trade Funds Customer
+                ')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

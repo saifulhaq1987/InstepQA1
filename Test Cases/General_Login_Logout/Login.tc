@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4194276e-7d0a-4bab-9638-6fe669cc5fe0</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.Username</defaultValue>
+      <description>This is a global variable defined in 'JMS_TF_Instep_QA' profile to be used globally. </description>
+      <id>ca0a6075-c5dd-4f9f-8acd-11ca6cdc65a3</id>
+      <masked>false</masked>
+      <name>User</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Password</defaultValue>
+      <description>This is a global variable defined in 'JMS_TF_Instep_QA' profile to be used globally. </description>
+      <id>c525ec75-6cd6-462e-ba3b-363de32dc0e7</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

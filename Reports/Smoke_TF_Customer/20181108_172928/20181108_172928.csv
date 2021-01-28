@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke_TF_Customer,Chrome 70.0.3538.77,,2018-11-08 17:29:29,2018-11-08 17:31:57,2m - 27.287s,FAILED
+,,,,,,
+Test Cases/General_Login_Logout/Login,Chrome 70.0.3538.77,,2018-11-08 17:29:29,2018-11-08 17:31:21,1m - 51.341s,FAILED
+tradeFunds.TF_Regression.LoginTFCustomer,Chrome 70.0.3538.77,,2018-11-08 17:29:30,2018-11-08 17:31:21,1m - 51.123s,FAILED
+,,,,,,
+Test Cases/Regression_TF_Customer/TC_1_Create_Banner,Chrome 70.0.3538.77,,2018-11-08 17:31:21,2018-11-08 17:31:57,35.706s,FAILED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-11-08 17:31:21,2018-11-08 17:31:21,0.016s,PASSED
+mouseOver,Chrome 70.0.3538.77,,2018-11-08 17:31:21,2018-11-08 17:31:57,35.019s,FAILED

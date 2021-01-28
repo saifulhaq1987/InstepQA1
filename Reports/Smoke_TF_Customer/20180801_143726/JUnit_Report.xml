@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke_TF_Customer" time="39" tests="13" failures="0" errors="0">
+   <testsuite name="Smoke_TF_Customer" tests="13" failures="0" errors="0" time="39" timestamp="2018-08-01 14:37:27" hostname="junaid.tariq - Junaid.instepinc.com" id="Test Suites/Smoke_TF_Customer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\Projects\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180801_143726"/>
+         <property name="logFiles" value="D:\\Katalon\\Projects\\TF-Customer\\Reports\\Smoke_TF_Customer\\20180801_143726\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="junaid.tariq - Junaid.instepinc.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="200.199.80.62"/>
+         <property name="sessionId" value="8f86182bcc2550de3f9d8a789a8305ed"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/General_Login_Logout/TC_1_Login" classname="Test Cases/General_Login_Logout/TC_1_Login" status="PASSED">
+         <system-out><![CDATA[2018-08-01 14:37:27 - [TEST_CASE][PASSED] - Test Cases/General_Login_Logout/TC_1_Login: Test Cases/General_Login_Logout/TC_1_Login
+
+2018-08-01 14:37:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://52.6.78.242:7008/e360/com.informatica.tools.mdm.web.auth/login'
+
+2018-08-01 14:37:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://52.6.78.242:7008/e360/com.informatica.tools.mdm.web.auth/login'
+
+2018-08-01 14:37:40 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:40 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-01 14:37:41 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-01 14:37:41 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_ Login/Btn_Login' is clickable
+
+2018-08-01 14:37:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ Login/Btn_Login' is clickable
+
+2018-08-01 14:37:41 - [TEST_STEP][PASSED] - setText: Text 'junaid_sm' is set on object 'Object Repository/Page_ Login/Txt_Username'
+
+2018-08-01 14:37:41 - [MESSAGE][PASSED] - Text 'junaid_sm' is set on object 'Object Repository/Page_ Login/Txt_Username'
+
+2018-08-01 14:37:41 - [TEST_STEP][PASSED] - setText: Text 'str0ng_2' is set on object 'Object Repository/Page_ Login/Txt_Password'
+
+2018-08-01 14:37:41 - [MESSAGE][PASSED] - Text 'str0ng_2' is set on object 'Object Repository/Page_ Login/Txt_Password'
+
+2018-08-01 14:37:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ Login/Btn_Login' is clicked on
+
+2018-08-01 14:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Login/Btn_Login' is clicked on
+
+2018-08-01 14:37:41 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ Login/Project_Selection/div_Trade Funds Customer' is clicked on
+
+2018-08-01 14:37:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ Login/Project_Selection/div_Trade Funds Customer' is clicked on
+
+2018-08-01 14:37:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 14:37:54 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_1_Open_Banner" classname="Test Cases/Smoke_TF_Customer/TC_1_Open_Banner" status="PASSED">
+         <system-out><![CDATA[2018-08-01 14:37:54 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_1_Open_Banner: Test Cases/Smoke_TF_Customer/TC_1_Open_Banner
+
+2018-08-01 14:37:54 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:54 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:37:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:37:54 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:54 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:37:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:37:55 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/1_Menu_Banner' is clicked on
+
+2018-08-01 14:37:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/1_Menu_Banner' is clicked on
+
+2018-08-01 14:37:55 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:55 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-08-01 14:37:55 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_2_Open_RGM_Designated_Baseline" classname="Test Cases/Smoke_TF_Customer/TC_2_Open_RGM_Designated_Baseline" status="PASSED">
+         <system-out><![CDATA[2018-08-01 14:37:55 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_2_Open_RGM_Designated_Baseline: Test Cases/Smoke_TF_Customer/TC_2_Open_RGM_Designated_Baseline
+
+2018-08-01 14:37:55 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:55 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:37:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:37:55 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:55 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:37:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:37:55 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/2_Menu_RGM Designated Baseline' is clicked on
+
+2018-08-01 14:37:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/2_Menu_RGM Designated Baseline' is clicked on
+
+2018-08-01 14:37:56 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:56 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-08-01 14:37:56 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_3_Open_JMS_Sales_Org" classname="Test Cases/Smoke_TF_Customer/TC_3_Open_JMS_Sales_Org" status="PASSED">
+         <system-out><![CDATA[2018-08-01 14:37:56 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_3_Open_JMS_Sales_Org: Test Cases/Smoke_TF_Customer/TC_3_Open_JMS_Sales_Org
+
+2018-08-01 14:37:56 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:56 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:37:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:37:56 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:56 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:37:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:37:56 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/3_Menu_JMS Sales Organizations' is clicked on
+
+2018-08-01 14:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/3_Menu_JMS Sales Organizations' is clicked on
+
+2018-08-01 14:37:57 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:57 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-08-01 14:37:57 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_4_Open_Consumption_Baseline_Source" classname="Test Cases/Smoke_TF_Customer/TC_4_Open_Consumption_Baseline_Source" status="PASSED">
+         <system-out><![CDATA[2018-08-01 14:37:57 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_4_Open_Consumption_Baseline_Source: Test Cases/Smoke_TF_Customer/TC_4_Open_Consumption_Baseline_Source
+
+2018-08-01 14:37:57 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:57 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:37:57 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:57 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:37:57 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/4_Menu_Consumption Baseline Source' is clicked on
+
+2018-08-01 14:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/4_Menu_Consumption Baseline Source' is clicked on
+
+2018-08-01 14:37:58 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:58 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-08-01 14:37:58 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_5_Open_Corporate_Customer" classname="Test Cases/Smoke_TF_Customer/TC_5_Open_Corporate_Customer" status="PASSED">
+         <system-out><![CDATA[2018-08-01 14:37:58 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_5_Open_Corporate_Customer: Test Cases/Smoke_TF_Customer/TC_5_Open_Corporate_Customer
+
+2018-08-01 14:37:58 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:58 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:37:58 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:58 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:37:58 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/5_Menu_Corporate Customer' is clicked on
+
+2018-08-01 14:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/5_Menu_Corporate Customer' is clicked on
+
+2018-08-01 14:37:59 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:59 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-08-01 14:37:59 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_6_Open_SHL1_SBU" classname="Test Cases/Smoke_TF_Customer/TC_6_Open_SHL1_SBU" status="PASSED">
+         <system-out><![CDATA[2018-08-01 14:37:59 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_6_Open_SHL1_SBU: Test Cases/Smoke_TF_Customer/TC_6_Open_SHL1_SBU
+
+2018-08-01 14:37:59 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:59 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:37:59 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:59 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:37:59 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:59 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2018-08-01 14:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2018-08-01 14:37:59 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:37:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:37:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/1_Menu_SBU (Sales Business Unit)' is clicked on
+
+2018-08-01 14:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/1_Menu_SBU (Sales Business Unit)' is clicked on
+
+2018-08-01 14:38:00 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:00 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-08-01 14:38:00 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_7_Open_SHL2_Sales_Segment" classname="Test Cases/Smoke_TF_Customer/TC_7_Open_SHL2_Sales_Segment" status="PASSED">
+         <system-out><![CDATA[2018-08-01 14:38:00 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_7_Open_SHL2_Sales_Segment: Test Cases/Smoke_TF_Customer/TC_7_Open_SHL2_Sales_Segment
+
+2018-08-01 14:38:00 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:00 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:38:00 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:00 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:38:00 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:00 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2018-08-01 14:38:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2018-08-01 14:38:01 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/2_Menu_Sales Segment' is clicked on
+
+2018-08-01 14:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/2_Menu_Sales Segment' is clicked on
+
+2018-08-01 14:38:02 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:02 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-08-01 14:38:02 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_8_Open_SHL3_Sales_Division" classname="Test Cases/Smoke_TF_Customer/TC_8_Open_SHL3_Sales_Division" status="PASSED">
+         <system-out><![CDATA[2018-08-01 14:38:02 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_8_Open_SHL3_Sales_Division: Test Cases/Smoke_TF_Customer/TC_8_Open_SHL3_Sales_Division
+
+2018-08-01 14:38:02 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:02 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:38:02 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:02 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:38:02 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:02 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2018-08-01 14:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2018-08-01 14:38:02 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/3_Menu_Sales Division' is clicked on
+
+2018-08-01 14:38:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/3_Menu_Sales Division' is clicked on
+
+2018-08-01 14:38:03 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:03 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-08-01 14:38:03 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_9_Open_SHL4_Sales_Region" classname="Test Cases/Smoke_TF_Customer/TC_9_Open_SHL4_Sales_Region" status="PASSED">
+         <system-out><![CDATA[2018-08-01 14:38:03 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_9_Open_SHL4_Sales_Region: Test Cases/Smoke_TF_Customer/TC_9_Open_SHL4_Sales_Region
+
+2018-08-01 14:38:03 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:03 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:38:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:38:03 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:03 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:38:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:38:03 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:03 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2018-08-01 14:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2018-08-01 14:38:04 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/4_Menu_Sales Region' is clicked on
+
+2018-08-01 14:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/4_Menu_Sales Region' is clicked on
+
+2018-08-01 14:38:04 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:04 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-08-01 14:38:04 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_10_Open_SHL5_Sales_Market" classname="Test Cases/Smoke_TF_Customer/TC_10_Open_SHL5_Sales_Market" status="PASSED">
+         <system-out><![CDATA[2018-08-01 14:38:04 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_10_Open_SHL5_Sales_Market: Test Cases/Smoke_TF_Customer/TC_10_Open_SHL5_Sales_Market
+
+2018-08-01 14:38:04 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:04 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:38:04 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:04 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:38:04 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:04 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2018-08-01 14:38:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/2_Sales_Hierarchy_Level_Hoverover' is hovered
+
+2018-08-01 14:38:05 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/5_Menu_Sales Market' is clicked on
+
+2018-08-01 14:38:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Sales_Hierarchy_Level/5_Menu_Sales Market' is clicked on
+
+2018-08-01 14:38:06 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:06 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-08-01 14:38:06 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_11_Open_PA_Planning_Account" classname="Test Cases/Smoke_TF_Customer/TC_11_Open_PA_Planning_Account" status="PASSED">
+         <system-out><![CDATA[2018-08-01 14:38:06 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_11_Open_PA_Planning_Account: Test Cases/Smoke_TF_Customer/TC_11_Open_PA_Planning_Account
+
+2018-08-01 14:38:06 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:06 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:38:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:38:06 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:06 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:38:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:38:06 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:06 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option' is hovered
+
+2018-08-01 14:38:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option' is hovered
+
+2018-08-01 14:38:06 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Planning_Account/1_Menu_Planning Account' is clicked on
+
+2018-08-01 14:38:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Planning_Account/1_Menu_Planning Account' is clicked on
+
+2018-08-01 14:38:07 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:07 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-08-01 14:38:07 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke_TF_Customer/TC_12_Open_PA_Sub_Planning_Account" classname="Test Cases/Smoke_TF_Customer/TC_12_Open_PA_Sub_Planning_Account" status="PASSED">
+         <system-out><![CDATA[2018-08-01 14:38:07 - [TEST_CASE][PASSED] - Test Cases/Smoke_TF_Customer/TC_12_Open_PA_Sub_Planning_Account: Test Cases/Smoke_TF_Customer/TC_12_Open_PA_Sub_Planning_Account
+
+2018-08-01 14:38:07 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:07 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:38:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/0_Menu_Create_In_Data_View' is hovered
+
+2018-08-01 14:38:07 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:07 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:38:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/1_Menu_Create_Master_Data' is hovered
+
+2018-08-01 14:38:07 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:07 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option' is hovered
+
+2018-08-01 14:38:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Menu_Navigation_To_Open_All_Pages/3_Planning_Account_Hoverover_Option' is hovered
+
+2018-08-01 14:38:07 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Planning_Account/2_Menu_Sub Planning Account' is clicked on
+
+2018-08-01 14:38:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TF_Customer_Smoke_OpenPage/Planning_Account/2_Menu_Sub Planning Account' is clicked on
+
+2018-08-01 14:38:07 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-01 14:38:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-01 14:38:07 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-08-01 14:38:07 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-01 14:37:27 - [TEST_SUITE][PASSED] - Smoke_TF_Customer: Test Cases/Smoke_TF_Customer/TC_12_Open_PA_Sub_Planning_Account]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

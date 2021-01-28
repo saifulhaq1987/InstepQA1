@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+2_New Test Suite,Firefox 59.0,,2018-10-23 16:07:15,2018-10-23 16:08:16,1m - 0.196s,FAILED
+,,,,,,
+Test Cases/General_Login_Logout/TC_1_Login,Firefox 59.0,,2018-10-23 16:07:16,2018-10-23 16:07:43,27.521s,PASSED
+openBrowser,Firefox 59.0,,2018-10-23 16:07:16,2018-10-23 16:07:28,11.936s,PASSED
+waitForPageLoad,Firefox 59.0,,2018-10-23 16:07:28,2018-10-23 16:07:28,0.124s,PASSED
+maximizeWindow,Firefox 59.0,,2018-10-23 16:07:28,2018-10-23 16:07:28,0.072s,PASSED
+waitForElementClickable,Firefox 59.0,,2018-10-23 16:07:28,2018-10-23 16:07:28,0.119s,PASSED
+setText,Firefox 59.0,,2018-10-23 16:07:28,2018-10-23 16:07:28,0.089s,PASSED
+setText,Firefox 59.0,,2018-10-23 16:07:28,2018-10-23 16:07:28,0.053s,PASSED
+click,Firefox 59.0,,2018-10-23 16:07:28,2018-10-23 16:07:29,0.235s,PASSED
+waitForPageLoad,Firefox 59.0,,2018-10-23 16:07:29,2018-10-23 16:07:29,0.009s,PASSED
+click,Firefox 59.0,,2018-10-23 16:07:29,2018-10-23 16:07:41,12.617s,PASSED
+delay,Firefox 59.0,,2018-10-23 16:07:41,2018-10-23 16:07:43,2.024s,PASSED
+,,,,,,
+Test Cases/Smoke_TF_Customer/Create_Objects/TC_13_Create_Banner,Firefox 59.0,,2018-10-23 16:07:43,2018-10-23 16:08:16,32.380s,FAILED
+callTestCase,Firefox 59.0,,2018-10-23 16:07:43,2018-10-23 16:07:45,1.269s,PASSED
+waitForPageLoad,Firefox 59.0,,2018-10-23 16:07:45,2018-10-23 16:07:45,0.006s,PASSED
+click,Firefox 59.0,,2018-10-23 16:07:45,2018-10-23 16:07:45,0.001s,NOT_RUN
+setText,Firefox 59.0,,2018-10-23 16:07:45,2018-10-23 16:08:16,30.941s,FAILED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will open page product summary.</description>
+   <name>TC_2-3_Create_Planning_Product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2676d3c-1f24-46bc-b550-119508c4f23d</testCaseGuid>
+</TestCaseEntity>
